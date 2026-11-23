@@ -266,7 +266,9 @@ async function runTests() {
   // Test real-world 115+ node graph search (YCIV UGUS OUtreach.json)
   const fs = await import('node:fs');
   const path = await import('node:path');
-  const ycivPath = path.resolve('YCIV UGUS OUtreach.json');
+  const ycivPath = fs.existsSync(path.resolve('YCIV UGUS OUtreach.json'))
+    ? path.resolve('YCIV UGUS OUtreach.json')
+    : path.resolve('test/fixtures/anonymized_large_network.json');
   if (fs.existsSync(ycivPath)) {
     const rawData = fs.readFileSync(ycivPath, 'utf8');
     await useWorkspaceStore.getState().importWorkspaceFile(rawData);

@@ -5,3 +5,8 @@ dist-ssr/
 src-tauri/target/
 .env
 .DS_Store
+.claude/
+.cursor/
+.dsh/
+.gemini/
+.impeccable/

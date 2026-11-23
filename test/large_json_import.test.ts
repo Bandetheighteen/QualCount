@@ -10,8 +10,10 @@ import type { WorkbookFile } from '../src/types/schema';
 console.log('=== Running Large JSON Import & Loading Verification Test Suite ===\n');
 
 async function runTests() {
-  const ycivFilePath = path.resolve('YCIV UGUS OUtreach.json');
-  assert.ok(fs.existsSync(ycivFilePath), 'YCIV UGUS OUtreach.json must exist in repository root');
+  const ycivFilePath = fs.existsSync(path.resolve('YCIV UGUS OUtreach.json'))
+    ? path.resolve('YCIV UGUS OUtreach.json')
+    : path.resolve('test/fixtures/anonymized_large_network.json');
+  assert.ok(fs.existsSync(ycivFilePath), 'Large network fixture must exist');
   const rawText = fs.readFileSync(ycivFilePath, 'utf8');
   const parsedData = JSON.parse(rawText);
 
