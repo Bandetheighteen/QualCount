@@ -1,0 +1,524 @@
+================================================================================
+ANTIGRAVITY MASTER BUILD PROMPT AND SYSTEMIC ARCHITECTURE SPECIFICATION
+Stack: Hybrid TypeScript / Node.js Frontend + Rust (Tauri v2 + SQLite) Target
+================================================================================
+
+Copy everything below this line and paste it directly into Antigravity to
+scaffold and build Phase 1 with clean architectural boundaries ready for the
+Phase 2 Rust + Tauri v2 desktop wrapper.
+
+--------------------------------------------------------------------------------
+1. ROLE, MISSION, AND HYBRID STACK STRATEGY
+--------------------------------------------------------------------------------
+Act as a Principal Frontend Systems Architect and Graph Visualization Engineer.
+Build Phase 1 of an offline-first, visual partnership management application
+designed for social sector / NGO teams.
+
+The application models institutional partnerships as a bottom-to-top directed
+multiplex network (multiple parallel color-coded relationship branches between
+the same pair of organizations) and derives honest quantitative progress
+metrics directly from live graph topology without subjective 1-to-5 ratings.
+
+CRITICAL ARCHITECTURAL CONTEXT: RUST + TYPESCRIPT / NODE.JS HYBRID DESIGN
+This product is intentionally NOT built in 100% pure Rust (pure Rust GUI
+frameworks require heavy custom 2D curved-edge hit-testing, port-aware layered
+graph drawing, and HTML-over-SVG button portals), and it is NOT packaged as a
+pure Node.js / Electron app (which bundles Chromium and Node.js into a heavy
+desktop installer).
+
+Instead, we are building a clean two-layer hybrid desktop architecture:
+
+  Layer 1 — Node.js Toolchain + TypeScript / React Canvas (BUILD THIS NOW):
+    Node.js serves strictly as the development and Vite bundling toolchain to
+    compile a pure TypeScript, React, React Flow, and elkjs frontend. This
+    layer owns all 2D visual rendering, parallel Bezier curve routing, inline
+    tick/cross buttons, bottom-to-top layered layout, anti-overlap geometry,
+    and pure quantitative graph calculations.
+
+  Layer 2 — Rust Desktop Shell + Local SQLite via Tauri v2 (PHASE 2 TARGET):
+    Once Phase 1 is verified in Vite, this exact compiled frontend bundle will
+    drop directly into a Tauri v2 Rust desktop app (`src-tauri/`) running on
+    Windows WebView2. Rust will own native OS file dialogs, compact offline
+    packaging, and atomic reads/writes to a single local SQLite workspace file
+    holding multiple interconnected Workbooks.
+
+YOUR MANDATE IN PHASE 1:
+Build a complete, polished, fully interactive single-workbook prototype using
+Vite + TypeScript + React Flow + elkjs, while strictly enforcing the normalized
+data schema, async repository boundary, pure engine isolation, and webview-safe
+rules below so Phase 2 requires ZERO rewrite of any UI, graph, or engine file.
+
+
+--------------------------------------------------------------------------------
+2. TECH STACK AND PROJECT CONFIGURATION
+--------------------------------------------------------------------------------
+- Toolchain: Node.js + Vite (latest stable), configured with `base: './'` in
+  `vite.config.ts` so compiled assets load cleanly inside Tauri's webview.
+- Language: TypeScript (strict mode enabled, no implicit `any`).
+- UI Framework: React 18/19 + Tailwind CSS (dark high-contrast studio palette).
+- Graph Canvas: `@xyflow/react` (React Flow v12) using `EdgeLabelRenderer` for
+  interactive mid-line M% pills and end-of-line tick/cross controls.
+- Layout Engine: `elkjs` (ELK Layered algorithm, `elk.direction: "UP"`).
+- State Management: `zustand`.
+- Icons: `lucide-react`.
+- Phase 2 Desktop Target: Tauri v2 (Rust + SQLite via `@tauri-apps/api/core`).
+
+
+--------------------------------------------------------------------------------
+3. NORMALIZED RELATIONAL DATA SCHEMA (src/types/schema.ts)
+--------------------------------------------------------------------------------
+CRITICAL RULE: Never embed organization profiles directly inside a workbook
+node. Store data in normalized relational collections that map 1-to-1 to SQLite
+tables in the Phase 2 Rust backend, separating master entities from
+per-workbook placements and keeping graph topology decoupled from coordinates.
+
+Implement these exact TypeScript interfaces in `src/types/schema.ts`:
+
+  export type EntityCategory =
+    | 'ngo'
+    | 'csr'
+    | 'government'
+    | 'institution'
+    | 'community'
+    | 'other';
+
+  export type BranchType = 'green' | 'white' | 'yellow';
+  // green  = Financial / CSR funding only
+  // white  = Direct working relationship (venue, attendance, co-host, goodwill)
+  // yellow = Network bridge / referral / amplification gateway
+
+  export type BranchStatus = 'pending' | 'tick' | 'cross';
+  // pending = Planned outreach or awaiting reply (dashed normal hue)
+  // tick    = Verified partner action / commitment (solid glowing neon hue)
+  // cross   = Declined / stalled outreach (faded gray or grayish-green)
+
+  export interface Entity {
+    entityId: string;
+    name: string;
+    category: EntityCategory;
+    globalNotes: string;
+    createdAt: string;
+  }
+
+  export interface Workbook {
+    workbookId: string;
+    title: string;
+    description: string;
+    targetBudgetInr: number;
+    status: 'active' | 'archived' | 'draft';
+    createdAt: string;
+    updatedAt: string;
+  }
+
+  export interface Placement {
+    placementId: string;
+    workbookId: string;
+    entityId: string;
+    isRootNgo: boolean;
+    // Geometry (mutated only by manual drag, local anti-overlap, or Tidy Up)
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+  }
+
+  export interface Branch {
+    branchId: string;
+    workbookId: string;
+    sourcePlacementId: string;
+    targetPlacementId: string;
+    type: BranchType;
+    status: BranchStatus;
+    valuePct?: number; // Strict percentage of targetBudgetInr (e.g., 25 => M25)
+    note: string;
+    updatedAt: string;
+  }
+
+  export interface WorkbookLink {
+    linkId: string;
+    sourceWorkbookId: string;
+    targetWorkbookId: string;
+    relationLabel: string;
+    note: string;
+  }
+
+  export interface WorkspaceState {
+    schemaVersion: 1;
+    activeWorkbookId: string;
+    entities: Record<string, Entity>;
+    workbooks: Record<string, Workbook>;
+    placements: Record<string, Placement>;
+    branches: Record<string, Branch>;
+    workbookLinks: Record<string, WorkbookLink>; // Reserved for Phase 2 Overview Map
+  }
+
+
+--------------------------------------------------------------------------------
+4. RUST / TAURI STORAGE BOUNDARY AND WEBVIEW GUARDRAILS
+--------------------------------------------------------------------------------
+Enforce these four architectural rules strictly across the entire codebase:
+
+4.1 Async WorkspaceRepository Interface (src/storage/workspaceRepository.ts)
+Every load, save, export, and import action MUST flow exclusively through an
+async `WorkspaceRepository` interface:
+
+  export interface WorkspaceRepository {
+    loadWorkspace(): Promise<WorkspaceState | null>;
+    saveWorkspace(state: WorkspaceState): Promise<void>;
+    exportWorkspaceFile(state: WorkspaceState): Promise<void>;
+    importWorkspaceFile(): Promise<WorkspaceState | null>;
+  }
+
+- Phase 1 Implementation (`src/storage/localStorageRepository.ts`):
+  Persists validated `WorkspaceState` JSON to `localStorage` and implements
+  JSON file download/upload with runtime schema validation.
+- Phase 2 Stub (`src/storage/tauriSqliteRepository.ts`):
+  Create a clean stub file implementing `WorkspaceRepository` (commented with
+  the planned Tauri v2 `invoke()` commands: `load_workspace`, `save_workspace`,
+  `export_workspace_json`, `import_workspace_json`) and a factory selector in
+  `src/storage/index.ts` that detects Tauri runtime (`'__TAURI_INTERNALS__' in
+  window`) or defaults to `LocalStorageRepository` in Phase 1.
+- ZERO direct `localStorage`, `FileReader`, or anchor-download code anywhere
+  inside React components, toolbar buttons, or Zustand actions.
+
+4.2 Pure Domain Engine Isolation (src/engine/*)
+Every module inside `src/engine/` (`layout.ts`, `overlap.ts`, `metrics.ts`,
+`parallelEdges.ts`) MUST contain pure TypeScript functions with zero imports
+from `react`, `window`, `document`, or `localStorage`.
+
+4.3 Webview-Safe State Navigation
+Use React/Zustand state (`activeView: 'canvas' | 'opening'`) for navigation.
+Do NOT install React Router or rely on `window.history.pushState` URL path
+routing, which complicates local webview protocol loading inside Tauri.
+
+4.4 Multi-Workbook Filter Hygiene
+All selectors, metrics calculations, and layout functions must filter strictly
+by `state.activeWorkbookId` so adding multiple Workbooks in Phase 2 works
+immediately without refactoring selectors.
+
+
+--------------------------------------------------------------------------------
+5. VISUAL LANGUAGE AND BOTTOM-TO-TOP CANVAS SPECIFICATION
+--------------------------------------------------------------------------------
+5.1 Bottom-to-Top Spatial Orientation
+- Tier 0 (Your NGO, `isRootNgo: true`) sits anchored at the bottom of the map.
+- Tier 1 (direct contacts: CSR funders, museum, government offices) sits above.
+- Tier 2 (first-hop referrals) sits above Tier 1.
+- Tier 3+ (converged institutional targets) sits at the top.
+- Default node handles:
+  - Source handle centered at `Position.Top`
+  - Target handle centered at `Position.Bottom`
+- Dark high-contrast canvas background (`#0b0f17`) with subtle dot grid so neon
+  active paths and muted gray declined paths are unmistakable at a glance.
+
+5.2 Custom Organization Node Card (src/components/canvas/OrgNode.tsx)
+- Dark rounded rectangular card (`min-w-[185px]`, clean border, clear
+  typography) whose real rendered width and height are synced into placement
+  dimensions for accurate collision and layout bounding boxes.
+- Card contents:
+  1. Entity Name (high-contrast bold label)
+  2. Category pill (`NGO`, `CSR`, `Government`, `Institution`, `Community`,
+     `Other`)
+  3. Live Multi-Thread Badge driven by incoming confirmed (ticked) yellow
+     branches (`yellowInDegree`):
+     - `yellowInDegree === 2`: amber pill `"2-Thread"`
+     - `yellowInDegree === 3`: glowing amber-yellow pill `"Triple-Thread (3)"`
+     - `yellowInDegree >= 4`: bright gold pill `"Quad-Thread ({count})"`
+  4. Subtle root marker on the base NGO card (`isRootNgo === true`).
+- Node Hover Feedback:
+  Hovering any node highlights its directly attached incoming/outgoing edges
+  and shows a compact status tooltip displaying:
+  - Confirmed yellow in-degree (incoming referrals)
+  - Downstream amplification reach (unique confirmed nodes reachable upward via
+    ticked yellow edges)
+
+5.3 Custom Multiplex Branch Edge (src/components/canvas/MultiplexEdge.tsx)
+Must cleanly separate parallel branches and mount interactive controls via
+React Flow's `EdgeLabelRenderer`.
+
+A. Parallel Edge Curving (`src/engine/parallelEdges.ts`):
+   Group all visible branches connecting the same pair of placements (for
+   example, Your NGO -> City Museum holding both a white branch and a yellow
+   branch, or Your NGO -> Agrocell CSR holding both green and yellow). Compute
+   symmetric lateral quadratic/cubic Bezier offsets so parallel branches curve
+   cleanly apart, never stacking lines, badges, or tick/cross buttons on top of
+   one another.
+
+B. Strict Color and Stroke Matrix:
+   - Green (Financial / CSR Funding):
+     - `pending`: normal green (`#22c55e`), dashed (`6 5`), 2px
+     - `tick`:    glowing neon green (`#39ff14`), solid, 3px, subtle glow
+     - `cross`:   muted grayish-green (`#4b5d52`), thin solid, 1.5px, opacity 0.55
+   - White (Direct Working Relationship):
+     - `pending`: normal white (`#cbd5e1`), dashed (`6 5`), 2px
+     - `tick`:    glowing neon white (`#ffffff`), solid, 3px, subtle white glow
+     - `cross`:   faded gray (`#52525b`), thin solid, 1.5px, opacity 0.45
+   - Yellow (Network Bridge / Amplification):
+     - `pending`: normal yellow (`#eab308`), dashed (`6 5`), 2px
+     - `tick`:    glowing neon yellow (`#fde047`), solid, 3px, subtle amber glow
+     - `cross`:   faded gray (`#52525b`), thin solid, 1.5px, opacity 0.45
+   Include directional SVG arrowhead markers matched to each edge's active
+   color and opacity.
+
+C. Mid-Line Data Pill (via `EdgeLabelRenderer` at path `t = 0.5`):
+   - Green branches: Render a compact pill displaying `"M{valuePct}"` (e.g.,
+     `"M25"`). Clicking selects the branch in the Inspector to edit `valuePct`.
+   - White and Yellow branches: Render a compact subtle note tag when a note is
+     present; clicking selects the branch in the Inspector.
+
+D. End-of-Line Tick and Cross Buttons (via `EdgeLabelRenderer` near `t = 0.8`):
+   - Place two compact circular buttons cleanly along the curve near the target
+     end (offset slightly back from the arrowhead so they never overlap the
+     target card border):
+     1. Tick Button (`Check` icon):
+        Sets `status = 'tick'`; clicking again when active toggles to `'pending'`.
+     2. Cross Button (`X` icon):
+        Sets `status = 'cross'` (immediately turns line gray or grayish-green);
+        clicking again when active toggles to `'pending'`.
+   - CRITICAL INTERACTION DETAIL: Apply `pointer-events-auto` on the button
+     wrapper and call `event.stopPropagation()` on click/pointerDown so
+     clicking tick or cross never drags the canvas or selects the background.
+
+
+--------------------------------------------------------------------------------
+6. PERSISTENT DRAGGING, ANTI-OVERLAP, AND BOTTOM-TO-TOP TIDY UP
+--------------------------------------------------------------------------------
+6.1 Persistent Zero-Snap-Back Dragging
+- Dragging any node updates its `(x, y)` live and commits the dropped position
+  permanently to `state.placements` and `WorkspaceRepository`.
+- NEVER run a continuous background force simulation or reactive `useEffect`
+  that snaps dragged nodes back to old layout coordinates.
+
+6.2 Local Rectangular Anti-Overlap Guard (`src/engine/overlap.ts`)
+- On `onNodeDragStop` and whenever a new node is added, execute a fast,
+  deterministic bounding-box overlap removal pass using real card widths and
+  heights plus a `24px` safety margin on all four sides.
+- Keep the user's dragged card anchored exactly where dropped, nudging only
+  colliding neighboring cards apart by the smallest horizontal/vertical
+  displacement required until zero rectangles overlap. Uninvolved cards stay
+  completely stationary.
+
+6.3 Bottom-to-Top Tidy Up Button (`src/engine/layout.ts`)
+- Uses `elkjs` configured explicitly for bottom-to-top hierarchies:
+    "elk.algorithm": "layered"
+    "elk.direction": "UP"
+    "elk.edgeRouting": "SPLINES"
+    "elk.spacing.nodeNode": "72"
+    "elk.layered.spacing.nodeNodeBetweenLayers": "125"
+    "elk.layered.crossingMinimization.strategy": "LAYER_SWEEP"
+    "elk.layered.nodePlacement.strategy": "NETWORK_SIMPLEX"
+- Read-Only Topology Guarantee: The layout function takes `placements` and
+  `branches` as read-only inputs and returns a `Record<placementId, { x, y }>`
+  map. It NEVER deletes, alters, or disconnects any branch.
+- Smooth Transition: Interpolate cards smoothly over ~400ms from old `(x, y)`
+  to new Tidy Up `(x, y)`, save the updated coordinates through
+  `WorkspaceRepository`, fit the viewport gently, and immediately return full
+  control to free manual dragging.
+- Handle disconnected nodes (zero edges) gracefully without crashing ELK.
+
+
+--------------------------------------------------------------------------------
+7. PURE QUANTITATIVE METRICS ENGINE (src/engine/metrics.ts)
+--------------------------------------------------------------------------------
+Compute all seven metrics purely from the active Workbook's placements and
+branches. Zero subjective 1-to-5 scores:
+
+1. `funding`:
+   - `securedPct`: sum of `valuePct` on ticked green branches
+   - `pendingPct`: sum of `valuePct` on pending green branches
+   - `declinedCount`: count of crossed green branches
+   - `securedInr`: `(securedPct / 100) * workbook.targetBudgetInr`
+
+2. `directRelationships` (white branches whose source is the root NGO):
+   - `confirmedCount` (tick), `pendingCount` (pending), `declinedCount` (cross)
+   - `confirmationRatePct`: `confirmed / (confirmed + declined) * 100` (0 if
+     denominator is 0)
+
+3. `yellowBridges`:
+   - `confirmedCount` (tick), `pendingCount` (pending), `declinedCount` (cross)
+
+4. `ownedConversions`:
+   - `referredNodeCount`: unique non-root placements with >= 1 incoming ticked
+     yellow branch
+   - `convertedNodeCount`: unique non-root placements holding BOTH >= 1
+     incoming ticked yellow branch AND >= 1 incoming ticked white branch from
+     the root NGO
+   - `conversionRatePct`: `converted / referred * 100`
+
+5. `multiThreadTargets`:
+   - `doubleThreadCount`: placements with confirmed `yellowInDegree === 2`
+   - `tripleThreadCount`: placements with confirmed `yellowInDegree === 3`
+   - `quadPlusThreadCount`: placements with confirmed `yellowInDegree >= 4`
+   - `triplePlusNames`: array of entity names with `yellowInDegree >= 3`
+
+6. `topAmplifier`:
+   - For every non-root placement `u`, run BFS along outgoing ticked yellow
+     edges to compute unique confirmed downstream reachable nodes.
+   - Return entity name, direct ticked yellow out-degree, and total unique
+     confirmed downstream reach count.
+
+7. `bridgeConcentration`:
+   - Compute `R_total`: set of unique non-root placements reachable from the
+     root NGO via paths of length >= 2 using ticked yellow branches.
+   - Remove the highest-reach non-root bridge node `b` and recompute
+     `R_without_b`.
+   - `concentrationPct = ((|R_total| - |R_without_b|) / |R_total|) * 100`.
+   - Return bridge entity name and `concentrationPct` (0% if `|R_total| === 0`).
+
+
+--------------------------------------------------------------------------------
+8. USER INTERFACE LAYOUT AND WORKFLOWS
+--------------------------------------------------------------------------------
+8.1 Top Live Quantitative Metrics Strip (src/components/metrics/MetricsStrip.tsx)
+Always visible above the canvas, updating live on every edit:
+- Funding Secured (`M40 (40%)`, pending %, INR amount)
+- Direct White Relationships (confirmed, pending, declined, rate %)
+- Confirmed Yellow Bridges (count)
+- Owned Conversions (`1 / 6 referred`)
+- Multi-Thread Targets (2x / 3x / 4x+ pills)
+- Top Amplifier & Bridge Concentration Risk (partner name, reach, risk %)
+
+8.2 Compact Action Toolbar (src/components/toolbar/ActionToolbar.tsx)
+1. Add Node Controls:
+   - Organization Name input with live autocomplete against `state.entities` so
+     duplicate organizations are never created (Phase 2 shared-entity ready).
+   - Category dropdown (`csr`, `government`, `institution`, `community`, `other`).
+   - `"Add Node"` button: reuses matching `entityId` or creates a new `Entity`,
+     inserts a non-overlapping `Placement` into the active Workbook, and
+     selects it.
+2. Connect Branch Controls:
+   - Source Node dropdown, Target Node dropdown
+   - Line Type selector (`Green: Funding`, `White: Relationship`, `Yellow: Bridge`)
+   - Initial Status selector (`Pending`, `Tick (Yes)`, `Cross (No)`)
+   - Conditional field: numeric `M%` input when Green is chosen; short Note
+     input when White or Yellow is chosen
+   - `"Connect"` button (blocks self-loops; allows multiple parallel branch
+     types between the same two nodes)
+3. Canvas & File Controls:
+   - `"Tidy Up (Bottom-to-Top)"` primary button
+   - `"Show Declined (Gray) Paths"` checkbox (DEFAULT: CHECKED / ON)
+   - `"Export JSON"`, `"Import JSON"`, and `"Reset Demo"` buttons (calling
+     `WorkspaceRepository` exclusively)
+
+8.3 Collapsible Context Inspector Drawer (src/components/inspector/InspectorDrawer.tsx)
+- Selecting a Branch allows editing status (Pending/Tick/Cross), branch type
+  (Green/White/Yellow), `M%` value (for Green), qualitative note, or deleting
+  the branch.
+- Selecting a Node allows editing entity name, category, global notes, viewing
+  its attached branches, viewing yellow in-degree and downstream reach, or
+  removing the placement from the active Workbook (disabled for Root NGO).
+
+
+--------------------------------------------------------------------------------
+9. PRE-LOADED SEED DATA (src/data/seedDelhiNgo.ts)
+--------------------------------------------------------------------------------
+Initialize Workbook 1 (`"Delhi Youth Governance Exhibition"`,
+`targetBudgetInr: 1000000`) with these 11 nodes and 15 directed branches in a
+clean bottom-to-top initial layout:
+
+Nodes (Bottom Tier 0 -> Top Tier 3):
+- Tier 0 (Root NGO): Your NGO
+- Tier 1: Agrocell CSR, XYZ CSR, City Museum, Dept of Social Security
+- Tier 2: Ministry of Food, Ministry of Agriculture, Collectorate Office,
+  Youth Dev Office, Cultural Dev Office
+- Tier 3: Sports Dev Office
+
+Branches (15 total):
+ 1. Your NGO -> XYZ CSR               | green  | tick    | M25 | "CSR grant + co-partner credit"
+ 2. Your NGO -> Agrocell CSR          | green  | tick    | M15 | "Partial CSR grant"
+ 3. Your NGO -> Agrocell CSR          | yellow | tick    |  -  | "Ministry gateway partner"
+ 4. Agrocell CSR -> Ministry of Food  | yellow | tick    |  -  | "Formal intro confirmed"
+ 5. Agrocell CSR -> Ministry of Agri. | yellow | pending |  -  | "Intro email requested"
+ 6. Your NGO -> City Museum           | white  | tick    |  -  | "Exhibition venue + co-host"
+ 7. Your NGO -> City Museum           | yellow | tick    |  -  | "Institutional network amplifier"
+ 8. Your NGO -> Dept of Social Sec.   | white  | cross   |  -  | "Declined attendance (visible gray)"
+ 9. City Museum -> Collectorate Off.  | yellow | tick    |  -  | "Formal museum referral"
+10. City Museum -> Youth Dev Office   | yellow | tick    |  -  | "Active co-amplifier"
+11. City Museum -> Cultural Dev Off.  | yellow | tick    |  -  | "Active co-amplifier"
+12. City Museum -> Sports Dev Office  | yellow | tick    |  -  | "Referral 1 of 3"
+13. Youth Dev Off. -> Sports Dev Off. | yellow | tick    |  -  | "Referral 2 of 3"
+14. Cultural Dev -> Sports Dev Office | yellow | tick    |  -  | "Referral 3 of 3"
+15. Your NGO -> Youth Dev Office      | white  | tick    |  -  | "Converted to direct NGO contact"
+
+
+--------------------------------------------------------------------------------
+10. TARGET FOLDER STRUCTURE (PHASE 1 + PHASE 2 RUST SEAM)
+--------------------------------------------------------------------------------
+project-root/
+  vite.config.ts                     # Configured with base: './' for Tauri
+  src/
+    types/
+      schema.ts                      # Normalized 5-table TypeScript interfaces
+    storage/
+      workspaceRepository.ts         # Async WorkspaceRepository interface + validator
+      localStorageRepository.ts      # Phase 1 browser storage + JSON I/O adapter
+      tauriSqliteRepository.ts       # Phase 2 Rust IPC stub (Tauri invoke contract)
+      index.ts                       # Environment-aware repository provider
+    data/
+      seedDelhiNgo.ts                # Pre-loaded 11-node, 15-branch Delhi NGO workbook
+    engine/
+      layout.ts                      # Pure elkjs bottom-to-top Tidy Up (read-only edges)
+      overlap.ts                     # Pure minimum-displacement box overlap remover
+      metrics.ts                     # Pure 7-metric topology engine + BFS + risk
+      parallelEdges.ts               # Pure parallel Bezier curve & offset math
+    store/
+      useWorkspaceStore.ts           # Zustand store delegating persistence to repository
+    components/
+      metrics/
+        MetricsStrip.tsx             # Live quantitative top strip
+      toolbar/
+        ActionToolbar.tsx            # Add Node, Connect Branch, Tidy Up, Gray toggle, JSON
+      canvas/
+        PartnershipCanvas.tsx
+        OrgNode.tsx                  # Node card + multi-thread badge + hover stats
+        MultiplexEdge.tsx            # Parallel curved edge + M% pill + tick/cross buttons
+      inspector/
+        InspectorDrawer.tsx          # Node & Branch detail editor
+    App.tsx                          # State-driven view container (no URL router)
+    main.tsx
+  // Phase 2 adds:
+  // src-tauri/
+  //   Cargo.toml                    # tauri v2, rusqlite / sqlx, serde, rfd
+  //   src/main.rs                   # Rust IPC commands: load_workspace, save_workspace,
+  //                                 # export_workspace_json, import_workspace_json
+
+
+--------------------------------------------------------------------------------
+11. PHASE 2 RUST / TAURI IPC CONTRACT (REFERENCE FOR STUB COMPATIBILITY)
+--------------------------------------------------------------------------------
+Keep `WorkspaceState` strictly JSON-serializable (ISO date strings, plain
+records, no `Map`, `Set`, or class instances) so Phase 2 Rust commands using
+`serde` deserialize it cleanly over Tauri IPC:
+- Rust command `load_workspace() -> Result<Option<WorkspaceState>, String>`
+- Rust command `save_workspace(state: WorkspaceState) -> Result<(), String>`
+- Rust command `export_workspace_json(state: WorkspaceState) -> Result<bool, String>`
+- Rust command `import_workspace_json() -> Result<Option<WorkspaceState>, String>`
+
+
+--------------------------------------------------------------------------------
+12. ACCEPTANCE CHECKLIST BEFORE COMPLETION
+--------------------------------------------------------------------------------
+Verify every item before concluding:
+[ ] App starts cleanly in bottom-to-top layout: Your NGO at bottom, Sports Dev
+    Office at top with glowing "Triple-Thread (3)" badge.
+[ ] Dept of Social Security white branch renders immediately as faded gray
+    (cross status) and hides/reappears cleanly with "Show Declined (Gray) Paths".
+[ ] Dragging any node moves it smoothly with all edges and inline buttons glued
+    to it, and releasing leaves it permanently at the dropped spot with ZERO
+    snap-back.
+[ ] Dropping one card directly on top of another card nudges the colliding card
+    out of the way so zero cards overlap while keeping the dragged card put.
+[ ] Clicking "Tidy Up (Bottom-to-Top)" animates messy cards into clean bottom-
+    to-top layers with zero overlapping boxes and zero cut/broken branches.
+[ ] Parallel branches (Your NGO -> City Museum white + yellow; Your NGO ->
+    Agrocell CSR green + yellow) curve distinctly apart with non-overlapping
+    M% pills and tick/cross buttons.
+[ ] Clicking the Cross button on one of the three yellow branches into Sports
+    Dev Office immediately turns that line gray, downgrades the badge from
+    "Triple-Thread (3)" to "2-Thread", and updates the Top Metrics Strip live.
+[ ] Adding a new organization and connecting a confirmed yellow branch into
+    Sports Dev Office restores/promotes the multi-thread badge automatically.
+[ ] Zero `localStorage` calls exist outside `localStorageRepository.ts`, and
+    zero DOM/React imports exist inside `src/engine/*`.
+[ ] Export JSON -> Reset Demo -> Import JSON restores exact topology,
+    coordinates, tick/cross states, M% values, and notes via WorkspaceRepository.

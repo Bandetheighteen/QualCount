@@ -1,0 +1,1318 @@
+================================================================================
+VERSION 2 MASTER SYSTEM SPECIFICATION, THEORETICAL PROTOCOLS & BUILD BLUEPRINT
+Visual Multiplex Partnership Management System (Hybrid TypeScript + Rust / Tauri)
+================================================================================
+Document Role : Single Source of Truth for Version 2 Architecture, Theory, UI,
+                MCP Server, Agent Skills, and Phased Engineering Execution.
+Prerequisite  : Version 1 (v1.0-prototype) verified and tagged in Git.
+Target OS     : Windows, macOS, Linux, Android (Tauri v2), + Google Drive Sync.
+AI Ecosystem  : Model Context Protocol (MCP) + Impeccable Design Plugin.
+================================================================================
+
+
+TABLE OF CONTENTS
+--------------------------------------------------------------------------------
+SECTION 1  : Version 2 Vision & Architectural Shifts from Version 1
+SECTION 2  : Pillar 1 — Visual Redesign Protocol with the Impeccable Plugin
+SECTION 3  : Pillar 2 — Deep Dive: Public Choice Theory & Utility Maximization
+SECTION 4  : Pillar 3 — Two-Layer Risk Engine (Deterministic + Agentic MCP)
+SECTION 5  : Pillar 4 — Maximized Full-Screen Dashboard & Live Editing Protocol
+SECTION 6  : Pillar 5 — Storage Architecture: Landing Page, Workspace Folder,
+             Legacy File Menu, Local vs. Google Drive, & Cross-Workbook Import
+SECTION 7  : Pillar 6 — Hybrid CSV & Excel Export / Import Pipeline
+SECTION 8  : Pillar 7 — Local MCP Server Specification (Tools, Resources, Sync)
+SECTION 9  : Production Agent Skills (4 Complete SKILL.md Blueprints)
+SECTION 10 : Master TypeScript Data Schema (Version 2)
+SECTION 11 : Phased Version 2 Execution Order & Antigravity Master Prompt
+SECTION 12 : Academic & Technical References
+
+
+================================================================================
+SECTION 1: VERSION 2 VISION & ARCHITECTURAL SHIFTS FROM VERSION 1
+================================================================================
+Version 1 proved the core engine: a bottom-to-top directed multiplex graph
+(Green = Funding, White = Direct Relationship, Yellow = Network Bridge) with
+persistent zero-snap-back dragging, local rectangular anti-overlap, `elkjs`
+bottom-to-top Tidy Up, inline tick/cross buttons, and live multi-thread badges.
+
+Version 2 upgrades that single-canvas prototype into a durable, cross-device,
+agent-connected social-sector operating system built around six locked choices:
+
+1. Editorial "Book & Ledger" UI via the Impeccable Plugin:
+   Remove generic AI dark-glass styling using the installed `Impeccable` design
+   plugin (`PRODUCT.md` + `DESIGN.md` + 62-rule slop detector) without breaking
+   any v1 graph interaction, while introducing high-contrast archival ink tones
+   that stay sharp on light paper and optional dark matte surfaces.
+
+2. Public Choice Theory Utility Maximization (Replacing Arbitrary Points):
+   Keep Funding Secured ($M\%$) untouched. Replace arbitrary subjective points
+   (e.g., "+4 for partner, +2 for branch") with a mathematically rigorous,
+   ratio-scale Public Choice Utility Engine rooted in Buchanan & Tullock
+   (decision-making costs), Olson (selective incentives), Niskanen (bureaucratic
+   utility), Ostrom (credible commitments), and Centola & Macy (social-proof
+   screening cost reduction).
+
+3. Two-Layer Risk Engine (Zero Machine Learning):
+   Skip ML (insufficient training data in small local NGO workspaces). Build
+   Layer 1 (6 deterministic structural risk calculators in pure TypeScript) plus
+   Layer 2 (an MCP Agent Risk Auditor populating a persistent Risk Assessment
+   Box on the dashboard).
+
+4. Maximized Full-Screen Analytical Dashboard:
+   Add a Maximize button expanding the top metrics strip into a full-screen
+   ledger containing every funding, utility, risk, node, and branch record—
+   editable both directly by humans and live via external MCP AI agents.
+
+5. Landing Page, Legacy File Menu, & Portable Workspace Folder Architecture:
+   Replace the single-SQLite assumption with a portable, cloud-safe Workspace
+   Folder of plain JSON files (`workspace.json`, `entities.json`, `workbooks/`).
+   Boot to a calm Landing Page with standard `File` menus, unmistakable `Local`
+   and `Google Drive` badges, cross-device sync (Windows, Linux, macOS, Android),
+   and automatic cross-workbook entity detection (e.g., typing "collectorate"
+   flags "Collectorate Office" from Project 1 for one-click import).
+
+6. Hybrid Spreadsheet I/O + Local MCP Server + 4 Agent Skills:
+   Native instant CSV/Excel export; three-door import (native template CSV/XLSX,
+   local MCP agent skill for messy spreadsheets, and a one-click Copy Prompt
+   bridge for web-based AI users). Pair with a TypeScript stdio MCP server and
+   four formal Agent Skills so Claude Code, OpenAI Codex, Cursor, Antigravity,
+   or any MCP client can operate the workspace cleanly.
+
+
+================================================================================
+SECTION 2: PILLAR 1 — VISUAL REDESIGN PROTOCOL WITH THE IMPECCABLE PLUGIN
+================================================================================
+You have installed the `Impeccable` design plugin (`pbakaus/impeccable`), which
+enforces design discipline via `PRODUCT.md`, `DESIGN.md`, 23 design commands
+(`/impeccable init`, `shape`, `distill`, `typeset`, `audit`, `polish`, etc.),
+and a 62-rule deterministic slop detector (`npx impeccable detect src/`).
+
+2.1 Anti-Slop Mandate (What Must Disappear from v1)
+- ZERO purple-to-blue gradients, glowing neon orbs, or glassmorphic blur panels
+  (Impeccable "Lazy Cool" rule).
+- ZERO nested cards inside cards ("Cardocalypse"). Use crisp 1px architectural
+  hairlines and generous whitespace instead of stacked drop shadows.
+- ZERO generic `Inter` everywhere. Use intentional editorial typography.
+- ZERO oversized decorative icon tiles above section headers.
+- ZERO redundant helper paragraphs repeating field labels.
+
+2.2 The "Archival Book & Ledger" Visual System (DESIGN.md Specification)
+Create `PRODUCT.md` and `DESIGN.md` in the repository root BEFORE asking
+Antigravity to restyle any component.
+
+A. Surface & Ink Tokens (Light-First Editorial Paper — Default Theme)
+   --bg-canvas        : #FAF8F4  (Warm archival paper; zero screen glare)
+   --bg-surface       : #F2EFE9  (Book margin / sidebar / top ribbon)
+   --bg-card          : #FFFFFF  (Crisp organization folio card)
+   --border-hairline  : #DDD6C8  (1px structural rule)
+   --border-strong    : #BEB5A4  (Active focus / selected card border)
+   --ink-primary      : #1C1B18  (Deep archival charcoal; >14:1 contrast)
+   --ink-secondary    : #5A554C  (Warm graphite; >6.5:1 WCAG AA+)
+   --ink-muted        : #8A8377  (Metadata / timestamps)
+
+B. High-Contrast Multiplex Branch Palette (Solving Light-Mode Visibility!)
+   Pure white and neon yellow vanish on warm paper. Map the three branch roles
+   to crisp, WCAG-compliant archival ink tones in Light Mode, while preserving
+   equivalent high-contrast hues in optional Dark Matte Mode (`#121417` canvas):
+
+   1. Green Branch — Financial / CSR Funding:
+      - Light Pending : #2E7D52  | dashed (6 5) | 2.0px
+      - Light Tick    : #0F6B38  | solid        | 3.0px | Pill: #E6F4EC bg / #0F6B38 ink
+      - Light Cross   : #8FA397  | solid        | 1.5px | opacity 0.65
+      - Dark Tick     : #34D399  | solid        | 3.0px | Pill: #064E3B bg / #A7F3D0 ink
+
+   2. Direct Relationship Branch ("White" Conceptual Line -> Archival Ink):
+      - Light Pending : #475569  | dashed (6 5) | 2.0px
+      - Light Tick    : #18181B  | solid        | 3.0px | Pill: #18181B bg / #FAF8F4 ink
+      - Light Cross   : #B4AEA3  | solid        | 1.5px | opacity 0.55
+      - Dark Tick     : #F8FAFC  | solid        | 3.0px | Pill: #F8FAFC bg / #111317 ink
+
+   3. Yellow / Amber Branch — Network Bridge & Amplification:
+      - Light Pending : #C2850C  | dashed (6 5) | 2.0px
+      - Light Tick    : #B45309  | solid        | 3.0px | Pill: #FEF3C7 bg / #92400E ink
+      - Light Cross   : #C2B9A7  | solid        | 1.5px | opacity 0.55
+      - Dark Tick     : #FACC15  | solid        | 3.0px | Pill: #451A03 bg / #FDE68A ink
+
+   4. Workspace Source Badges (Landing Page):
+      - Local Badge        : #EFECE6 bg | #3D3830 ink | 1px #CFC7B8 border ("Local")
+      - Google Drive Badge : #E8F0FE bg | #174EA6 ink | 1px #AECBFA border ("Google Drive")
+
+   5. Risk Severity Tokens:
+      - Low      : #0F6B38 ink on #E6F4EC
+      - Moderate : #9A5B00 ink on #FEF3C7
+      - Elevated : #B54708 ink on #FFEDD5
+      - Critical : #991B1B ink on #FEE2E2
+
+C. Editorial Typography Scale (Loaded Locally for Offline Support)
+   - Serif Display (Landing Page title, Workbook title, Dashboard headings):
+     `Source Serif 4` or `Newsreader` (600 weight, tight tracking)
+   - Humanist Sans (Navigation, buttons, node names, prose):
+     `IBM Plex Sans` (400 / 500 / 600)
+   - Tabular Monospace (All M% funding, Utility indices, Risk scores, IDs):
+     `IBM Plex Mono` with `font-variant-numeric: tabular-nums`
+
+D. Radius & Spacing Discipline
+   - Card Radius   : 6px (sharp editorial folio, not puffy 24px bubbles)
+   - Button Radius : 4px
+   - Badge Radius  : 3px (ledger tags)
+   - Grid Base     : 4px increments (8, 12, 16, 24, 32)
+
+2.3 Non-Breaking Impeccable Execution Protocol
+Run Impeccable strictly in this order so v1 behavior NEVER regresses:
+
+  Step 1: Commit `v1.0-prototype` in Git.
+  Step 2: Write `PRODUCT.md` (target users: Indian social-sector coordinators
+          managing CSR & government alliances; core tone: calm editorial ledger,
+          zero marketing fluff) and `DESIGN.md` (tokens above).
+  Step 3: Run `/impeccable audit src/components/` to record P0-P3 UI issues.
+  Step 4: Run `/impeccable distill` and `/impeccable typeset` on one surface
+          at a time: (a) Landing Page, (b) Top Ribbon & File Menu, (c) OrgNode &
+          MultiplexEdge, (d) Maximized Dashboard.
+  Step 5: STRICT INVARIANT RULE passed in every Impeccable prompt:
+          "PRESERVE ALL FUNCTIONAL LOGIC. Do NOT modify React Flow handle
+          positions (`Position.Top`/`Position.Bottom`), `elkjs` direction `UP`,
+          `onNodeDragStop` anti-overlap calls, `EdgeLabelRenderer` portals, or
+          `event.stopPropagation()` on tick/cross buttons."
+  Step 6: Run `npx impeccable detect src/` and resolve all slop/contrast flags.
+  Step 7: Run `/impeccable polish` and verify the v1 acceptance checklist passes.
+
+
+================================================================================
+SECTION 3: PILLAR 2 — DEEP DIVE: PUBLIC CHOICE THEORY & UTILITY MAXIMIZATION
+================================================================================
+3.1 Why Arbitrary Point Systems Fail (The Methodological Trap)
+Assigning static arbitrary points (e.g., "4 points for a partner, 2 points for
+a branch") violates S. S. Stevens's theory of measurement scales (Stevens, 1946).
+Because the interval between "2" and "4" reflects an arbitrary opinion rather
+than an equal empirical unit, summing those points produces fake precision and
+invites gaming under Campbell's Law (Campbell, 1979) and Strathern's Law
+(Strathern, 1997): coordinators chase easy 2-point branches instead of high-
+leverage institutional commitments.
+
+3.2 Theoretical Foundation: Public Choice Theory Applied to NGO Partnerships
+Public Choice Theory applies economic analysis of rational self-interest and
+institutional incentives to non-market, public, and civic decision-making
+(Mueller, 2003). Five foundational theorems directly govern why Delhi CSR
+officers, museum directors, and municipal officials say yes or no:
+
+1. Interdependence Costs — James M. Buchanan & Gordon Tullock (1962),
+   *The Calculus of Consent*:
+   Every collective agreement imposes two costs on participants:
+   - Decision-Making Costs ($D$): Time, outreach attempts, coordination calls,
+     and bureaucratic approvals required to reach agreement.
+   - External Costs ($E$): Reputational, political, or operational risk suffered
+     if the partner aligns with an unreliable initiative.
+   Rational cooperation minimizes total interdependence cost ($D + E$). An NGO
+   maximizes partnership utility not merely by accumulating raw ties, but by
+   generating high verified institutional output per unit of decision-making
+   cost ($D$).
+
+2. Selective Incentives & Collective Action — Mancur Olson (1965),
+   *The Logic of Collective Action*:
+   Public goods (such as "youth governance in Delhi") trigger rational free-
+   riding. External institutions rarely commit resources purely for altruism.
+   Contribution occurs when the project provides **Selective Incentives**—
+   excludable institutional benefits accruing directly to that specific partner
+   (e.g., CSR Schedule VII compliance and ESG credit for Agrocell/XYZ; public
+   footfall and cultural mandate fulfillment for the City Museum; departmental
+   KPI visibility for the Youth Development Office). Actors whose private stake
+   justifies bearing upfront fixed costs alone form a "privileged group" (the
+   museum providing the exhibition hall).
+
+3. Bureaucratic Utility Maximization — William A. Niskanen (1971),
+   *Bureaucracy and Representative Government*:
+   Government officials maximize institutional jurisdiction, visible mandate
+   delivery, discretionary budget, and career safety (avoiding audit or
+   political blame). Ignoring 49 cold NGO invitations is rational bureaucratic
+   behavior when external risk ($E$) is unknown and selective reward is zero.
+
+4. Rational Ignorance & Screening Cost Reduction — Anthony Downs (1957) &
+   Damon Centola & Michael Macy (2007):
+   Evaluating an unknown NGO imposes high information/screening costs. When
+   independent trusted institutions converge on a target (Double-, Triple-, or
+   Quad-Thread yellow referrals), social proof slashes the target's screening
+   and reputational cost ($E$), tipping its private utility equation from
+   negative (ignore) to positive (commit).
+
+5. Credible Commitments & Polycentric Durability — Elinor Ostrom (1990),
+   *Governing the Commons*:
+   Cheap verbal enthusiasm ("we will try to come") carries near-zero utility.
+   Utility is revealed only through costly, verifiable commitments (written
+   confirmation, shared logo, assigned staff, mobilized network) and becomes
+   durable only when borrowed third-party introductions (yellow) convert into
+   reciprocal, NGO-owned direct relationships (white).
+
+3.3 Verifiable Data Attributes Required (Zero Subjective 1-5 Ratings)
+To compute Public Choice Utility honestly, attach these strictly observable
+attributes to each `Placement` and `Branch` in Version 2:
+
+A. On `Placement` (Per-Workbook Partner Record):
+   1. `selectiveIncentives: SelectiveIncentiveTag[]` (Olson / Niskanen):
+      Which concrete private/institutional benefit does this partner capture?
+      Allowed enum tags:
+      - `'csr_compliance'`        (Statutory CSR / ESG / audit fulfillment)
+      - `'brand_visibility'`      (Co-partner logo, media, civic credit)
+      - `'institutional_mandate'` (Directly fulfills official KPI / footfall)
+      - `'policy_influence'`      (Roundtable voice / governance agenda-setting)
+      - `'network_prestige'`      (Access to ministries, collectorate, peers)
+      - `'asset_activation'`      (Utilizes idle hall, space, or grant budget)
+      - `'community_legitimacy'`  (Grassroots credibility / local goodwill)
+   2. `coOwnershipSignals: CoOwnershipChecklist` (Ostrom / Outcome Mapping):
+      Four strictly binary (`true` / `false`) verifiable partner behaviors:
+      - `writtenCommitment`  (Formal email, letter, or MoU confirming role)
+      - `brandOrLogoShared`  (Partner placed its name/logo on public materials)
+      - `staffAssigned`      (Named staff member joins planning coordination)
+      - `networkMobilized`   (Partner actively sent invites to its own contacts)
+   3. `outreachAttempts: number` (Buchanan-Tullock Decision Cost $D_i$):
+      Integer count ($\ge 1$) of discrete logged outreach rounds/meetings spent
+      on this partner in this Workbook. Increments cleanly via a `+1 Touch`
+      button in the Inspector or via MCP when an agent logs follow-ups.
+
+B. On `Branch`:
+   1. `createdAt: string` & `resolvedAt?: string` (ISO timestamps measuring
+      exact decision latency in days—ratio-scale transaction cost).
+   2. `inKindValueInr?: number` (Optional verifiable market-rate rupee value of
+      a direct non-cash white asset such as venue rental saved; tracked strictly
+      in its own In-Kind Equivalent column and NEVER mixed into cash `M%`).
+
+3.4 Complete Mathematical Specification of the Public Choice Utility Engine
+All calculations live in `src/engine/utility.ts` (pure TypeScript, ratio-scale).
+
+--- LAYER A: FUNDING METRIC (KEPT COMPLETELY UNCHANGED AS REQUESTED) ---
+Cash funding stays strictly isolated:
+$$M_{\text{secured}} = \sum_{e \in E^{\text{tick}}_{\text{green}}} \text{valuePct}(e), \qquad M_{\text{pending}} = \sum_{e \in E^{\text{pending}}_{\text{green}}} \text{valuePct}(e)$$
+$$\text{INR}_{\text{secured}} = \frac{M_{\text{secured}}}{100} \times \text{targetBudgetInr}$$
+
+--- LAYER B: PARTNER-SIDE INCENTIVE & SCREENING MODEL (PER PLACEMENT $i$) ---
+For any non-root placement $i$, measure why rational choice predicts a "yes":
+
+1. Revealed Co-Ownership Depth ($O_i \in [0, 1]$):
+   $$O_i = \frac{\mathbb{I}(\text{written}) + \mathbb{I}(\text{logo}) + \mathbb{I}(\text{staff}) + \mathbb{I}(\text{network})}{4}$$
+
+2. Social Proof / Screening-Cost Reduction Factor ($S_i \in [0, 1)$):
+   Let $k^{\text{in}}_Y(i)$ be the count of incoming ticked yellow branches to $i$:
+   $$S_i = 1 - \frac{1}{1 + k^{\text{in}}_Y(i)}$$
+   Properties:
+   - $k^{\text{in}}_Y = 0$ (cold contact): $S_i = 0.00$
+   - $k^{\text{in}}_Y = 1$ (1 referral):   $S_i = 0.50$
+   - $k^{\text{in}}_Y = 2$ (Double-Thread): $S_i = 0.67$
+   - $k^{\text{in}}_Y = 3$ (Triple-Thread): $S_i = 0.75$
+   - $k^{\text{in}}_Y = 4$ (Quad-Thread):   $S_i = 0.80$
+   This exhibits diminishing marginal utility of additional endorsements while
+   quantifying exactly how multi-thread referrals reduce Niskanen/Downs
+   screening risk.
+
+3. Incentive Alignment Flag ($I_i \in \{0, 1\}$):
+   $$I_i = \begin{cases} 1 & \text{if } |\text{selectiveIncentives}_i| \ge 1 \\ 0 & \text{otherwise} \end{cases}$$
+   If a `pending` partner has $I_i = 0$ and $S_i = 0$, the software flags a
+   **Public Choice Apathy Warning** ("No articulated selective incentive and no
+   institutional referral; high probability of rational non-response").
+
+--- LAYER C: NGO-SIDE PARTNER STRUCTURAL UTILITY (PER PLACEMENT $i$) ---
+Instead of arbitrary point values, every non-root placement $i$ earns four
+strictly bounded, ratio-scale structural utility sub-scores in $[0, 1]$:
+
+Let $N_{\text{conf}}$ be the count of unique non-root placements in the active
+Workbook with at least one incoming confirmed (`tick`) branch of any color.
+Let $T_{\text{multi}}$ be the count of non-root placements with
+$k^{\text{in}}_Y(v) \ge 2$.
+
+1. Direct Commitment Component ($R_i \in [0, 1]$):
+   Let $w_i = 1$ if there is a ticked white branch from Root NGO to $i$, else $0$.
+   $$R_i = w_i \cdot (0.50 + 0.50 \cdot O_i)$$
+   (A confirmed direct white relationship establishes baseline $0.50$; verifiable
+   co-ownership behaviors—written commitment, logo, staff, network—raise it
+   proportionally up to $1.00$.)
+
+2. Ecosystem Brokerage / Amplification Component ($A_i \in [0, 1]$):
+   Let $D^{\text{reach}}_Y(i)$ be the count of unique non-root placements
+   reachable strictly downstream from $i$ via directed paths of ticked yellow
+   branches (BFS).
+   $$A_i = \frac{D^{\text{reach}}_Y(i)}{\max(1, N_{\text{conf}})}$$
+   (Represents the exact fraction of the confirmed institutional ecosystem
+   unlocked by partner $i$.)
+
+3. Owned Conversion Contribution ($V_i \in [0, 1]$):
+   Let $\text{Out}_Y(i)$ be the set of placements receiving a direct ticked
+   yellow branch from $i$, and $\text{Owned}(\text{Out}_Y(i))$ the subset that
+   also hold a direct ticked white branch from Root NGO:
+   $$V_i = \begin{cases} \dfrac{|\text{Owned}(\text{Out}_Y(i))|}{|\text{Out}_Y(i)|} & \text{if } |\text{Out}_Y(i)| > 0 \\ 0 & \text{otherwise} \end{cases}$$
+   (Rewards partners whose referrals convert into durable NGO-owned ties under
+   Ostrom's institutional durability principle.)
+
+4. Multi-Thread Reinforcement Contribution ($C_i \in [0, 1]$):
+   Let $m_i$ be the count of targets $v$ with $k^{\text{in}}_Y(v) \ge 2$ to which
+   partner $i$ supplies a confirmed ticked yellow branch:
+   $$C_i = \begin{cases} \dfrac{m_i}{T_{\text{multi}}} & \text{if } T_{\text{multi}} > 0 \\ 0 & \text{otherwise} \end{cases}$$
+
+5. Partner Structural Utility Score ($U_i \in [0, 100]$):
+   Weighted linear utility function using transparent, workbook-level policy
+   weights $(\alpha_R, \alpha_A, \alpha_V, \alpha_C)$ where
+   $\alpha_R + \alpha_A + \alpha_V + \alpha_C = 1.00$:
+   $$U_i = 100 \times (\alpha_R R_i + \alpha_A A_i + \alpha_V V_i + \alpha_C C_i)$$
+
+   Default Balanced Strategy Weights (editable per Workbook in Dashboard):
+   - $\alpha_R = 0.30$ (Direct Commitment & Co-Ownership)
+   - $\alpha_A = 0.35$ (Ecosystem Amplification / Brokerage)
+   - $\alpha_V = 0.20$ (Owned Relationship Conversion)
+   - $\alpha_C = 0.15$ (Multi-Thread Screening-Cost Reduction)
+
+   Pre-configured Strategy Presets (One-click in Maximized Dashboard):
+   - *Balanced Coalition* : $(0.30, 0.35, 0.20, 0.15)$
+   - *Amplification Push* : $(0.20, 0.45, 0.15, 0.20)$ (early network growth)
+   - *Delivery & Venues*  : $(0.50, 0.20, 0.20, 0.10)$ (execution-heavy events)
+
+   CRITICAL ANTI-BLACK-BOX RULE:
+   Whenever $U_i$ is shown in the UI, hovering or expanding MUST display its
+   exact 4-part additive decomposition ($100\alpha_R R_i + 100\alpha_A A_i +
+   100\alpha_V V_i + 100\alpha_C C_i$) so every single unit is 100% auditable.
+
+6. Decision-Cost Adjusted Utility Yield ($\eta_i$ — Buchanan-Tullock Efficiency):
+   Let $d_i = \max(1, \text{outreachAttempts}_i)$:
+   $$\eta_i = \frac{U_i}{d_i}$$
+   Interpretation: Structural utility units generated per outreach touch.
+   Exposes high-leverage partners (e.g., City Museum: $U = 74$ in 3 touches ->
+   $\eta = 24.7$/touch) versus high-friction sinks (e.g., an agency consuming 9
+   meetings for minimal verified action).
+
+--- LAYER D: WORKBOOK-LEVEL PARTNERSHIP UTILITY INDEX ($\text{PUI} \in [0, 100]$) ---
+To summarize the entire Workbook's qualitative progress on the top ribbon and
+Landing Page without summing unbounded raw counts, compute four macro ratios:
+
+1. Direct Confirmation & Co-Ownership Realization ($\bar{R} \in [0, 1]$):
+   Mean of $(0.50 + 0.50 O_i)$ across all resolved direct white outreach targets
+   from Root NGO (declined white targets contribute $0$).
+2. Owned Conversion Rate ($\bar{V} \in [0, 1]$):
+   $$\bar{V} = \frac{\text{Owned Conversions}}{\max(1, \text{Total Referred Nodes})}$$
+3. Multi-Thread Depth Coverage ($\bar{C} \in [0, 1]$):
+   $$\bar{C} = \frac{\text{Nodes with } k^{\text{in}}_Y \ge 2}{\max(1, \text{Total Referred Nodes})}$$
+4. Incentive Alignment Coverage ($\bar{I} \in [0, 1]$):
+   Fraction of all active (`tick` + `pending`) non-root partners with at least
+   one articulated `selectiveIncentive` OR $k^{\text{in}}_Y \ge 1$.
+
+Workbook Partnership Utility Index:
+$$\text{PUI} = 100 \times (0.35 \bar{R} + 0.25 \bar{V} + 0.20 \bar{C} + 0.20 \bar{I})$$
+
+Paired always with **Workbook Decision-Cost Efficiency**:
+$$\text{Confirmed Actions per Touch} = \frac{\text{Total Ticked Branches}}{\sum_i \max(1, d_i)}$$
+and **In-Kind Asset Equivalent**:
+$$\text{In-Kind } M_{\text{eq}} = \frac{\sum_{e \in E^{\text{tick}}_{\text{white}}} \text{inKindValueInr}(e)}{\text{targetBudgetInr}} \times 100\%$$
+
+
+================================================================================
+SECTION 4: PILLAR 3 — TWO-LAYER RISK ENGINE (ZERO MACHINE LEARNING)
+================================================================================
+Machine learning is intentionally excluded because small local NGO workspaces
+(5 to 30 projects) cannot supply statistically valid labeled training corpora.
+Instead, risk management operates across two complementary, auditable layers:
+
+4.1 Layer 1: Deterministic Structural Risk Engine (`src/engine/risk.ts`)
+Pure TypeScript, recomputed live on every edit with zero external calls.
+Evaluates six explicit parameters and returns exact offending `placementIds`
+and `branchIds` so clicking any risk row highlights the culprit on the canvas:
+
+  Parameter R1: Single-Bridge Concentration Risk (Freeman Articulation Loss)
+  - Formula : Percentage of confirmed indirect downstream nodes (distance >= 2
+              via ticked yellow paths from Root NGO) that become unreachable if
+              the single highest-reach non-root bridge node is removed.
+  - Thresholds : Low < 35% | Moderate 35-50% | Elevated 50-70% | Critical > 70%
+
+  Parameter R2: Unowned Dependency Exposure (Ostrom Durability Risk)
+  - Formula : Percentage of confirmed yellow-referred nodes that still lack a
+              direct ticked white branch from Root NGO.
+  - Thresholds : Low < 30% | Moderate 30-50% | Elevated 50-75% | Critical > 75%
+
+  Parameter R3: Funding Concentration & Runway Gap
+  - Formula : (a) Top single CSR share of total secured `M%`, and
+              (b) Remaining gap $(100\% - M_{\text{secured}} - M_{\text{pending}})$.
+  - Thresholds : Critical if single donor > 65% of secured cash OR combined
+                 secured+pending < 50% of target; Elevated if single donor > 50%.
+
+  Parameter R4: Public Choice Apathy Risk (Olson / Niskanen Cold-Pitch Risk)
+  - Formula : Percentage of `pending` non-root nodes having BOTH
+              `yellowInDegree === 0` AND `selectiveIncentives.length === 0`.
+  - Thresholds : Low < 20% | Moderate 20-40% | Elevated 40-60% | Critical > 60%
+
+  Parameter R5: Decision-Cost Drag & Stale Pipeline
+  - Formula : Count of `pending` branches unresolved for > 14 days (from
+              `createdAt`) PLUS count of partners with `outreachAttempts >= 4`
+              and zero confirmed ticks.
+  - Thresholds : Low = 0 | Moderate = 1-2 | Elevated = 3-5 | Critical >= 6
+
+  Parameter R6: Rejection Cluster Signal
+  - Formula : Overall resolved rejection ratio `cross / (tick + cross)` OR any
+              single partner/category with >= 3 declines and > 60% failure rate.
+  - Thresholds : Low < 25% | Moderate 25-45% | Elevated 45-65% | Critical > 65%
+
+  Aggregate Structural Risk Tier:
+  - `critical` : Any parameter Critical, OR >= 3 parameters Elevated
+  - `elevated` : 1-2 parameters Elevated, OR >= 3 parameters Moderate
+  - `moderate` : 1-2 parameters Moderate
+  - `low`      : All parameters Low
+
+4.2 Layer 2: Agentic Risk Assessment Box (via MCP + `two-layer-risk-auditor`)
+Layer 1 spots mathematical fragility; Layer 2 reads your qualitative branch
+notes, partner categories, selective incentives, and real-world Indian
+civic/CSR context (e.g., election model code of conduct delays, municipal
+officer transfers, CSR fiscal year-end Q4 lockups) and writes a structured
+briefing directly into `workbook.riskAssessment`.
+
+The **Risk Assessment Box** appears as a compact status chip on the canvas top
+ribbon and expands in full inside the **Maximized Dashboard**, displaying:
+  1. `assessedAt` & `assessedBy` (e.g., "Claude Code via MCP" or "Human Edit")
+  2. `overallPosition`: 2-3 sentence executive verdict on where the project sits
+  3. `parameterSnapshots`: Table of all 6 Layer 1 parameters with plain-language
+     contextual commentary
+  4. `failureScenarios`: Structured list of "What Could Go Wrong" cards, each
+     containing:
+       - `id`, `title`, `severity` (low|moderate|elevated|critical)
+       - `likelihood` (low|medium|high)
+       - `triggerCondition` (concrete real-world event)
+       - `affectedPlacementIds` (clickable links to jump to node on canvas)
+       - `mitigationAction` (specific next step for the coordinator)
+       - `status` (`open` | `mitigating` | `resolved`)
+  5. `publicChoiceDiagnosis`: Targeted advice on missing selective incentives
+     or where to add a 2nd/3rd yellow referral to break bureaucratic inertia.
+  6. Editable directly in the UI OR overwritten/patched live via MCP tool
+     `write_risk_assessment_box`.
+
+
+================================================================================
+SECTION 5: PILLAR 4 — MAXIMIZED FULL-SCREEN DASHBOARD & LIVE EDITING PROTOCOL
+================================================================================
+The top metrics ribbon includes a crisp `Maximize Dashboard` button (keyboard
+shortcut `Cmd/Ctrl + Shift + D`) toggling a full-viewport book-ledger view
+over the active Workbook without losing canvas pan/zoom state.
+
+5.1 Four-Section Editorial Layout (Zero Card-in-Card Clutter)
+1. Header & Controls:
+   - Workbook title, source badge (`Local` or `Google Drive`), last synced
+     timestamp, live MCP connection indicator ("MCP Watch Active" + last agent
+     write badge), `Export CSV`, `Export Excel (.xlsx)`, `Close / Return to Map`.
+2. Section A — Financial & In-Kind Ledger:
+   - Target Budget (editable INR), Secured Cash (`M%` + INR), Pending Pipeline
+     (`M%` + INR), Declined CSR count, In-Kind Equivalent (`M_eq%` + INR), and
+     a clean horizontal bar table of every Green CSR branch.
+3. Section B — Public Choice Utility Ledger:
+   - Workbook PUI (0-100), Confirmed Actions per Outreach Touch, Strategy Preset
+     selector (`Balanced` / `Amplification Push` / `Delivery & Venues`) plus
+     custom weight sliders summing to 1.00.
+   - Sortable Partner Utility Table listing every organization with inline
+     editable cells for:
+     - `outreachAttempts` (+/- stepper)
+     - `selectiveIncentives` (tag popover)
+     - `coOwnershipSignals` (4 binary checkboxes: Written, Logo, Staff, Net)
+     - Computed columns (read-only live): $S_i$ Social Proof, $R_i$, $A_i$,
+       $V_i$, $C_i$, Gross Utility $U_i$, and Yield/Touch $\eta_i$.
+4. Section C — Two-Layer Risk Assessment Box:
+   - Left column: Layer 1 Deterministic 6-Parameter Structural Matrix (clicking
+     any flagged row closes/minimizes to highlight the exact nodes on canvas).
+   - Right column: Layer 2 Agentic Risk Assessment Box (`overallPosition`,
+     editable `failureScenarios` with `open`/`mitigating`/`resolved` toggles,
+     `publicChoiceDiagnosis`, and a `"Copy Risk Audit Prompt"` fallback button
+     for users without an active MCP connection).
+5. Section D — Full Relational Node & Branch Ledger:
+   - Clean searchable/filterable ledger tables for every Placement and every
+     Branch in the Workbook, allowing inline editing of branch status
+     (Pending/Tick/Cross), `M%`, `inKindValueInr`, and qualitative notes.
+   - Any edit made via MCP by Antigravity / Claude Code / Cursor / Codex hot-
+     reloads this dashboard live within 300ms with a brief subtle highlight on
+     modified rows and an `Undo Agent Change` button backed by `.snapshots/`.
+
+
+================================================================================
+SECTION 6: PILLAR 5 — LANDING PAGE, WORKSPACE FOLDER, LEGACY FILE MENU,
+           LOCAL VS. GOOGLE DRIVE, & CROSS-WORKBOOK ENTITY IMPORTS
+================================================================================
+6.1 Why Portable Workspace Folders Replace Single-File SQLite
+Single-file SQLite databases use companion `-wal` / `-journal` files that risk
+database corruption if synced concurrently across Windows, Linux, macOS,
+Android, and Google Drive (SQLite, 2026). Plain JSON files inside a structured
+Workspace Folder sync cleanly over Google Drive, work identically across every
+OS, remain human-readable, and let local MCP servers read/write directly
+without native database driver mismatches.
+
+6.2 Canonical Workspace Folder Layout on Disk & in Google Drive
+  <WorkspaceName>/
+  ├── workspace.json            # Workspace metadata, workbook list, workbookLinks
+  ├── entities.json             # Master deduplicated organization directory
+  ├── workbooks/
+  │   ├── wb_<uuid>.json        # Full workbook (placements, branches, weights, risk)
+  │   └── ...
+  └── .snapshots/               # Local-only rolling backups (excluded from Drive)
+      └── wb_<uuid>_<ts>.json
+
+6.3 Landing Page & Legacy Menu Bar
+The application ALWAYS launches to the Landing Page (book cover + contents).
+
+A. Top Legacy Application Menu Bar (Persistent Across Landing Page & Canvas):
+   - `File`
+     - `New Workbook...`                (Cmd/Ctrl + N)
+     - `New Workspace Folder...`
+     - `Open Local Workspace Folder...` (Cmd/Ctrl + O)
+     - `Connect Google Drive Folder...`
+     - `---`
+     - `Save`                           (Cmd/Ctrl + S; auto-save also enabled)
+     - `Save Copy / Snapshot`
+     - `---`
+     - `Import >`
+       - `Import Workbook JSON...`
+       - `Import Structured CSV / Excel...`
+       - `Import Messy Spreadsheet via AI Prompt...`
+     - `Export >`
+       - `Export Workbook JSON...`
+       - `Export CSV Bundle...`
+       - `Export Excel Workbook (.xlsx)...`
+     - `---`
+     - `Back to Landing Page`
+   - `View`
+     - `Maximize Dashboard`             (Cmd/Ctrl + Shift + D)
+     - `Toggle Book Sidebar Index`
+     - `Show Declined (Gray) Paths`
+     - `Theme: Warm Paper (Light) / Charcoal Matte (Dark)`
+   - `Tools`
+     - `Tidy Up (Bottom-to-Top)`        (Cmd/Ctrl + Shift + L)
+     - `MCP Server Setup & Connection Info...`
+
+B. Landing Page Layout (Clean Book Table of Contents):
+   - Header: App title, quick buttons (`+ New Workbook`, `Open Local Folder`,
+     `Connect Google Drive`), and a unified search bar searching across all
+     connected Workspaces, Workbooks, and Entities.
+   - Workspace & Workbook Ledger List:
+     Grouped cleanly by connected Workspace Folder. Each Workspace header and
+     Workbook row displays:
+     - Source Badge: `[Local]` (neutral stone tag + hover path) OR
+       `[Google Drive]` (muted blue tag + sync status: `Synced` / `Syncing` /
+       `Conflict` / `Offline Cache`)
+     - Workbook Title, Last Updated date, Status (`Active` / `Draft` / `Archived`)
+     - Compact Tabular Metrics: `Funding M%`, `PUI (0-100)`, `Confirmed Ties`,
+       `Triple+ Threads`, and `Structural Risk Tier` badge.
+     - Single click opens the Workbook into the canvas; a subtle `Overview Map`
+       toggle lets the user see Workbooks as macro-nodes connected by shared
+       entity counts and manual `workbookLinks`.
+
+C. Inside an Open Workbook:
+   - Collapsible thin left-hand "Book Index" margin showing sibling Workbooks
+     inside the current Workspace Folder for instant page-flipping, with a
+     permanent link back to the Landing Page.
+
+6.4 Cross-Workbook Entity Detection & One-Click Import Protocol
+How typing `"collectorate"` in Project 2 finds `"Collectorate Office"` from
+Project 1 cleanly across BOTH the same workspace and external workspaces:
+
+1. Device-Local Read-Only Cross-Workspace Index:
+   In the app's local config directory (never synced to Google Drive), maintain
+   `recent-entities-index.json`, updated automatically whenever any Local or
+   Google Drive workspace is opened or saved:
+     `{ entityId, name, normalizedName, category, workspaceId, workspaceName,
+        sourceType: 'local'|'gdrive', workbookMentions: [{ workbookId,
+        workbookTitle, confirmedRoles, yellowOutCount }] }`
+
+2. Live Detection on Input:
+   When a user types >= 3 characters in the Add Node input (or creates a note
+   mentioning an organization), run case-insensitive substring + token match
+   against (a) current Workspace's `entities.json` first, and (b)
+   `recent-entities-index.json` second.
+
+3. Suggestion Dropdown Display:
+   Example when typing `"collectorate"` inside Project 2:
+     `Collectorate Office  [Government]`
+     `Found in: Project 1 — Delhi Youth Exhibition [Local]`
+     `History: Confirmed referral via City Museum | 0 declines`
+     `[Import Entity]`  `[Import + 2 Pending Yellow Leads]`
+
+4. Import Semantics (Preserving Cloud Folder Self-Containment):
+   - Case A (Same Workspace Folder):
+     Reuses the EXACT `entityId` from `entities.json` (zero duplication) and
+     creates a new `Placement` in Project 2. Displays a clickable `2 Workbooks`
+     folio badge on the card opening the cross-workbook history drawer.
+   - Case B (Cross-Workspace, e.g., Local Project 1 -> Google Drive Project 2):
+     Copies the `Entity` record cleanly into Project 2's `entities.json` with
+     `importedFrom: { workspaceName, workbookTitle, originalEntityId, importedAt }`
+     so the Google Drive folder stays 100% self-contained when shared with a
+     teammate who does not have access to the user's private local hard drive!
+   - Optional Proven-Bridge Pull:
+     If the user clicks `Import + Pending Yellow Leads`, any confirmed
+     downstream yellow targets of that entity from Project 1 are imported into
+     Project 2 as **dashed pending** yellow branches (never auto-ticked, so a
+     new project never inherits false confirmations).
+
+6.5 Cross-Platform & Google Drive Sync Rules (Windows, Linux, macOS, Android)
+1. Storage Adapter Architecture (`WorkspaceRepository`):
+   - `BrowserDevRepository` (Phase 2A dev fallback + local Vite bridge)
+   - `TauriLocalFolderRepository` (Windows/macOS/Linux native folder paths via
+     Tauri `plugin-fs` & `plugin-dialog`; Android Storage Access Framework URI
+     bridge via `tauri-plugin-android-fs`)
+   - `GoogleDriveRepository` (OAuth 2.0 using non-sensitive `drive.file` scope
+     + Google Picker API, mirrored to a local synced cache folder at
+     `<AppData>/drive-cache/<driveFolderId>/` so offline editing works AND local
+     MCP servers can read/write Google Drive workspaces through the cache!)
+2. Conflict Protection (Preventing Silent Overwrites):
+   Every `workbook` and `entities` file stores an integer `revision` and ISO
+   `updatedAt`. Before pushing a save to Google Drive, compare remote Drive
+   `modifiedTime` and `revision` against last synced state. If a teammate edited
+   remotely, pause upload and open a clean Conflict Resolution dialog (`Keep
+   Mine`, `Use Remote`, or `Save Mine as New Workbook Copy`).
+3. Android Touch Adaptation:
+   When viewport detects touch/coarse pointer (`pointer: coarse`), automatically
+   enlarge React Flow tick/cross edge controls to minimum 36x36px touch targets
+   and switch the Book Index and Inspector into slide-over drawers.
+
+
+================================================================================
+SECTION 7: PILLAR 6 — HYBRID CSV & EXCEL EXPORT / IMPORT PIPELINE
+================================================================================
+7.1 Export Pipeline (100% Native TypeScript — Zero AI, Zero Tokens, Instant)
+Implemented in `src/io/spreadsheetExport.ts`:
+- Export CSV Bundle:
+  Generates RFC-4180 compliant, UTF-8 BOM-prefixed (so Excel opens Indian INR
+  symbols cleanly) CSV files:
+  1. `<workbook-slug>_nodes.csv`:
+     `entity_id, name, category, is_root_ngo, outreach_attempts,
+      selective_incentives, written_commitment, brand_logo_shared,
+      staff_assigned, network_mobilized, yellow_in_degree, social_proof_s,
+      utility_score_u, utility_yield_per_touch, global_notes`
+  2. `<workbook-slug>_branches.csv`:
+     `branch_id, source_org, target_org, branch_type, status, funding_pct,
+      funding_inr, in_kind_inr, note, created_at, updated_at`
+- Export Excel Workbook (`.xlsx` via lightweight `xlsx` / `exceljs` library):
+  Produces one clean multi-tab `.xlsx` workbook with four tabs:
+  1. `Executive Summary` (Budget, Funding M%, In-Kind M_eq%, PUI, Risk Tier)
+  2. `Organizations & Utility` (Full Public Choice utility decomposition table)
+  3. `Branches & Outreach` (Every Green/White/Yellow branch with status & notes)
+  4. `Risk Assessment` (Layer 1 6-parameter matrix + Layer 2 Agent scenarios)
+
+7.2 Three-Door Import Pipeline (Structured Native + MCP Skill + Web AI Prompt)
+Real NGO Excel files are notoriously messy (merged cells, "₹2.5 Lakhs", notes
+mixed with contact numbers). Support all three entry paths cleanly inside one
+unified `Import Spreadsheet` modal:
+
+- Door 1: Native Structured CSV / Excel Importer (`src/io/spreadsheetImport.ts`)
+  - Includes a `"Download Clean Template (.csv / .xlsx)"` button with canonical
+    columns: `source_org, target_org, target_category, branch_type, status,
+    funding_pct, in_kind_inr, note, selective_incentives, outreach_attempts`.
+  - Runs strict validation, matches existing records in `entities.json` to
+    prevent duplicates, displays a preview table ("Will create 8 new entities,
+    reuse 3 existing entities, add 14 branches"), runs `elkjs` bottom-to-top
+    Tidy Up automatically, and commits atomically.
+
+- Door 2: Local Connected AI Agent via MCP (`spreadsheet-to-workflow-mapper`)
+  - Displays a compact one-line instruction: "Have Claude Code, Cursor, Codex,
+    or Antigravity connected? Point it at your Excel/CSV file and ask: 'Import
+    `<filename.xlsx>` into `<Workbook Name>` using the
+    spreadsheet-to-workflow-mapper skill.'"
+  - The agent parses arbitrary messy sheets, normalizes Indian currency formats
+    (Lakhs/Crores -> `valuePct` against `targetBudgetInr`), filters cold leads
+    from active nodes, and calls MCP batch import tools directly.
+
+- Door 3: Zero-MCP Web AI Prompt Bridge ("Copy AI Conversion Prompt")
+  - For users who only use web-based ChatGPT / Claude / Gemini with zero local
+    MCP setup:
+  - Clicking `"Copy Conversion Prompt"` copies a dynamically generated prompt
+    to the clipboard containing:
+    1. The active Workbook's exact `targetBudgetInr` and `workbookId`
+    2. The list of existing organization names in `entities.json` (so the web
+       AI matches spellings automatically!)
+    3. The exact Version 2 JSON import schema + strict rules (green vs white vs
+       yellow, ownership separation, percentage not percentile, INR conversion)
+    4. Instruction to output ONLY a downloadable/copyable valid JSON block.
+  - User uploads their messy Excel file + pasted prompt to any web AI, then
+    pastes or drops the resulting JSON right back into the app's native JSON
+    importer (with instant validation and preview).
+
+
+================================================================================
+SECTION 8: PILLAR 7 — LOCAL MCP SERVER SPECIFICATION
+================================================================================
+Package Location : `packages/mcp-server/` (Node.js + TypeScript)
+Protocol         : Model Context Protocol (`@modelcontextprotocol/sdk`)
+Transport        : `stdio` (compatible out of the box with Claude Code,
+                   OpenAI Codex CLI, Cursor, Google Antigravity, Windsurf).
+Target Storage   : Directly reads and writes the active Workspace Folder
+                   (`--workspace /path/to/WorkspaceFolder` or reads active
+                   workspace pointer from `~/.partnership-ledger/config.json`).
+
+8.1 Concurrency, Atomicity & Live Reload Protocol
+1. Atomic Writes: Every MCP mutation writes to `<file>.tmp` and performs an
+   atomic `fs.rename()` to prevent half-written JSON files.
+2. Pre-Write Undo Snapshots: Before any MCP write alters a workbook, copy the
+   previous JSON into `<Workspace>/.snapshots/<wbId>_<timestamp>.json` (keep
+   last 20 snapshots per workbook) so the user can click `Undo Agent Change`
+   in the UI.
+3. Revision Increment & Audit Trail: Every MCP write increments `revision`,
+   updates `updatedAt`, and appends a concise line to `lastAgentMutation`
+   (`{ agentName, toolName, summary, timestamp }`).
+4. Live UI Refresh: The Tauri Rust backend (or Vite dev bridge in Phase 2A)
+   watches the active Workspace Folder via OS file watcher (`notify` crate),
+   debounces 150ms, validates the changed JSON, and pushes a live state patch
+   to Zustand so the canvas and Maximized Dashboard update automatically.
+
+8.2 Complete MCP Tool Catalog (17 Tools)
+All tool inputs are validated strictly with `zod` schemas.
+
+[A. Discovery & Read Tools]
+1. `list_workbooks()`
+   Returns workspace metadata, source type, and all workbooks with summary KPIs.
+2. `get_workbook_full(workbookId)`
+   Returns full Workbook JSON resolved with Entity names, computed Public Choice
+   Utility report, and Layer 1 Structural Risk report.
+3. `search_entities(query, includeCrossWorkspaceIndex?)`
+   Fuzzy searches `entities.json` (and optional device index) to prevent
+   duplicate organizations before creation.
+
+[B. Graph Mutation Tools]
+4. `create_workbook(title, description, targetBudgetInr, rootNgoName?)`
+   Creates a new Workbook JSON file with Root NGO anchored at Tier 0.
+5. `add_or_import_entity(workbookId, name, category, globalNotes?,
+   selectiveIncentives?, outreachAttempts?, importPendingYellowFromWorkbookId?)`
+   Deduplicates against `entities.json`, inserts a non-overlapping `Placement`,
+   and optionally pulls confirmed yellow leads as dashed pending branches.
+6. `update_placement_attributes(workbookId, placementId, selectiveIncentives?,
+   coOwnershipSignals?, outreachAttempts?, globalNotes?)`
+   Updates Public Choice attributes without touching coordinates.
+7. `create_branch(workbookId, sourcePlacementId, targetPlacementId, type,
+   status, valuePct?, inKindValueInr?, note?)`
+   Validates no self-loops; enforces ownership rules; updates revision.
+8. `update_branch(workbookId, branchId, status?, type?, valuePct?,
+   inKindValueInr?, note?)`
+   Toggles pending/tick/cross or updates values/notes cleanly.
+9. `delete_branch(workbookId, branchId)`
+   Removes an erroneous branch (agents are instructed via skill to prefer
+   setting `status: "cross"` for real rejections to preserve memory!).
+10. `run_tidy_up_layout(workbookId)`
+    Executes the exact shared pure TypeScript `elkjs` (`direction: "UP"`)
+    layout module on the workbook JSON and writes clean non-overlapping `(x, y)`
+    coordinates so agent-built graphs immediately open cleanly in the UI.
+
+[C. Public Choice Utility & Maximized Dashboard Tools]
+11. `get_public_choice_utility_report(workbookId)`
+    Returns exact PUI, Decision-Cost Efficiency, per-partner utility
+    decomposition ($R_i, A_i, V_i, C_i, U_i, \eta_i, S_i$), and apathy warnings.
+12. `update_utility_strategy_weights(workbookId, alphaR, alphaA, alphaV, alphaC)`
+    Validates weights sum to `1.00` (tolerance `0.001`) and updates workbook.
+13. `patch_workbook_metadata(workbookId, title?, description?, targetBudgetInr?,
+    status?)`
+    Edits workbook-level dashboard header settings.
+
+[D. Two-Layer Risk Tools]
+14. `get_structural_risk_report(workbookId)`
+    Executes Layer 1 (`src/engine/risk.ts`) and returns all 6 parameters,
+    thresholds, overall tier, and offending placement/branch IDs.
+15. `write_risk_assessment_box(workbookId, overallPosition, parameterCommentary,
+    failureScenarios, publicChoiceDiagnosis, agentName)`
+    Populates or updates the persistent Layer 2 Risk Assessment Box displayed
+    live on the Maximized Dashboard.
+
+[E. Spreadsheet Interop Tools]
+16. `export_workbook_spreadsheet(workbookId, format: "csv" | "xlsx", outputPath)`
+    Runs the native deterministic exporter and writes directly to `outputPath`.
+17. `batch_import_workflow_rows(workbookId, rows[], runTidyUpAfter?: boolean)`
+    Atomic batch ingestion tool used by the `spreadsheet-to-workflow-mapper`
+    skill: deduplicates entities, creates placements & branches, runs `elkjs`
+    bottom-to-top layout, and returns a concise import summary.
+
+8.3 MCP Resources (Read-Only Context URIs)
+- `partnership://workspace/overview`       -> Active workspace & workbook list
+- `partnership://workspace/entities`       -> Full master `entities.json`
+- `partnership://workbook/{id}/graph`      -> Full workbook JSON
+- `partnership://workbook/{id}/metrics`    -> Live Funding + Utility + Risk JSON
+
+8.4 Client Registration Snippet (Claude Code / Cursor / Antigravity / Codex)
+  {
+    "mcpServers": {
+      "partnership-ledger": {
+        "command": "node",
+        "args": [
+          "/ABSOLUTE/PATH/TO/packages/mcp-server/dist/index.js",
+          "--workspace",
+          "/ABSOLUTE/PATH/TO/YOUR/WorkspaceFolder"
+        ]
+      }
+    }
+  }
+
+
+================================================================================
+SECTION 9: PRODUCTION AGENT SKILLS (4 COMPLETE SKILL.md BLUEPRINTS)
+================================================================================
+Place these four skill directories inside `.agent/skills/` (Antigravity),
+`.claude/skills/` (Claude Code), and `.cursor/skills/` (Cursor) — or install
+them via your MCP setup wizard inside the app's `Tools -> MCP Setup` modal.
+
+--------------------------------------------------------------------------------
+SKILL 1: .agent/skills/partnership-graph-operator/SKILL.md
+--------------------------------------------------------------------------------
+---
+name: partnership-graph-operator
+description: Operate the Partnership Ledger MCP server to build, edit, deduplicate, and tidy bottom-to-top multiplex NGO partnership workbooks cleanly without breaking ownership or measurement rules.
+---
+
+# Partnership Graph Operator Skill
+
+## Core Domain Rules (NEVER VIOLATE)
+1. **Always Search Before Creating**: Before calling `add_or_import_entity`, ALWAYS call `search_entities` with partial keywords (e.g., "collectorate", "museum", "agrocell") to reuse existing master entities and avoid duplicates.
+2. **Strict Three-Color Branch Semantics**:
+   - `green`: Cash CSR/grant funding ONLY. `valuePct` MUST be a strict percentage of `targetBudgetInr` (e.g., ₹2.5L on ₹10L target = `25`, displayed as `M25`). Never put non-cash items on green lines.
+   - `white`: Direct working relationships owned by the Root NGO (venues, attendance, co-hosting, direct staff ties). Optional verifiable `inKindValueInr` allowed for real market-value venue/asset savings.
+   - `yellow`: Third-party introductions, referrals, and amplification bridges.
+3. **Ownership Separation Rule**:
+   - If Partner A introduces the NGO to Agency B, create a `yellow` branch `A -> B`.
+   - NEVER draw a `white` branch `A -> B` to represent the NGO's relationship with B.
+   - Only when Agency B directly engages with the Root NGO should you add a `white` branch `Root NGO -> B`.
+4. **Preserve Declined Memory**:
+   - When an organization says no, call `update_branch` with `status: "cross"` instead of `delete_branch`. Only delete genuine typos or accidental duplicates.
+5. **No False Confirmations**:
+   - Planned outreach or unconfirmed introductions MUST start as `status: "pending"`. Only set `status: "tick"` when concrete verification exists in user notes.
+6. **Keep the Canvas Clean**:
+   - After adding 2 or more nodes or branches, ALWAYS call `run_tidy_up_layout(workbookId)` so the graph stays organized bottom-to-top with zero overlapping cards.
+
+## Standard Workflow
+1. Call `list_workbooks` or `get_workbook_full(workbookId)` to inspect current state.
+2. Deduplicate entities via `search_entities`.
+3. Execute targeted mutations (`add_or_import_entity`, `create_branch`, `update_branch`, `update_placement_attributes`).
+4. Run `run_tidy_up_layout(workbookId)`.
+5. Summarize changes concisely: nodes added/reused, branches updated, new `M%` funding, and any newly formed Double/Triple-Thread convergences.
+
+--------------------------------------------------------------------------------
+SKILL 2: .agent/skills/public-choice-utility-analyst/SKILL.md
+--------------------------------------------------------------------------------
+---
+name: public-choice-utility-analyst
+description: Analyze and update NGO partnership workbooks using Public Choice Theory (Buchanan & Tullock decision costs, Olson selective incentives, Niskanen bureaucratic utility, Ostrom credible commitments) via MCP without inventing arbitrary point scores.
+---
+
+# Public Choice Utility Analyst Skill
+
+## Analytical Mandate
+You diagnose why CSR funders, public museums, and municipal agencies commit or ignore outreach, and you keep the Workbook's quantitative utility inputs strictly grounded in verifiable evidence.
+
+## Strict Prohibition
+NEVER invent subjective 1-to-5 trust ratings or arbitrary static point scores. Every number MUST come from binary co-ownership facts, articulated selective incentives, verified graph topology, and integer outreach attempt counts.
+
+## Step-by-Step Protocol
+1. Call `get_workbook_full(workbookId)` and `get_public_choice_utility_report(workbookId)`.
+2. Inspect every non-root placement for **Olson / Niskanen Incentive Blindness**:
+   - Flag any pending target with `selectiveIncentives: []` and `yellowInDegree === 0`.
+   - Based on the entity's category and branch notes, propose concrete selective incentives (e.g., `csr_compliance`, `institutional_mandate`, `brand_visibility`, `network_prestige`, `asset_activation`) and ask or update via `update_placement_attributes`.
+3. Audit **Ostrom Credible Commitments (`coOwnershipSignals`)**:
+   - Review notes for concrete evidence of `writtenCommitment`, `brandOrLogoShared`, `staffAssigned`, and `networkMobilized`. Only toggle a boolean to `true` when explicitly supported by project notes or user confirmation.
+4. Audit **Buchanan-Tullock Decision-Cost Efficiency ($\eta_i$)**:
+   - Identify partners with high `outreachAttempts` and low Utility Yield ($\eta_i$). Recommend either shifting the pitch to a clearer selective incentive, routing a second yellow referral to raise Social Proof $S_i$, or marking the branch `cross` to stop burning team hours.
+5. Audit **Ostrom Durability (Borrowed vs. Owned Ties)**:
+   - List confirmed yellow-referred offices lacking a direct `white` branch from the Root NGO, and recommend concrete actions to convert borrowed introductions into owned relationships.
+
+--------------------------------------------------------------------------------
+SKILL 3: .agent/skills/two-layer-risk-auditor/SKILL.md
+--------------------------------------------------------------------------------
+---
+name: two-layer-risk-auditor
+description: Execute a structured two-layer partnership risk audit combining deterministic graph risk metrics with qualitative institutional analysis, and publish the results to the Workbook's Risk Assessment Box via MCP.
+---
+
+# Two-Layer Risk Auditor Skill
+
+## Purpose
+Replace ungrounded guesswork or unviable ML models with a rigorous, repeatable risk briefing persisted directly inside the app's Maximized Dashboard Risk Assessment Box.
+
+## Audit Protocol (6 Mandatory Parameters)
+1. Call `get_workbook_full(workbookId)`, `get_public_choice_utility_report(workbookId)`, and `get_structural_risk_report(workbookId)`.
+2. Review all six Layer 1 structural outputs:
+   - `R1`: Single-Bridge Concentration Risk (articulation node failure impact)
+   - `R2`: Unowned Dependency Exposure (yellow-only referrals without NGO white tie)
+   - `R3`: Funding Concentration & Budget Runway Gap (`M%` concentration + shortfall)
+   - `R4`: Public Choice Apathy Risk (cold pending targets lacking incentives & referrals)
+   - `R5`: Decision-Cost Drag & Stale Pipeline (pending > 14 days or >= 4 touches unresolved)
+   - `R6`: Rejection Cluster Signal (high decline rates by category or parent)
+3. Synthesize Layer 1 numbers with Layer 2 qualitative context from branch notes (e.g., government officer transfer risk, CSR budget cycle timing, verbal-only venue holds without written confirmation, single-contact dependency).
+4. Draft 3 to 6 concrete, non-generic `failureScenarios`. Every scenario MUST specify:
+   - Clear `title`, `severity`, and `likelihood`
+   - Exact `affectedPlacementIds` (verified against current workbook IDs)
+   - Specific `triggerCondition` (what exact real-world event triggers failure)
+   - Concrete, actionable `mitigationAction` doable within 7-14 days
+5. Write a sharp `publicChoiceDiagnosis` explaining where partner self-interest is unaligned or where a 2nd/3rd yellow referral would unlock a stalled target.
+6. Call `write_risk_assessment_box(...)` to publish the audit live to the dashboard.
+
+--------------------------------------------------------------------------------
+SKILL 4: .agent/skills/spreadsheet-to-workflow-mapper/SKILL.md
+--------------------------------------------------------------------------------
+---
+name: spreadsheet-to-workflow-mapper
+description: Parse messy real-world NGO Excel or CSV outreach spreadsheets and safely convert them into deduplicated bottom-to-top multiplex partnership workflows via the Partnership Ledger MCP server.
+---
+
+# Spreadsheet-to-Workflow Mapper Skill
+
+## Purpose
+Real NGO spreadsheets contain messy column headers, Indian currency strings ("2.5L", "Rs 50,000", "1 Cr"), cold outreach lists of 100+ rows, and free-text status notes. Convert them into a clean, readable partnership graph without flooding the canvas.
+
+## Strict Ingestion Rules
+1. **Read Context First**: Call `get_workbook_full(workbookId)` and `search_entities("")` to learn the Workbook's `targetBudgetInr`, Root NGO placement ID, and existing entity names.
+2. **Prevent the 100-Node Canvas Tangle (Ghoniem et al., 2005)**:
+   - If the spreadsheet has > 30 rows, DO NOT blindly dump 100 cold uncontacted rows onto the visual canvas!
+   - Separate rows into: (a) Active / Confirmed / Referred / Explicitly Declined rows -> import onto the canvas; (b) Uncontacted cold prospects -> ask the user whether to import only the top priority tier (10-25 nodes) or group them cleanly.
+3. **Currency Normalization (India-Aware)**:
+   - Convert rupee strings (`₹2.5 Lakh` = 250000, `₹1.2 Cr` = 12000000, `50k` = 50000) into strict `valuePct = (amountInr / targetBudgetInr) * 100` rounded to 1 decimal place for `green` branches, or `inKindValueInr` for non-cash `white` assets.
+4. **Status Mapping**:
+   - Positive confirmed commitments -> `"tick"`
+   - Declined / rejected / no budget -> `"cross"`
+   - Contacted / awaiting reply / follow-up -> `"pending"`
+5. **Referral Chain Detection**:
+   - If a row has a `"Referred By"` or `"Introduced Through"` column naming Organization A, generate:
+     (1) `yellow` branch `A -> Target` (`tick` if intro happened, `pending` if requested), AND
+     (2) `white` branch `Root NGO -> Target` ONLY if the Target directly replied/engaged with the NGO.
+6. **Commit & Tidy**:
+   - Call `batch_import_workflow_rows(workbookId, rows, runTidyUpAfter: true)`.
+   - Report exact counts: imported, deduplicated/reused, skipped cold rows, and any ambiguous rows needing user review.
+
+
+================================================================================
+SECTION 10: MASTER TYPESCRIPT DATA SCHEMA (VERSION 2 — src/types/schema.ts)
+================================================================================
+All files remain 100% JSON-serializable (no Maps, Sets, or class instances) so
+TypeScript, Tauri Rust `serde`, Google Drive JSON files, and the MCP server
+share the exact same contract.
+
+  export type WorkspaceSourceType = 'local' | 'gdrive';
+
+  export type EntityCategory =
+    | 'ngo'
+    | 'csr'
+    | 'government'
+    | 'institution'
+    | 'community'
+    | 'other';
+
+  export type BranchType = 'green' | 'white' | 'yellow';
+  export type BranchStatus = 'pending' | 'tick' | 'cross';
+
+  export type SelectiveIncentiveTag =
+    | 'csr_compliance'
+    | 'brand_visibility'
+    | 'institutional_mandate'
+    | 'policy_influence'
+    | 'network_prestige'
+    | 'asset_activation'
+    | 'community_legitimacy';
+
+  export interface CoOwnershipChecklist {
+    writtenCommitment: boolean;
+    brandOrLogoShared: boolean;
+    staffAssigned: boolean;
+    networkMobilized: boolean;
+  }
+
+  export interface UtilityStrategyWeights {
+    presetName: 'balanced' | 'amplification' | 'delivery' | 'custom';
+    alphaR: number; // Direct commitment & co-ownership
+    alphaA: number; // Ecosystem brokerage / amplification
+    alphaV: number; // Owned relationship conversion
+    alphaC: number; // Multi-thread reinforcement
+  }
+
+  export interface EntityOriginReference {
+    workspaceName: string;
+    workbookTitle: string;
+    originalEntityId: string;
+    importedAt: string;
+  }
+
+  // Stored in <Workspace>/entities.json
+  export interface Entity {
+    entityId: string;
+    name: string;
+    category: EntityCategory;
+    globalNotes: string;
+    importedFrom?: EntityOriginReference; // Present when copied across workspaces
+    createdAt: string;
+    updatedAt: string;
+  }
+
+  export interface EntitiesFile {
+    schemaVersion: 2;
+    revision: number;
+    updatedAt: string;
+    entities: Record<string, Entity>;
+  }
+
+  // Stored inside <Workspace>/workbooks/wb_<id>.json
+  export interface Placement {
+    placementId: string;
+    entityId: string;
+    isRootNgo: boolean;
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+    // Version 2 Public Choice Theory attributes:
+    selectiveIncentives: SelectiveIncentiveTag[];
+    coOwnershipSignals: CoOwnershipChecklist;
+    outreachAttempts: number; // Integer >= 1 (Buchanan-Tullock decision cost)
+  }
+
+  export interface Branch {
+    branchId: string;
+    sourcePlacementId: string;
+    targetPlacementId: string;
+    type: BranchType;
+    status: BranchStatus;
+    valuePct?: number;       // Green only: % of targetBudgetInr
+    inKindValueInr?: number; // White only: optional verifiable asset value
+    note: string;
+    createdAt: string;
+    updatedAt: string;
+    resolvedAt?: string;
+  }
+
+  export type RiskSeverity = 'low' | 'moderate' | 'elevated' | 'critical';
+
+  export interface RiskFailureScenario {
+    id: string;
+    title: string;
+    severity: RiskSeverity;
+    likelihood: 'low' | 'medium' | 'high';
+    triggerCondition: string;
+    affectedPlacementIds: string[];
+    mitigationAction: string;
+    status: 'open' | 'mitigating' | 'resolved';
+  }
+
+  export interface AgentRiskAssessment {
+    assessedAt: string;
+    assessedBy: string; // e.g., "Claude Code via MCP" or "Human"
+    overallPosition: string;
+    parameterCommentary: Record<'R1' | 'R2' | 'R3' | 'R4' | 'R5' | 'R6', string>;
+    failureScenarios: RiskFailureScenario[];
+    publicChoiceDiagnosis: string;
+  }
+
+  export interface AgentMutationStamp {
+    agentName: string;
+    toolName: string;
+    summary: string;
+    timestamp: string;
+  }
+
+  // Stored in <Workspace>/workbooks/wb_<id>.json
+  export interface WorkbookFile {
+    schemaVersion: 2;
+    workbookId: string;
+    revision: number;
+    title: string;
+    description: string;
+    targetBudgetInr: number;
+    status: 'active' | 'draft' | 'archived';
+    utilityWeights: UtilityStrategyWeights;
+    placements: Record<string, Placement>;
+    branches: Record<string, Branch>;
+    riskAssessment?: AgentRiskAssessment;
+    lastAgentMutation?: AgentMutationStamp;
+    createdAt: string;
+    updatedAt: string;
+  }
+
+  export interface WorkbookSummaryRef {
+    workbookId: string;
+    fileName: string; // e.g., "workbooks/wb_youth_exhibition.json"
+    title: string;
+    status: 'active' | 'draft' | 'archived';
+    updatedAt: string;
+  }
+
+  export interface WorkbookLink {
+    linkId: string;
+    sourceWorkbookId: string;
+    targetWorkbookId: string;
+    relationLabel: string;
+    note: string;
+  }
+
+  // Stored in <Workspace>/workspace.json
+  export interface WorkspaceManifest {
+    schemaVersion: 2;
+    workspaceId: string;
+    name: string;
+    revision: number;
+    workbooks: Record<string, WorkbookSummaryRef>;
+    workbookLinks: Record<string, WorkbookLink>;
+    createdAt: string;
+    updatedAt: string;
+  }
+
+  // Device-local read-only index for cross-workspace entity search
+  export interface RecentEntityIndexEntry {
+    entityId: string;
+    name: string;
+    normalizedName: string;
+    category: EntityCategory;
+    workspaceId: string;
+    workspaceName: string;
+    sourceType: WorkspaceSourceType;
+    workbookMentions: Array<{
+      workbookId: string;
+      workbookTitle: string;
+      confirmedWhiteWithNgo: boolean;
+      confirmedYellowOutCount: number;
+      declinedCount: number;
+    }>;
+  }
+
+
+================================================================================
+SECTION 11: PHASED VERSION 2 EXECUTION ORDER & ANTIGRAVITY BUILD PROMPT
+================================================================================
+Do NOT attempt all of Version 2 in one single mega-prompt. Execute in four
+tight, testable milestones (tagging Git after each milestone):
+
+- Milestone 2A (Core Engine & Dashboard):
+  Upgrade schema to v2 -> Build pure `src/engine/utility.ts` (Public Choice) &
+  `src/engine/risk.ts` (Layer 1 6-parameter engine) -> Build Maximized
+  Full-Screen Dashboard + Risk Assessment Box -> Build Hybrid CSV/Excel Export
+  & 3-Door Import -> Apply Impeccable redesign (`PRODUCT.md` + `DESIGN.md`).
+
+- Milestone 2B (Landing Page, Workspace Folder & Cross-Workbook Import):
+  Implement portable Workspace Folder format (`workspace.json`, `entities.json`,
+  `workbooks/*.json`), Landing Page with `Local` badge, Legacy `File` menu bar,
+  collapsible Book Index sidebar, Overview Map toggle, and live cross-workbook
+  entity autocomplete ("collectorate" -> import + optional pending yellow pull).
+
+- Milestone 2C (Local MCP Server & 4 Agent Skills):
+  Create `packages/mcp-server/` sharing `src/engine/*` (layout, utility, risk),
+  implement all 17 `zod`-validated MCP tools + atomic writes + `.snapshots/`,
+  add live file watcher reload + `Undo Agent Change` button, and install the
+  4 `SKILL.md` files into `.agent/skills/`, `.claude/skills/`, `.cursor/skills/`.
+
+- Milestone 2D (Tauri v2 Cross-Platform Desktop/Android + Google Drive Sync):
+  Wrap in Tauri v2 (`src-tauri/`) with native file dialogs, OS file watcher,
+  Android SAF URI bridge (`tauri-plugin-android-fs`) + 36px touch edge controls,
+  and add `GoogleDriveRepository` (`drive.file` OAuth + Google Picker + local
+  mirror cache + conflict resolution modal + `Google Drive` Landing Page badge).
+
+--------------------------------------------------------------------------------
+PASTEABLE ANTIGRAVITY PROMPT — MILESTONE 2A + 2B + 2C IMPLEMENTATION BRIEF
+--------------------------------------------------------------------------------
+Act as a Principal Full-Stack Systems Architect (TypeScript, React Flow, elkjs,
+MCP, and Tauri v2). We are upgrading our working `v1.0-prototype` partnership
+network app to Version 2 strictly following the architecture below.
+
+NON-NEGOTIABLE GUARDRAILS:
+1. ZERO regression of v1 canvas behavior: bottom-to-top `elkjs` (`direction:
+   "UP"`), persistent zero-snap-back dragging, local rectangular anti-overlap,
+   parallel curved Green/White/Yellow branches, inline `EdgeLabelRenderer` tick/
+   cross buttons with `stopPropagation()`, M% pills, and multi-thread badges.
+2. NEVER introduce arbitrary 1-to-5 ratings or static point scores. Implement
+   the exact Public Choice Theory utility formulas (`R_i, A_i, V_i, C_i, U_i,
+   eta_i, S_i, PUI`) in pure `src/engine/utility.ts`.
+3. ZERO machine learning. Implement the exact 6-parameter deterministic Layer 1
+   risk engine (`R1..R6`) in pure `src/engine/risk.ts` + Layer 2 persistent
+   `AgentRiskAssessment` Box.
+4. Keep ALL domain engines (`src/engine/*`) 100% pure TypeScript with zero
+   browser DOM or React imports so `packages/mcp-server` imports them directly.
+5. Keep ALL file/storage operations behind `WorkspaceRepository` supporting the
+   portable Workspace Folder layout (`workspace.json`, `entities.json`,
+   `workbooks/*.json`) so `Local` and `Google Drive` adapters plug in cleanly.
+
+DELIVERABLES FOR THIS SPRINT:
+1. Create `PRODUCT.md` and `DESIGN.md` using the "Archival Book & Ledger" warm
+   paper + high-contrast ink palette (with dark matte toggle) and typography
+   (`Source Serif 4`, `IBM Plex Sans`, `IBM Plex Mono`), compatible with the
+   installed `Impeccable` plugin (`npx impeccable detect src/` must pass with
+   zero slop or contrast findings).
+2. Upgrade `src/types/schema.ts` to Schema Version 2 (with seamless auto-
+   migration from v1 JSON files!).
+3. Build pure `src/engine/utility.ts` and `src/engine/risk.ts` with full unit
+   tests verifying the 11-node Delhi Youth Governance Exhibition seed dataset.
+4. Build the Landing Page (book table of contents) with the persistent Legacy
+   Menu Bar (`File`, `View`, `Tools`), `[Local]` and `[Google Drive]` badges,
+   Overview Map toggle, collapsible in-workbook Book Index sidebar, and live
+   cross-workbook entity autocomplete ("collectorate" lookup + one-click entity
+   import + optional pending yellow lead pull).
+5. Build the Maximized Full-Screen Dashboard (`Cmd/Ctrl + Shift + D`) featuring
+   the Financial/In-Kind Ledger, Public Choice Utility Ledger (editable
+   selective incentives, 4 binary co-ownership checks, outreach attempts, and
+   strategy weight presets), Two-Layer Risk Assessment Box, and inline-editable
+   Node/Branch ledgers.
+6. Build native CSV + multi-tab Excel (`.xlsx`) Export AND the 3-Door Import
+   modal (Structured CSV/XLSX template importer, MCP skill instructions, and
+   dynamic "Copy Web AI Conversion Prompt" generator).
+7. Scaffold `packages/mcp-server/` using `@modelcontextprotocol/sdk` (`stdio`)
+   exposing all 17 tools, atomic temp-file writes, `.snapshots/` pre-write
+   backups, live reload notification, and the 4 `SKILL.md` files under
+   `.agent/skills/`.
+
+
+================================================================================
+SECTION 12: ACADEMIC & TECHNICAL REFERENCES
+================================================================================
+Anthropic. (2024). Introducing the Model Context Protocol.
+  https://www.anthropic.com/news/model-context-protocol
+
+Buchanan, J. M., & Tullock, G. (1962). The Calculus of Consent: Logical
+  Foundations of Constitutional Democracy. University of Michigan Press.
+
+Burt, R. S. (1992). Structural Holes: The Social Structure of Competition.
+  Harvard University Press.
+
+Campbell, D. T. (1979). Assessing the impact of planned social change.
+  Evaluation and Program Planning, 2(1), 67-90.
+
+Centola, D., & Macy, M. (2007). Complex contagions and the weakness of long
+  ties. American Journal of Sociology, 113(3), 702-734.
+
+Codd, E. F. (1970). A relational model of data for large shared data banks.
+  Communications of the ACM, 13(6), 377-387.
+
+Downs, A. (1957). An Economic Theory of Democracy. Harper & Row.
+
+Dwyer, T., Marriott, K., & Stuckey, P. J. (2006). Fast node overlap removal.
+  Graph Drawing (GD 2005), 153-164. Springer.
+
+Earl, S., Carden, F., & Smutylo, T. (2001). Outcome Mapping: Building Learning
+  and Reflection into Development Programs. IDRC.
+
+Freeman, L. C. (1979). Centrality in social networks: Conceptual clarification.
+  Social Networks, 1(3), 215-239.
+
+Ghoniem, M., Fekete, J.-D., & Castagliola, P. (2005). On the readability of
+  graphs using node-link and matrix-based representations. Information
+  Visualization, 4(2), 114-135.
+
+Google. (2026). Google Drive API Overview & Drive API Scopes (`drive.file`).
+  https://developers.google.com/workspace/drive/api/guides/about-sdk
+
+Granovetter, M. S. (1973). The strength of weak ties. American Journal of
+  Sociology, 78(6), 1360-1380.
+
+Kivela, M., Arenas, A., Barthelemy, M., Gleeson, J. P., Moreno, Y., & Porter,
+  M. A. (2014). Multilayer networks. Journal of Complex Networks, 2(3), 203-271.
+
+Mueller, D. C. (2003). Public Choice III. Cambridge University Press.
+
+Muller, J. Z. (2018). The Tyranny of Metrics. Princeton University Press.
+
+Niskanen, W. A. (1971). Bureaucracy and Representative Government. Aldine.
+
+Olson, M. (1965). The Logic of Collective Action: Public Goods and the Theory
+  of Groups. Harvard University Press.
+
+Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for
+  Collective Action. Cambridge University Press.
+
+Bakaus, P. (2026). Impeccable: The design vocabulary for your coding agent.
+  https://github.com/pbakaus/impeccable
+
+SQLite. (2026). How to corrupt an SQLite database file.
+  https://www.sqlite.org/howtocorrupt.html
+
+Stevens, S. S. (1946). On the theory of scales of measurement. Science,
+  103(2684), 677-680.
+
+Strathern, M. (1997). 'Improving ratings': audit in the British University
+  system. European Review, 5(3), 305-321.
+
+Sugiyama, K., Tagawa, S., & Toda, M. (1981). Methods for visual understanding
+  of hierarchical system structures. IEEE Trans. SMC, 11(2), 109-125.
+
+Tauri. (2026). Tauri 2.0 Documentation & Plugins. https://v2.tauri.app/
+
+Wasserman, S., & Faust, K. (1994). Social Network Analysis: Methods and
+  Applications. Cambridge University Press.

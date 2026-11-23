@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-canvas: #FAF8F4;
+  --bg-surface: #F2EFE9;
+  --bg-card: #EDE8DE;
+  --border-hairline: #5A554C;
+  --border-strong: #1C1B18;
+  --ink-primary: #1C1B18;
+  --ink-secondary: #5A554C;
+  --ink-muted: #8A8377;
+
+  --color-green-tick: #0F6B38;
+  --color-green-pending: #2E7D52;
+  --color-green-cross: #8FA397;
+
+  --color-white-tick: #18181B;
+  --color-white-pending: #475569;
+  --color-white-cross: #B4AEA3;
+
+  --color-yellow-tick: #B45309;
+  --color-yellow-pending: #C2850C;
+  --color-yellow-cross: #C2B9A7;
+
+  color-scheme: light;
+}
+
+.dark {
+  --bg-canvas: #121417;
+  --bg-surface: #181B20;
+  --bg-card: #1E2228;
+  --border-hairline: #2D333B;
+  --border-strong: #4B5563;
+  --ink-primary: #F4F2ED;
+  --ink-secondary: #9CA3AF;
+  --ink-muted: #6B7280;
+
+  --color-green-tick: #34D399;
+  --color-green-pending: #2E7D52;
+  --color-green-cross: #8FA397;
+
+  --color-white-tick: #F8FAFC;
+  --color-white-pending: #475569;
+  --color-white-cross: #B4AEA3;
+
+  --color-yellow-tick: #FACC15;
+  --color-yellow-pending: #C2850C;
+  --color-yellow-cross: #C2B9A7;
+
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-canvas);
+  color: var(--ink-primary);
+  font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tabular figures for all quantitative metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Node Search Flash Beacon Animation */
+@keyframes node-flash-glow-dark {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px rgba(245, 158, 11, 0.4);
+    border-color: #F59E0B;
+  }
+  50% {
+    box-shadow: 0 0 35px 10px rgba(251, 191, 36, 0.95);
+    border-color: #FDE047;
+  }
+}
+
+@keyframes node-flash-glow-light {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px rgba(180, 83, 9, 0.4);
+    border-color: #B45309;
+  }
+  50% {
+    box-shadow: 0 0 35px 10px rgba(180, 83, 9, 0.95);
+    border-color: #D97706;
+  }
+}
+
+.node-flash-active-dark {
+  animation: node-flash-glow-dark 0.6s ease-in-out infinite !important;
+  border-width: 3px !important;
+  z-index: 50 !important;
+}
+
+.node-flash-active-light {
+  animation: node-flash-glow-light 0.6s ease-in-out infinite !important;
+  border-width: 3px !important;
+  z-index: 50 !important;
+}

@@ -1,0 +1,45 @@
+{
+  "name": "qualcount",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && node scripts/build-mcp.mjs",
+    "build:mcp": "node scripts/build-mcp.mjs",
+    "build:exe": "node scripts/build-exe.mjs",
+    "preview": "vite preview",
+    "test": "tsx test/phase1.test.ts && tsx test/phase2.test.ts && tsx test/phase3.test.ts && tsx test/phase4.test.ts && tsx test/debug_features.test.ts && tsx test/advanced_interactions.test.ts && tsx test/modifications_verification.test.ts && tsx test/filter_and_dock.test.ts && tsx test/neon_dashboard_and_poc.test.ts && tsx test/schema_v2.test.ts && tsx test/engine/utility.test.ts && tsx test/engine/risk.test.ts && tsx test/spreadsheet_io.test.ts && tsx test/folder_storage.test.ts && tsx test/landing_page_and_navigation.test.ts && tsx test/entity_autocomplete.test.ts && tsx test/mcp_server_and_skills.test.ts && tsx test/workspace_crud_and_filters.test.ts && tsx test/large_json_import.test.ts && tsx test/light_mode_and_drag_drop.test.ts && tsx test/single_workbook_and_search.test.ts && tsx test/selection_features.test.ts",
+    "test:phase1": "tsx test/phase1.test.ts",
+    "test:phase2": "tsx test/phase2.test.ts",
+    "test:phase3": "tsx test/phase3.test.ts",
+    "test:phase4": "tsx test/phase4.test.ts",
+    "test:phase5": "tsx test/schema_v2.test.ts && tsx test/engine/utility.test.ts && tsx test/engine/risk.test.ts && tsx test/spreadsheet_io.test.ts",
+    "test:phase6": "tsx test/folder_storage.test.ts && tsx test/landing_page_and_navigation.test.ts && tsx test/entity_autocomplete.test.ts",
+    "test:phase7": "tsx test/mcp_server_and_skills.test.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@xyflow/react": "^12.3.6",
+    "clsx": "^2.1.1",
+    "elkjs": "^0.9.3",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.5",
+    "zod": "^4.6.7",
+    "zustand": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.15",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7"
+  }
+}

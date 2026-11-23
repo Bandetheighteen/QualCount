@@ -1,0 +1,4258 @@
+{
+  "schemaVersion": 1,
+  "activeWorkbookId": "wb-bhuj-yciv-exhibition",
+  "entities": {
+    "ent-hunnarshala-foundation": {
+      "entityId": "ent-hunnarshala-foundation",
+      "name": "Hunnarshala Foundation",
+      "category": "ngo",
+      "globalNotes": "Root host organization running the Youth Civic Media (YCIV) exhibition in Bhuj (Sandeep Virmani; outreach lead: Shounak). Excel #15.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-fondation-botnar": {
+      "entityId": "ent-fondation-botnar",
+      "name": "Fondation Botnar",
+      "category": "csr",
+      "globalNotes": "Primary international philanthropic donor funding the Youth Civic Media (YCIV) programme in Bhuj.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-univ-sheffield": {
+      "entityId": "ent-univ-sheffield",
+      "name": "University of Sheffield",
+      "category": "institution",
+      "globalNotes": "International academic research and funding partner for the Youth Civic Media programme.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-iit-bombay": {
+      "entityId": "ent-iit-bombay",
+      "name": "IIT Bombay",
+      "category": "institution",
+      "globalNotes": "Indian academic funding partner providing technical collaboration and direct access to MoHUA.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kachchh-museum": {
+      "entityId": "ent-kachchh-museum",
+      "name": "Kachchh Museum (KM)",
+      "category": "institution",
+      "globalNotes": "Oldest museum in Gujarat (est. 1877). Offered exhibition space free of charge to co-organize the event and served as the primary bridge providing contacts and pre-visit context to every Bhuj/Kachchh government agency. Lead: Shounak. Excel #91.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-hic-bhuj": {
+      "entityId": "ent-hic-bhuj",
+      "name": "Homes in the City (HIC)",
+      "category": "ngo",
+      "globalNotes": "Sister urban collective in Bhuj co-organizing the entire exhibition programme (Jaibhai). Mobilizes NGOs, CSRs, heritage venues, civic clubs, and schools.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-setu-abhiyan": {
+      "entityId": "ent-setu-abhiyan",
+      "name": "SETU Abhiyan (Urban Setu)",
+      "category": "ngo",
+      "globalNotes": "Sister organization in Bhuj (POC: Bhawsinh / Vishrambhai; lead: Shounak). Key bridge into municipal governance, Mayor, and ward committees. Excel #2.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kmvs": {
+      "entityId": "ent-kmvs",
+      "name": "KMVS (Kutch Mahila Vikas Sangathan)",
+      "category": "ngo",
+      "globalNotes": "Sister organization in Bhuj (POC: Krutiben / Arunaben; Jigna Ben works here; lead: Nilam Ben). Bridges women's welfare, legal aid, and district protection agencies. Excel #5.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kyns": {
+      "entityId": "ent-kyns",
+      "name": "KYNS (Kutch Yuva Navnirman Samaj)",
+      "category": "ngo",
+      "globalNotes": "Youth civic collective partnered with HIC to reach Bhuj schools and colleges for the exhibition. Excel #72-#77.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-mohua": {
+      "entityId": "ent-mohua",
+      "name": "Ministry of Housing & Urban Affairs (MoHUA)",
+      "category": "government",
+      "globalNotes": "Union ministry accessed via IIT Bombay; opened institutional pathway to NITI Aayog for national legitimacy.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-niti-aayog": {
+      "entityId": "ent-niti-aayog",
+      "name": "NITI Aayog",
+      "category": "government",
+      "globalNotes": "Apex national public policy body accessed via MoHUA; provided institutional legitimacy to run the exhibition and engage state/district departments with confidence.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-district-collector": {
+      "entityId": "ent-district-collector",
+      "name": "District Collector (Kachchh)",
+      "category": "government",
+      "globalNotes": "Chief Guest for the Bhuj exhibition inauguration. Contact & context laid by Kachchh Museum (KM) and reinforced by NITI Aayog legitimacy. Excel #52, Inaug #8/#11.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhuj-nagarpalika": {
+      "entityId": "ent-bhuj-nagarpalika",
+      "name": "Bhuj Nagarpalika (CO Twinkle Patel)",
+      "category": "government",
+      "globalNotes": "Bhuj municipal administration and officers including CO Twinkle Patel. Lead: Shounak + HIC + Vishram. Excel #50, Inaug #9.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhada": {
+      "entityId": "ent-bhada",
+      "name": "BHADA (Bhuj Area Development Authority)",
+      "category": "government",
+      "globalNotes": "Urban planning and development authority for Bhuj. Lead: Shounak + HIC + Vishram. Excel #51, Inaug #10.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-mayor-shital-shah": {
+      "entityId": "ent-mayor-shital-shah",
+      "name": "Mayor of Bhuj (Shital Shah)",
+      "category": "government",
+      "globalNotes": "Civic head of Bhuj Municipality (POC: Dharmeshbhai; lead: HIC + SETU). Excel #53, Inaug #1/#12.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-ward-councillors": {
+      "entityId": "ent-ward-councillors",
+      "name": "Ward Councillors (Bhuj)",
+      "category": "government",
+      "globalNotes": "Elected municipal ward councillors (POC: Bhawsinh; lead: Shounak). Excel #54, Inaug #6/#13.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-ward-committee-members": {
+      "entityId": "ent-ward-committee-members",
+      "name": "Ward Committee Members",
+      "category": "government",
+      "globalNotes": "Local ward-level governance members (lead: Shounak + Urban Setu). Excel #55, Inaug #7/#14.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-gpcb": {
+      "entityId": "ent-gpcb",
+      "name": "GPCB (Gujarat Pollution Control Board)",
+      "category": "government",
+      "globalNotes": "State pollution control regional office in Bhuj (POC: Sumit Chauhan; lead: HIC). Excel #56, Inaug #15.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-environmental-engineer": {
+      "entityId": "ent-environmental-engineer",
+      "name": "Environmental Engineer (Bhuj)",
+      "category": "government",
+      "globalNotes": "Municipal/regional environmental engineering office listed on Inauguration List (#17).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-deputy-sp-lady": {
+      "entityId": "ent-deputy-sp-lady",
+      "name": "Deputy SP (Lady) - Kachchh Police",
+      "category": "government",
+      "globalNotes": "Senior district police officer (lead: Nilam Ben). Excel #93, Inaug #22.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-ips-sandra": {
+      "entityId": "ent-ips-sandra",
+      "name": "IPS Officer (Sandra & Wife)",
+      "category": "government",
+      "globalNotes": "Senior IPS officer in Kachchh (lead: Nilam Ben). Excel #94, Inaug #23.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-asi-gunjan-shrivastava": {
+      "entityId": "ent-asi-gunjan-shrivastava",
+      "name": "ASI / ASIO (Gunjan Shrivastava)",
+      "category": "government",
+      "globalNotes": "Archaeological Survey of India / Officer (merged Excel #95 'ASI - Gunjan Shrivastava' and Inaug #24 'ASIO'; both marked KM).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-wdo-kachchh": {
+      "entityId": "ent-wdo-kachchh",
+      "name": "WDO (Women Development Office)",
+      "category": "government",
+      "globalNotes": "District Women Development / WCD Office (lead: Shounak; POC: Jigna Ben, KMVS). Excel #108, Inaug #16.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-disp-kachchh": {
+      "entityId": "ent-disp-kachchh",
+      "name": "District Protection / Welfare Office (Disp)",
+      "category": "government",
+      "globalNotes": "Listed as 'Disp' in outreach sheet under Shounak with POC Jigna Ben (KMVS); exact abbreviation kept transparent. Excel #109.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-dlsa-kachchh": {
+      "entityId": "ent-dlsa-kachchh",
+      "name": "District Legal Services Authority (DLSA)",
+      "category": "government",
+      "globalNotes": "District legal aid authority at Kachchh District Court (lead: Shounak; POC: Jigna Ben, KMVS). Excel #110.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-nyks-bhuj": {
+      "entityId": "ent-nyks-bhuj",
+      "name": "NYKS (Nehru Yuva Kendra Sangathan)",
+      "category": "government",
+      "globalNotes": "District youth mobilization office, Bahumali Bhavan, Bhuj. Bridged directly by Kachchh Museum. Excel #111, Inaug #18.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-youth-dev-office": {
+      "entityId": "ent-youth-dev-office",
+      "name": "Youth Development Office (Devanshi Gadhvi)",
+      "category": "government",
+      "globalNotes": "District Youth Development Officer, Bhuj. Bridged directly by Kachchh Museum. Excel #112, Inaug #19.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-mahiti-bhavan": {
+      "entityId": "ent-mahiti-bhavan",
+      "name": "Mahiti Bhavan (Directorate of Information)",
+      "category": "government",
+      "globalNotes": "District Information Office, opposite Bahumali Bhavan, Bhuj. Bridged directly by Kachchh Museum. Excel #115.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-samaj-suraksha-adhikari": {
+      "entityId": "ent-samaj-suraksha-adhikari",
+      "name": "Samaj Suraksha Adhikari (Social Defence)",
+      "category": "government",
+      "globalNotes": "District Social Defence Officer, Kachchh. Listed on Inauguration List (#27).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-vc-kutch-univ": {
+      "entityId": "ent-vc-kutch-univ",
+      "name": "VC Kutch University (Mohan Patel)",
+      "category": "institution",
+      "globalNotes": "Vice Chancellor of Krantiguru Shyamji Krishna Verma Kachchh University. Bridged by Kachchh Museum. Excel #114, Inaug #21.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-dean-kutch-univ": {
+      "entityId": "ent-dean-kutch-univ",
+      "name": "Dean Kutch University (Karishma Ji)",
+      "category": "institution",
+      "globalNotes": "Dean at Kachchh University. Bridged by Kachchh Museum. Excel #113, Inaug #20.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kutch-university": {
+      "entityId": "ent-kutch-university",
+      "name": "Kutch University (Media & MSW)",
+      "category": "institution",
+      "globalNotes": "Primary university reached out for the Bhuj exhibition (lead: Jaibhai/Ashwin/Nilam Ben), reinforced by KM's VC and Dean bridges. Excel #57.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-lallan-college": {
+      "entityId": "ent-lallan-college",
+      "name": "Lallan College",
+      "category": "institution",
+      "globalNotes": "Excluded / not reached out per Shounak's direction (originally listed under Jaibhai/Ayesha). Excel #58.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-tolani-college": {
+      "entityId": "ent-tolani-college",
+      "name": "Tolani College",
+      "category": "institution",
+      "globalNotes": "College outreach via Shounak's own contact and Vishal. Excel #60 ('Tuloni college').",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-mahila-college": {
+      "entityId": "ent-mahila-college",
+      "name": "Mahila College",
+      "category": "institution",
+      "globalNotes": "College outreach via Shounak's contact and Sherbanu. Excel #67.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-jp-thakkar-college": {
+      "entityId": "ent-jp-thakkar-college",
+      "name": "JP Thakkar Commerce College",
+      "category": "institution",
+      "globalNotes": "College outreach via Shounak's own contact. Excel #69.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sanskar-college": {
+      "entityId": "ent-sanskar-college",
+      "name": "Sanskar College",
+      "category": "institution",
+      "globalNotes": "College outreach via Shounak's contact plus KYNS + HIC. Excel #77.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-chanakya-physio-college": {
+      "entityId": "ent-chanakya-physio-college",
+      "name": "Chanakya College of Physiotherapy",
+      "category": "institution",
+      "globalNotes": "College outreach via Shounak's contact (POC: Kavita). Excel #78.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-engineering-college-bhuj": {
+      "entityId": "ent-engineering-college-bhuj",
+      "name": "Government Engineering College, Bhuj",
+      "category": "institution",
+      "globalNotes": "College outreach via Shounak's own contact. Excel #81 ('Engineering Colage').",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-iti-bhuj": {
+      "entityId": "ent-iti-bhuj",
+      "name": "ITI Bhuj",
+      "category": "institution",
+      "globalNotes": "Industrial Training Institute reached via Mubin & Shounak's contact. Excel #66.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-uee-schools": {
+      "entityId": "ent-uee-schools",
+      "name": "UEE Schools (Urban Env. Education)",
+      "category": "institution",
+      "globalNotes": "12 Bhuj public schools under HIC's Urban Environment Education programme (lead: Nainaben). Excel #59.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-shishukunj": {
+      "entityId": "ent-shishukunj",
+      "name": "Shishukunj",
+      "category": "institution",
+      "globalNotes": "School/youth centre (POC: Sandhya Acharya; lead: Nilam Ben). Excel #61.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-matruchaya-school": {
+      "entityId": "ent-matruchaya-school",
+      "name": "Matruchaya School",
+      "category": "institution",
+      "globalNotes": "Local Bhuj school. Excel #63.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-muslim-education-school": {
+      "entityId": "ent-muslim-education-school",
+      "name": "Muslim Education School",
+      "category": "institution",
+      "globalNotes": "Local Bhuj school (lead: Ayesha). Excel #64.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-indirabai-school": {
+      "entityId": "ent-indirabai-school",
+      "name": "Indirabai School",
+      "category": "institution",
+      "globalNotes": "Local Bhuj school (lead: Maria). Excel #65.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sumati-alpha-tuition": {
+      "entityId": "ent-sumati-alpha-tuition",
+      "name": "Sumati & Alpha Tuition",
+      "category": "institution",
+      "globalNotes": "Local student coaching centre (lead: Mubin). Excel #68.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sikander-academy": {
+      "entityId": "ent-sikander-academy",
+      "name": "Sikander Academy",
+      "category": "institution",
+      "globalNotes": "Local academy (lead: Ayesha). Excel #70.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-desai-academy": {
+      "entityId": "ent-desai-academy",
+      "name": "Desai Academy",
+      "category": "institution",
+      "globalNotes": "Local academy. Excel #80.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhuj-english-school": {
+      "entityId": "ent-bhuj-english-school",
+      "name": "Bhuj English School",
+      "category": "institution",
+      "globalNotes": "School reached via KYNS + HIC. Excel #72.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-vd-school": {
+      "entityId": "ent-vd-school",
+      "name": "VD School",
+      "category": "institution",
+      "globalNotes": "School reached via KYNS + HIC. Excel #73.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-st-xaviers-school": {
+      "entityId": "ent-st-xaviers-school",
+      "name": "St. Xavier's School",
+      "category": "institution",
+      "globalNotes": "School reached via KYNS + HIC. Excel #74.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-white-house-public-school": {
+      "entityId": "ent-white-house-public-school",
+      "name": "White House Public School",
+      "category": "institution",
+      "globalNotes": "School reached via KYNS + HIC. Excel #75.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-andrews-school": {
+      "entityId": "ent-andrews-school",
+      "name": "St. Andrew's School",
+      "category": "institution",
+      "globalNotes": "School reached via KYNS + HIC. Excel #76.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-khamir": {
+      "entityId": "ent-khamir",
+      "name": "Khamir",
+      "category": "ngo",
+      "globalNotes": "Crafts and heritage NGO in Kukma/Bhuj (POC: Kavya Saxena / Ghatit bhai; lead: Nilam Ben; merged Inaug #29 'ghatit bhai'). Excel #1.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-lldc-shrujan": {
+      "entityId": "ent-lldc-shrujan",
+      "name": "LLDC / Shrujan",
+      "category": "ngo",
+      "globalNotes": "Living and Learning Design Centre / Shrujan (POC: Kiritbhai / Amiben / Nimesh Bhai; lead: Nilam Ben; merged Inaug #4). Excel #3.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-qasab": {
+      "entityId": "ent-qasab",
+      "name": "Qasab (Kutch Craft Collective)",
+      "category": "ngo",
+      "globalNotes": "Artisan collective (POC: Pankaj bhai / Puneet). Excel #6.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-cedo": {
+      "entityId": "ent-cedo",
+      "name": "CEDO (Centre for Environment & Dev.)",
+      "category": "ngo",
+      "globalNotes": "Local environmental NGO (POC: Jugal Kishore; lead: Ashwin). Excel #7.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sahjeevan": {
+      "entityId": "ent-sahjeevan",
+      "name": "Sahjeevan",
+      "category": "ngo",
+      "globalNotes": "Core HIC partner NGO working on water, pastoralism, and urban ecology (POC: Kavitaben; lead: Nilam Ben). Excel #8.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kala-varso": {
+      "entityId": "ent-kala-varso",
+      "name": "Kala Varso",
+      "category": "ngo",
+      "globalNotes": "Cultural and heritage organization (POC: Bharmal Sanjot; lead: Jaibhai). Excel #9.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-satvik": {
+      "entityId": "ent-satvik",
+      "name": "Satvik",
+      "category": "ngo",
+      "globalNotes": "Organic farming & livelihood NGO (POC: Pravin Mucadiya; lead: HIC). Excel #10.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-act-bhuj": {
+      "entityId": "ent-act-bhuj",
+      "name": "ACT (Arid Communities & Technologies)",
+      "category": "ngo",
+      "globalNotes": "Core HIC partner NGO working on urban water/hydrology (POC: Yogeshbhai; lead: HIC + Shounak). Excel #11.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-aina-bhuj": {
+      "entityId": "ent-aina-bhuj",
+      "name": "AINA (Artisans in Architecture)",
+      "category": "ngo",
+      "globalNotes": "Artisan architecture collective linked with Hunnarshala/HIC (POC: Mahavirbhai; lead: HIC + Shounak). Excel #12.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-karigarshala": {
+      "entityId": "ent-karigarshala",
+      "name": "Karigarshala",
+      "category": "ngo",
+      "globalNotes": "Artisan training school affiliated with Hunnarshala (POC: Atulbhai / Kiranbhai; lead: HIC + Shounak). Excel #13.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sankalan": {
+      "entityId": "ent-sankalan",
+      "name": "Sankalan",
+      "category": "ngo",
+      "globalNotes": "Partner organization in Bhuj (POC: Tejasbhai; lead: HIC + Shounak). Excel #14.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kutch-history-assoc": {
+      "entityId": "ent-kutch-history-assoc",
+      "name": "Kutch History Association",
+      "category": "ngo",
+      "globalNotes": "Local heritage & history society (POC: Bhupendra Mehta; lead: HIC). Excel #71.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-agrocell-csr": {
+      "entityId": "ent-agrocell-csr",
+      "name": "Agrocel (Agrocell CSR)",
+      "category": "csr",
+      "globalNotes": "Local Kutch chemical/agribusiness CSR (deduplicated Excel #4 Nilam Ben POC Biren/Preetiben, #19 HIC + Shounak, and Inaug #3 Dipesh Bhai Agrocell).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-ashapura-foundation": {
+      "entityId": "ent-ashapura-foundation",
+      "name": "Ashapura Foundation",
+      "category": "csr",
+      "globalNotes": "Corporate foundation in Kutch (POC: Harish bhai; lead: HIC + Shounak). Excel #16.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bkt-csr": {
+      "entityId": "ent-bkt-csr",
+      "name": "BKT CSR",
+      "category": "csr",
+      "globalNotes": "Balkrishna Industries CSR arm in Bhuj (lead: HIC + Shounak). Excel #17.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-adani-csr": {
+      "entityId": "ent-adani-csr",
+      "name": "Adani Foundation / CSR",
+      "category": "csr",
+      "globalNotes": "Corporate CSR presence in Kutch (lead: HIC + Shounak). Excel #18.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-suzlon-csr": {
+      "entityId": "ent-suzlon-csr",
+      "name": "Suzlon Foundation / CSR",
+      "category": "csr",
+      "globalNotes": "Renewable energy CSR arm in Kutch (lead: HIC + Shounak). Excel #20.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-welspun-csr": {
+      "entityId": "ent-welspun-csr",
+      "name": "Welspun Foundation / CSR",
+      "category": "csr",
+      "globalNotes": "Industrial CSR arm in Kutch (lead: HIC + Shounak). Excel #21.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-axis-bank-csr": {
+      "entityId": "ent-axis-bank-csr",
+      "name": "Axis Bank CSR",
+      "category": "csr",
+      "globalNotes": "Banking CSR outreach in Bhuj (lead: HIC + Shounak). Excel #22.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-tvc-street-vendors": {
+      "entityId": "ent-tvc-street-vendors",
+      "name": "TVC / Street Vendors Federation",
+      "category": "ngo",
+      "globalNotes": "Bhuj Town Vending Committee & street vendor collective (POC: Mayurbhai; lead: Shounak). Excel #30.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sakhi-sangini": {
+      "entityId": "ent-sakhi-sangini",
+      "name": "Sakhi Sangini Federation",
+      "category": "ngo",
+      "globalNotes": "Urban women's SHG federation partnered with KMVS & HIC (POC: Hansaben; lead: Shounak). Excel #31.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-cyclists-group": {
+      "entityId": "ent-cyclists-group",
+      "name": "Bhuj Cyclists (White Eagle Group)",
+      "category": "ngo",
+      "globalNotes": "Civic cycling collective (POC: White Eagle Group; lead: Jaibhai). Excel #32.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-marathon-group": {
+      "entityId": "ent-marathon-group",
+      "name": "Bhuj Marathon Group",
+      "category": "ngo",
+      "globalNotes": "Civic running collective (lead: Nilam Ben). Excel #33.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-mahila-mandal": {
+      "entityId": "ent-mahila-mandal",
+      "name": "Mahila Mandal",
+      "category": "ngo",
+      "globalNotes": "Local women's community group (lead: Mayaben). Excel #34.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhuj-bengali-assoc": {
+      "entityId": "ent-bhuj-bengali-assoc",
+      "name": "Bhuj Bengali Association",
+      "category": "ngo",
+      "globalNotes": "Cultural community association (lead: Shounak). Excel #35.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-camp-area-women": {
+      "entityId": "ent-camp-area-women",
+      "name": "Camp Area Women Collective",
+      "category": "ngo",
+      "globalNotes": "Community women's group in Bhuj Camp area (lead: Yasmin). Excel #82.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-block-printers-bandhani": {
+      "entityId": "ent-block-printers-bandhani",
+      "name": "Block Printers & Bandhani Artisans",
+      "category": "ngo",
+      "globalNotes": "Local craft artisan community (lead: Nilam Ben). Excel #83.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhujodi-youth": {
+      "entityId": "ent-bhujodi-youth",
+      "name": "Bhujodi Youth Group",
+      "category": "ngo",
+      "globalNotes": "Youth group from Bhujodi craft village (lead: Khushboo). Excel #84.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sathwara-community": {
+      "entityId": "ent-sathwara-community",
+      "name": "Sathwara Community",
+      "category": "ngo",
+      "globalNotes": "Local Bhuj community group (lead: Divya). Excel #85.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-mehendi-class-group": {
+      "entityId": "ent-mehendi-class-group",
+      "name": "Mehendi Class Youth Group",
+      "category": "ngo",
+      "globalNotes": "Local women's skill group (lead: Amreen, Afreen). Excel #86.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-safai-karamchari-valmiki": {
+      "entityId": "ent-safai-karamchari-valmiki",
+      "name": "Safai Karamchari / Valmiki Samaj",
+      "category": "ngo",
+      "globalNotes": "Sanitation workers community group (lead: Yasmin). Excel #87.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bandhani-women-camp": {
+      "entityId": "ent-bandhani-women-camp",
+      "name": "Bandhani Women (Camp Area)",
+      "category": "ngo",
+      "globalNotes": "Artisan women's group in Camp area (lead: Maria, Amrin, Diya). Excel #88.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-fokia": {
+      "entityId": "ent-fokia",
+      "name": "FOKIA (Fed. of Kutch Industries)",
+      "category": "institution",
+      "globalNotes": "Federation of Kutch Industries Associations (lead: HIC + Shounak). Excel #23.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhuj-chamber-commerce": {
+      "entityId": "ent-bhuj-chamber-commerce",
+      "name": "Bhuj Chamber of Commerce",
+      "category": "institution",
+      "globalNotes": "Local trade and commerce body (lead: HIC + Shounak). Excel #24.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bar-association": {
+      "entityId": "ent-bar-association",
+      "name": "Bhuj Bar Association",
+      "category": "institution",
+      "globalNotes": "District legal professionals association (lead: HIC + Shounak). Excel #25.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-engineers-association": {
+      "entityId": "ent-engineers-association",
+      "name": "Engineers Association (Bhuj)",
+      "category": "institution",
+      "globalNotes": "Local engineering professionals association (lead: HIC + Shounak). Excel #26.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhuj-city-council": {
+      "entityId": "ent-bhuj-city-council",
+      "name": "Bhuj City Council",
+      "category": "institution",
+      "globalNotes": "Civic forum (lead: HIC + Shounak). Excel #27.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-rotary-club-bhuj": {
+      "entityId": "ent-rotary-club-bhuj",
+      "name": "Rotary Club Library & Rotaract",
+      "category": "institution",
+      "globalNotes": "Rotary Club & Rotaract Bhuj (POC: Vijay; lead: Nilam Ben). Excel #38, Inaug #26.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-lions-club-bhuj": {
+      "entityId": "ent-lions-club-bhuj",
+      "name": "Lions Club Bhuj",
+      "category": "institution",
+      "globalNotes": "Civic service club (lead: Shounak, Nilam Ben). Excel #39, Inaug #25.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-leo-club-bhuj": {
+      "entityId": "ent-leo-club-bhuj",
+      "name": "Leo Club Bhuj",
+      "category": "institution",
+      "globalNotes": "Youth wing of Lions Club (lead: Deep, Shounak). Excel #40.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-giants-group": {
+      "entityId": "ent-giants-group",
+      "name": "Giants Group (Hospital Road)",
+      "category": "institution",
+      "globalNotes": "Civic service group (POC: Dr. Madhukant Acharya; lead: HIC). Excel #41.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-ppc-club": {
+      "entityId": "ent-ppc-club",
+      "name": "PPC Club Bhuj",
+      "category": "institution",
+      "globalNotes": "Local club (lead: HIC). Excel #42.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-flamingo-club": {
+      "entityId": "ent-flamingo-club",
+      "name": "Rotary Club of Bhuj Flamingo",
+      "category": "institution",
+      "globalNotes": "Local Rotary Flamingo club. Excel #43 ('Flamingo').",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-vijayraji-library": {
+      "entityId": "ent-vijayraji-library",
+      "name": "Vijayraji Library",
+      "category": "institution",
+      "globalNotes": "Historic public library in Bhuj (lead: Shounak). Excel #44.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-photographic-society-kutch": {
+      "entityId": "ent-photographic-society-kutch",
+      "name": "Photographic Society of Kutch",
+      "category": "institution",
+      "globalNotes": "Local photography guild (POC: Ashutosh Gor; lead: Nilam Ben; merged Excel #79 'Ashutosh gor?'). Excel #45.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-indian-medical-assoc": {
+      "entityId": "ent-indian-medical-assoc",
+      "name": "Indian Medical Association (Bhuj)",
+      "category": "institution",
+      "globalNotes": "Local doctors association (deduplicated Excel #46 & #107; lead: HIC).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-sarvottam-bhuj": {
+      "entityId": "ent-sarvottam-bhuj",
+      "name": "Sarvottam Bhuj",
+      "category": "institution",
+      "globalNotes": "Local civic citizens' initiative (lead: HIC). Excel #47.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kachchh-sahitya-academy": {
+      "entityId": "ent-kachchh-sahitya-academy",
+      "name": "Kachchh Sahitya Academy",
+      "category": "institution",
+      "globalNotes": "Regional literary institution (lead: Nilam Ben). Excel #48.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-aina-mahal": {
+      "entityId": "ent-aina-mahal",
+      "name": "Aina Mahal Trust (Shriraj / Dalpat)",
+      "category": "institution",
+      "globalNotes": "Historic palace museum in Bhuj (POC: Shriraj; merged Inaug #28 'aina meher - dalpat bhai'; lead: HIC). Excel #90.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-prag-mahal": {
+      "entityId": "ent-prag-mahal",
+      "name": "Prag Mahal",
+      "category": "institution",
+      "globalNotes": "Historic palace venue in Bhuj (POC: Shriraj; lead: HIC). Excel #92.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-aashapura-mandir": {
+      "entityId": "ent-aashapura-mandir",
+      "name": "Aashapura Mandir Trust",
+      "category": "institution",
+      "globalNotes": "Major local religious & heritage trust (lead: HIC). Excel #96.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-khatri-chowk": {
+      "entityId": "ent-khatri-chowk",
+      "name": "Khatri Chowk Guild",
+      "category": "institution",
+      "globalNotes": "Historic Bhuj craft & market quarter (lead: Nilam Ben). Excel #97.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-hamirsar-civic": {
+      "entityId": "ent-hamirsar-civic",
+      "name": "Hamirsar Lakefront Group",
+      "category": "institution",
+      "globalNotes": "Civic stakeholders around Hamirsar Lake, opposite Kachchh Museum (lead: Shounak). Excel #98.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-officers-club": {
+      "entityId": "ent-officers-club",
+      "name": "Officers Club Bhuj",
+      "category": "institution",
+      "globalNotes": "Senior administrative & civic officers club (lead: HIC). Excel #99.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-bhuj-house": {
+      "entityId": "ent-bhuj-house",
+      "name": "Bhuj House (Jhan Bhujwala)",
+      "category": "institution",
+      "globalNotes": "Heritage hospitality & cultural space (POC: Jhan Bhujwala; lead: HIC). Excel #100.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-abdul-instagram-page": {
+      "entityId": "ent-abdul-instagram-page",
+      "name": "Abdul Instagram Page",
+      "category": "institution",
+      "globalNotes": "Local youth digital creator & social page (lead: Abdul). Excel #89.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-neha-kutch-page": {
+      "entityId": "ent-neha-kutch-page",
+      "name": "Neha (Kutch Page)",
+      "category": "institution",
+      "globalNotes": "Local digital media page (lead: HIC). Excel #101.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-kirti-bhai-khatri": {
+      "entityId": "ent-kirti-bhai-khatri",
+      "name": "Kirti Bhai Khatri (Kutchmitra)",
+      "category": "institution",
+      "globalNotes": "Senior veteran journalist & media voice in Kachchh (lead: Nilam Ben). Excel #102.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-divya-bhaskar-bhuj": {
+      "entityId": "ent-divya-bhaskar-bhuj",
+      "name": "Divya Bhaskar Bhuj (Naveen Bhai)",
+      "category": "institution",
+      "globalNotes": "Regional Gujarati daily press contact (lead: Nilam Ben). Excel #103.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-chanchal-news-tv": {
+      "entityId": "ent-chanchal-news-tv",
+      "name": "Chanchal News TV",
+      "category": "institution",
+      "globalNotes": "Local Bhuj TV news channel (lead: Nilam Ben). Excel #104.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-lal-bhai-rambia": {
+      "entityId": "ent-lal-bhai-rambia",
+      "name": "Lal Bhai Rambia",
+      "category": "institution",
+      "globalNotes": "Notable Bhuj civic/cultural patron (lead: Nilam Ben). Excel #105.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-all-media-invites": {
+      "entityId": "ent-all-media-invites",
+      "name": "Bhuj Press & Media Pool",
+      "category": "institution",
+      "globalNotes": "Consolidated local press & media invites (lead: Jaibhai). Excel #106.",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-arun-bha": {
+      "entityId": "ent-arun-bha",
+      "name": "Arun Bha (Inauguration Dignitary)",
+      "category": "institution",
+      "globalNotes": "Notable local dignitary listed on Inauguration List (#2).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    },
+    "ent-preeti-devi": {
+      "entityId": "ent-preeti-devi",
+      "name": "Preeti Devi (Inauguration Dignitary)",
+      "category": "institution",
+      "globalNotes": "Notable local dignitary listed on Inauguration List (#5).",
+      "createdAt": "2026-11-21T11:00:00.000Z"
+    }
+  },
+  "workbooks": {
+    "wb-bhuj-yciv-exhibition": {
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "title": "Bhuj Youth Civic Media Exhibition (Aug 2026 Simulation)",
+      "description": "Full-scale Bhuj exhibition outreach simulation anchored by Hunnarshala Foundation (YCIV), co-organized with Kachchh Museum (free venue + sole institutional bridge to all district/state government bodies), sister organizations (HIC, SETU, KMVS), and national legitimacy via IIT Bombay -> MoHUA -> NITI Aayog.",
+      "targetBudgetInr": 1200000,
+      "status": "active",
+      "createdAt": "2026-11-21T11:00:00.000Z",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    }
+  },
+  "placements": {
+    "plc-hunnarshala-foundation": {
+      "placementId": "plc-hunnarshala-foundation",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-hunnarshala-foundation",
+      "isRootNgo": true,
+      "x": 1415,
+      "y": 2154,
+      "width": 210,
+      "height": 84
+    },
+    "plc-fondation-botnar": {
+      "placementId": "plc-fondation-botnar",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-fondation-botnar",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-univ-sheffield": {
+      "placementId": "plc-univ-sheffield",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-univ-sheffield",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-iit-bombay": {
+      "placementId": "plc-iit-bombay",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-iit-bombay",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kachchh-museum": {
+      "placementId": "plc-kachchh-museum",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kachchh-museum",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-hic-bhuj": {
+      "placementId": "plc-hic-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-hic-bhuj",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-setu-abhiyan": {
+      "placementId": "plc-setu-abhiyan",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-setu-abhiyan",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kmvs": {
+      "placementId": "plc-kmvs",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kmvs",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kyns": {
+      "placementId": "plc-kyns",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kyns",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 1900,
+      "width": 210,
+      "height": 84
+    },
+    "plc-mohua": {
+      "placementId": "plc-mohua",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-mohua",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-niti-aayog": {
+      "placementId": "plc-niti-aayog",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-niti-aayog",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-district-collector": {
+      "placementId": "plc-district-collector",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-district-collector",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhuj-nagarpalika": {
+      "placementId": "plc-bhuj-nagarpalika",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhuj-nagarpalika",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhada": {
+      "placementId": "plc-bhada",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhada",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-mayor-shital-shah": {
+      "placementId": "plc-mayor-shital-shah",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-mayor-shital-shah",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-ward-councillors": {
+      "placementId": "plc-ward-councillors",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-ward-councillors",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-ward-committee-members": {
+      "placementId": "plc-ward-committee-members",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-ward-committee-members",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-gpcb": {
+      "placementId": "plc-gpcb",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-gpcb",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-environmental-engineer": {
+      "placementId": "plc-environmental-engineer",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-environmental-engineer",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-deputy-sp-lady": {
+      "placementId": "plc-deputy-sp-lady",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-deputy-sp-lady",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-ips-sandra": {
+      "placementId": "plc-ips-sandra",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-ips-sandra",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-asi-gunjan-shrivastava": {
+      "placementId": "plc-asi-gunjan-shrivastava",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-asi-gunjan-shrivastava",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-wdo-kachchh": {
+      "placementId": "plc-wdo-kachchh",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-wdo-kachchh",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-disp-kachchh": {
+      "placementId": "plc-disp-kachchh",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-disp-kachchh",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-dlsa-kachchh": {
+      "placementId": "plc-dlsa-kachchh",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-dlsa-kachchh",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-nyks-bhuj": {
+      "placementId": "plc-nyks-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-nyks-bhuj",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-youth-dev-office": {
+      "placementId": "plc-youth-dev-office",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-youth-dev-office",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-mahiti-bhavan": {
+      "placementId": "plc-mahiti-bhavan",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-mahiti-bhavan",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-samaj-suraksha-adhikari": {
+      "placementId": "plc-samaj-suraksha-adhikari",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-samaj-suraksha-adhikari",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 60,
+      "width": 210,
+      "height": 84
+    },
+    "plc-vc-kutch-univ": {
+      "placementId": "plc-vc-kutch-univ",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-vc-kutch-univ",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-dean-kutch-univ": {
+      "placementId": "plc-dean-kutch-univ",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-dean-kutch-univ",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kutch-university": {
+      "placementId": "plc-kutch-university",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kutch-university",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 468,
+      "width": 210,
+      "height": 84
+    },
+    "plc-lallan-college": {
+      "placementId": "plc-lallan-college",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-lallan-college",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-tolani-college": {
+      "placementId": "plc-tolani-college",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-tolani-college",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-mahila-college": {
+      "placementId": "plc-mahila-college",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-mahila-college",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-jp-thakkar-college": {
+      "placementId": "plc-jp-thakkar-college",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-jp-thakkar-college",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sanskar-college": {
+      "placementId": "plc-sanskar-college",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sanskar-college",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 468,
+      "width": 210,
+      "height": 84
+    },
+    "plc-chanakya-physio-college": {
+      "placementId": "plc-chanakya-physio-college",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-chanakya-physio-college",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-engineering-college-bhuj": {
+      "placementId": "plc-engineering-college-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-engineering-college-bhuj",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-iti-bhuj": {
+      "placementId": "plc-iti-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-iti-bhuj",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-uee-schools": {
+      "placementId": "plc-uee-schools",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-uee-schools",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-shishukunj": {
+      "placementId": "plc-shishukunj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-shishukunj",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-matruchaya-school": {
+      "placementId": "plc-matruchaya-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-matruchaya-school",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-muslim-education-school": {
+      "placementId": "plc-muslim-education-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-muslim-education-school",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-indirabai-school": {
+      "placementId": "plc-indirabai-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-indirabai-school",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sumati-alpha-tuition": {
+      "placementId": "plc-sumati-alpha-tuition",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sumati-alpha-tuition",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sikander-academy": {
+      "placementId": "plc-sikander-academy",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sikander-academy",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-desai-academy": {
+      "placementId": "plc-desai-academy",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-desai-academy",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhuj-english-school": {
+      "placementId": "plc-bhuj-english-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhuj-english-school",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 314,
+      "width": 210,
+      "height": 84
+    },
+    "plc-vd-school": {
+      "placementId": "plc-vd-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-vd-school",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 468,
+      "width": 210,
+      "height": 84
+    },
+    "plc-st-xaviers-school": {
+      "placementId": "plc-st-xaviers-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-st-xaviers-school",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 468,
+      "width": 210,
+      "height": 84
+    },
+    "plc-white-house-public-school": {
+      "placementId": "plc-white-house-public-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-white-house-public-school",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 468,
+      "width": 210,
+      "height": 84
+    },
+    "plc-andrews-school": {
+      "placementId": "plc-andrews-school",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-andrews-school",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 468,
+      "width": 210,
+      "height": 84
+    },
+    "plc-khamir": {
+      "placementId": "plc-khamir",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-khamir",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-lldc-shrujan": {
+      "placementId": "plc-lldc-shrujan",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-lldc-shrujan",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-qasab": {
+      "placementId": "plc-qasab",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-qasab",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-cedo": {
+      "placementId": "plc-cedo",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-cedo",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sahjeevan": {
+      "placementId": "plc-sahjeevan",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sahjeevan",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kala-varso": {
+      "placementId": "plc-kala-varso",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kala-varso",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-satvik": {
+      "placementId": "plc-satvik",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-satvik",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-act-bhuj": {
+      "placementId": "plc-act-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-act-bhuj",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-aina-bhuj": {
+      "placementId": "plc-aina-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-aina-bhuj",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-karigarshala": {
+      "placementId": "plc-karigarshala",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-karigarshala",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sankalan": {
+      "placementId": "plc-sankalan",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sankalan",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kutch-history-assoc": {
+      "placementId": "plc-kutch-history-assoc",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kutch-history-assoc",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-agrocell-csr": {
+      "placementId": "plc-agrocell-csr",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-agrocell-csr",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-ashapura-foundation": {
+      "placementId": "plc-ashapura-foundation",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-ashapura-foundation",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bkt-csr": {
+      "placementId": "plc-bkt-csr",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bkt-csr",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-adani-csr": {
+      "placementId": "plc-adani-csr",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-adani-csr",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-suzlon-csr": {
+      "placementId": "plc-suzlon-csr",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-suzlon-csr",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-welspun-csr": {
+      "placementId": "plc-welspun-csr",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-welspun-csr",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-axis-bank-csr": {
+      "placementId": "plc-axis-bank-csr",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-axis-bank-csr",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-tvc-street-vendors": {
+      "placementId": "plc-tvc-street-vendors",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-tvc-street-vendors",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sakhi-sangini": {
+      "placementId": "plc-sakhi-sangini",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sakhi-sangini",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-cyclists-group": {
+      "placementId": "plc-cyclists-group",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-cyclists-group",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-marathon-group": {
+      "placementId": "plc-marathon-group",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-marathon-group",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-mahila-mandal": {
+      "placementId": "plc-mahila-mandal",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-mahila-mandal",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhuj-bengali-assoc": {
+      "placementId": "plc-bhuj-bengali-assoc",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhuj-bengali-assoc",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-camp-area-women": {
+      "placementId": "plc-camp-area-women",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-camp-area-women",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-block-printers-bandhani": {
+      "placementId": "plc-block-printers-bandhani",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-block-printers-bandhani",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhujodi-youth": {
+      "placementId": "plc-bhujodi-youth",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhujodi-youth",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 1492,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sathwara-community": {
+      "placementId": "plc-sathwara-community",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sathwara-community",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-mehendi-class-group": {
+      "placementId": "plc-mehendi-class-group",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-mehendi-class-group",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-safai-karamchari-valmiki": {
+      "placementId": "plc-safai-karamchari-valmiki",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-safai-karamchari-valmiki",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 1646,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bandhani-women-camp": {
+      "placementId": "plc-bandhani-women-camp",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bandhani-women-camp",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-fokia": {
+      "placementId": "plc-fokia",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-fokia",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhuj-chamber-commerce": {
+      "placementId": "plc-bhuj-chamber-commerce",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhuj-chamber-commerce",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bar-association": {
+      "placementId": "plc-bar-association",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bar-association",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-engineers-association": {
+      "placementId": "plc-engineers-association",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-engineers-association",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhuj-city-council": {
+      "placementId": "plc-bhuj-city-council",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhuj-city-council",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-rotary-club-bhuj": {
+      "placementId": "plc-rotary-club-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-rotary-club-bhuj",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-lions-club-bhuj": {
+      "placementId": "plc-lions-club-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-lions-club-bhuj",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-leo-club-bhuj": {
+      "placementId": "plc-leo-club-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-leo-club-bhuj",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-giants-group": {
+      "placementId": "plc-giants-group",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-giants-group",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-ppc-club": {
+      "placementId": "plc-ppc-club",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-ppc-club",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-flamingo-club": {
+      "placementId": "plc-flamingo-club",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-flamingo-club",
+      "isRootNgo": false,
+      "x": 40,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-vijayraji-library": {
+      "placementId": "plc-vijayraji-library",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-vijayraji-library",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-photographic-society-kutch": {
+      "placementId": "plc-photographic-society-kutch",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-photographic-society-kutch",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-indian-medical-assoc": {
+      "placementId": "plc-indian-medical-assoc",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-indian-medical-assoc",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-sarvottam-bhuj": {
+      "placementId": "plc-sarvottam-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-sarvottam-bhuj",
+      "isRootNgo": false,
+      "x": 290,
+      "y": 1338,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kachchh-sahitya-academy": {
+      "placementId": "plc-kachchh-sahitya-academy",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kachchh-sahitya-academy",
+      "isRootNgo": false,
+      "x": 1790,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-aina-mahal": {
+      "placementId": "plc-aina-mahal",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-aina-mahal",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-prag-mahal": {
+      "placementId": "plc-prag-mahal",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-prag-mahal",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-aashapura-mandir": {
+      "placementId": "plc-aashapura-mandir",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-aashapura-mandir",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-khatri-chowk": {
+      "placementId": "plc-khatri-chowk",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-khatri-chowk",
+      "isRootNgo": false,
+      "x": 2040,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-hamirsar-civic": {
+      "placementId": "plc-hamirsar-civic",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-hamirsar-civic",
+      "isRootNgo": false,
+      "x": 540,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-officers-club": {
+      "placementId": "plc-officers-club",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-officers-club",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-bhuj-house": {
+      "placementId": "plc-bhuj-house",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-bhuj-house",
+      "isRootNgo": false,
+      "x": 790,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-abdul-instagram-page": {
+      "placementId": "plc-abdul-instagram-page",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-abdul-instagram-page",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-neha-kutch-page": {
+      "placementId": "plc-neha-kutch-page",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-neha-kutch-page",
+      "isRootNgo": false,
+      "x": 1290,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    },
+    "plc-kirti-bhai-khatri": {
+      "placementId": "plc-kirti-bhai-khatri",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-kirti-bhai-khatri",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-divya-bhaskar-bhuj": {
+      "placementId": "plc-divya-bhaskar-bhuj",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-divya-bhaskar-bhuj",
+      "isRootNgo": false,
+      "x": 2290,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-chanchal-news-tv": {
+      "placementId": "plc-chanchal-news-tv",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-chanchal-news-tv",
+      "isRootNgo": false,
+      "x": 1540,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-lal-bhai-rambia": {
+      "placementId": "plc-lal-bhai-rambia",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-lal-bhai-rambia",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 1030,
+      "width": 210,
+      "height": 84
+    },
+    "plc-all-media-invites": {
+      "placementId": "plc-all-media-invites",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-all-media-invites",
+      "isRootNgo": false,
+      "x": 1040,
+      "y": 876,
+      "width": 210,
+      "height": 84
+    },
+    "plc-arun-bha": {
+      "placementId": "plc-arun-bha",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-arun-bha",
+      "isRootNgo": false,
+      "x": 2790,
+      "y": 722,
+      "width": 210,
+      "height": 84
+    },
+    "plc-preeti-devi": {
+      "placementId": "plc-preeti-devi",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "entityId": "ent-preeti-devi",
+      "isRootNgo": false,
+      "x": 2540,
+      "y": 1184,
+      "width": 210,
+      "height": 84
+    }
+  },
+  "branches": {
+    "br-001": {
+      "branchId": "br-001",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-fondation-botnar",
+      "type": "green",
+      "status": "tick",
+      "note": "Primary YCIV programme grant funding (60% of Bhuj exhibition budget)",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 60
+    },
+    "br-002": {
+      "branchId": "br-002",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-univ-sheffield",
+      "type": "green",
+      "status": "tick",
+      "note": "Research consortium co-funding (25% of exhibition budget)",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 25
+    },
+    "br-003": {
+      "branchId": "br-003",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-univ-sheffield",
+      "type": "white",
+      "status": "tick",
+      "note": "Academic research & civic media programme co-partner",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-004": {
+      "branchId": "br-004",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-iit-bombay",
+      "type": "green",
+      "status": "tick",
+      "note": "Technical & academic consortium co-funding (15% of exhibition budget)",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 15
+    },
+    "br-005": {
+      "branchId": "br-005",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-iit-bombay",
+      "type": "white",
+      "status": "tick",
+      "note": "Academic & civic technology partner",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-006": {
+      "branchId": "br-006",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-iit-bombay",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National institutional gateway to union ministries",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-007": {
+      "branchId": "br-007",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-iit-bombay",
+      "targetPlacementId": "plc-mohua",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Direct institutional access to Ministry of Housing & Urban Affairs",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-008": {
+      "branchId": "br-008",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-mohua",
+      "targetPlacementId": "plc-niti-aayog",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Connection to NITI Aayog providing national legitimacy for Bhuj event",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-009": {
+      "branchId": "br-009",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-niti-aayog",
+      "targetPlacementId": "plc-kachchh-museum",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National legitimacy bolstering museum co-organization confidence",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-010": {
+      "branchId": "br-010",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-niti-aayog",
+      "targetPlacementId": "plc-district-collector",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National policy legitimacy supporting Chief Guest confirmation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-011": {
+      "branchId": "br-011",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-niti-aayog",
+      "targetPlacementId": "plc-bhuj-nagarpalika",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National urban governance legitimacy for municipal participation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-012": {
+      "branchId": "br-012",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-niti-aayog",
+      "targetPlacementId": "plc-bhada",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National urban legitimacy reinforcing planning authority engagement",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-013": {
+      "branchId": "br-013",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-niti-aayog",
+      "targetPlacementId": "plc-nyks-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National youth & governance legitimacy reinforcing NYKS turnout",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-014": {
+      "branchId": "br-014",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-niti-aayog",
+      "targetPlacementId": "plc-samaj-suraksha-adhikari",
+      "type": "yellow",
+      "status": "tick",
+      "note": "National legitimacy encouraging state social defence office attendance",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-015": {
+      "branchId": "br-015",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kachchh-museum",
+      "type": "white",
+      "status": "tick",
+      "note": "Free exhibition gallery space + offered to co-organize Bhuj YCIV exhibition (Shounak)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-016": {
+      "branchId": "br-016",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kachchh-museum",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Primary gateway giving contacts & laying context for every Bhuj/Kachchh government entity",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-017": {
+      "branchId": "br-017",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-hic-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Sister collective co-organizing the entire Bhuj exhibition (Jaibhai)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-018": {
+      "branchId": "br-018",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-hic-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Citywide amplifier across NGOs, heritage venues, schools, CSRs & civic bodies",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-019": {
+      "branchId": "br-019",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-setu-abhiyan",
+      "type": "white",
+      "status": "tick",
+      "note": "Sister organization supporting governance outreach (Vishrambhai / Bhawsinh)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-020": {
+      "branchId": "br-020",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-setu-abhiyan",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Bridge to Bhuj Nagarpalika, Mayor, BHADA & ward committees",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-021": {
+      "branchId": "br-021",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kmvs",
+      "type": "white",
+      "status": "tick",
+      "note": "Sister organization supporting women & civic mobilization (Krutiben / Jigna Ben)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-022": {
+      "branchId": "br-022",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kmvs",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Bridge via Jigna Ben to WDO, Disp, DLSA & Sakhi Sangini",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-023": {
+      "branchId": "br-023",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kyns",
+      "type": "white",
+      "status": "tick",
+      "note": "Youth civic collective co-mobilizing schools & youth attendance",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-024": {
+      "branchId": "br-024",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kyns",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Youth-led school & college outreach bridge",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-025": {
+      "branchId": "br-025",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-kyns",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Joint KYNS + HIC school mobilization",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-026": {
+      "branchId": "br-026",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-district-collector",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for District Collector (Kachchh)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-027": {
+      "branchId": "br-027",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-district-collector",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-028": {
+      "branchId": "br-028",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-bhuj-nagarpalika",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Bhuj Nagarpalika (CO Twinkle Patel)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-029": {
+      "branchId": "br-029",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhuj-nagarpalika",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-030": {
+      "branchId": "br-030",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-bhada",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for BHADA (Bhuj Area Development Authority)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-031": {
+      "branchId": "br-031",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhada",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-032": {
+      "branchId": "br-032",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-mayor-shital-shah",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Mayor of Bhuj (Shital Shah)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-033": {
+      "branchId": "br-033",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-mayor-shital-shah",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-034": {
+      "branchId": "br-034",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-ward-councillors",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Ward Councillors (Bhuj)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-035": {
+      "branchId": "br-035",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-ward-councillors",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-036": {
+      "branchId": "br-036",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-ward-committee-members",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Ward Committee Members",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-037": {
+      "branchId": "br-037",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-ward-committee-members",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-038": {
+      "branchId": "br-038",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-gpcb",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for GPCB (Gujarat Pollution Control Board)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-039": {
+      "branchId": "br-039",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-gpcb",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-040": {
+      "branchId": "br-040",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-environmental-engineer",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Environmental Engineer (Bhuj)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-041": {
+      "branchId": "br-041",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-environmental-engineer",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-042": {
+      "branchId": "br-042",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-deputy-sp-lady",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Deputy SP (Lady) - Kachchh Police",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-043": {
+      "branchId": "br-043",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-deputy-sp-lady",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-044": {
+      "branchId": "br-044",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-ips-sandra",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for IPS Officer (Sandra & Wife)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-045": {
+      "branchId": "br-045",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-ips-sandra",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-046": {
+      "branchId": "br-046",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-asi-gunjan-shrivastava",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for ASI / ASIO (Gunjan Shrivastava)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-047": {
+      "branchId": "br-047",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-asi-gunjan-shrivastava",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-048": {
+      "branchId": "br-048",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-wdo-kachchh",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for WDO (Women Development Office)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-049": {
+      "branchId": "br-049",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-wdo-kachchh",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-050": {
+      "branchId": "br-050",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-disp-kachchh",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for District Protection / Welfare Office (Disp)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-051": {
+      "branchId": "br-051",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-disp-kachchh",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-052": {
+      "branchId": "br-052",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-dlsa-kachchh",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for District Legal Services Authority (DLSA)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-053": {
+      "branchId": "br-053",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-dlsa-kachchh",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-054": {
+      "branchId": "br-054",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-nyks-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for NYKS (Nehru Yuva Kendra Sangathan)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-055": {
+      "branchId": "br-055",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-nyks-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-056": {
+      "branchId": "br-056",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-youth-dev-office",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Youth Development Office (Devanshi Gadhvi)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-057": {
+      "branchId": "br-057",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-youth-dev-office",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-058": {
+      "branchId": "br-058",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-mahiti-bhavan",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Mahiti Bhavan (Directorate of Information)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-059": {
+      "branchId": "br-059",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-mahiti-bhavan",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-060": {
+      "branchId": "br-060",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-samaj-suraksha-adhikari",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM provided official contact & laid pre-visit context for Samaj Suraksha Adhikari (Social Defence)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-061": {
+      "branchId": "br-061",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-samaj-suraksha-adhikari",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-062": {
+      "branchId": "br-062",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bhuj-nagarpalika",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC joint municipal coordination (CO Twinkle Patel)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-063": {
+      "branchId": "br-063",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-setu-abhiyan",
+      "targetPlacementId": "plc-bhuj-nagarpalika",
+      "type": "yellow",
+      "status": "tick",
+      "note": "SETU / Vishrambhai municipal bridge",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-064": {
+      "branchId": "br-064",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bhada",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC urban planning coordination with BHADA",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-065": {
+      "branchId": "br-065",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-setu-abhiyan",
+      "targetPlacementId": "plc-bhada",
+      "type": "yellow",
+      "status": "tick",
+      "note": "SETU / Vishrambhai bridge to BHADA",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-066": {
+      "branchId": "br-066",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-mayor-shital-shah",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC coordination with Mayor's office (Dharmeshbhai)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-067": {
+      "branchId": "br-067",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-setu-abhiyan",
+      "targetPlacementId": "plc-mayor-shital-shah",
+      "type": "yellow",
+      "status": "tick",
+      "note": "SETU bridge to Mayor Shital Shah",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-068": {
+      "branchId": "br-068",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-setu-abhiyan",
+      "targetPlacementId": "plc-ward-councillors",
+      "type": "yellow",
+      "status": "tick",
+      "note": "SETU / Bhawsinh bridge to Bhuj ward councillors",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-069": {
+      "branchId": "br-069",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-setu-abhiyan",
+      "targetPlacementId": "plc-ward-committee-members",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Urban Setu bridge to ward committee members",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-070": {
+      "branchId": "br-070",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-gpcb",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC bridge to GPCB (POC: Sumit Chauhan)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-071": {
+      "branchId": "br-071",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-gpcb",
+      "targetPlacementId": "plc-environmental-engineer",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Technical peer referral from GPCB to Environmental Engineer",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-072": {
+      "branchId": "br-072",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-deputy-sp-lady",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC / Nilam Ben follow-up bridge to Deputy SP",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-073": {
+      "branchId": "br-073",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-ips-sandra",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC / Nilam Ben follow-up bridge to IPS Sandra",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-074": {
+      "branchId": "br-074",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kmvs",
+      "targetPlacementId": "plc-wdo-kachchh",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jigna Ben (KMVS) warm referral to WDO",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-075": {
+      "branchId": "br-075",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kmvs",
+      "targetPlacementId": "plc-disp-kachchh",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jigna Ben (KMVS) warm referral to Disp office",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-076": {
+      "branchId": "br-076",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kmvs",
+      "targetPlacementId": "plc-dlsa-kachchh",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jigna Ben (KMVS) warm referral to DLSA Kachchh",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-077": {
+      "branchId": "br-077",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-vc-kutch-univ",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM bridge to VC Kutch University (Mohan Patel)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-078": {
+      "branchId": "br-078",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kachchh-museum",
+      "targetPlacementId": "plc-dean-kutch-univ",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KM bridge to Dean Kutch University (Karishma Ji)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-079": {
+      "branchId": "br-079",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-vc-kutch-univ",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed inauguration invitation to VC KU",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-080": {
+      "branchId": "br-080",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-dean-kutch-univ",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed inauguration invitation to Dean KU",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-081": {
+      "branchId": "br-081",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-vc-kutch-univ",
+      "targetPlacementId": "plc-kutch-university",
+      "type": "yellow",
+      "status": "tick",
+      "note": "VC office endorsement to KU Media & MSW departments",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-082": {
+      "branchId": "br-082",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-dean-kutch-univ",
+      "targetPlacementId": "plc-kutch-university",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Dean endorsement to KU Media & MSW departments",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-083": {
+      "branchId": "br-083",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-kutch-university",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jaibhai / Ashwin / Nilam Ben outreach to KU Media & MSW",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-084": {
+      "branchId": "br-084",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kutch-university",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed university participation (Media & MSW students)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-085": {
+      "branchId": "br-085",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-lallan-college",
+      "type": "white",
+      "status": "cross",
+      "note": "Excluded / not reached out per Shounak (only Kutch University + Shounak's own college contacts)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-086": {
+      "branchId": "br-086",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-tolani-college",
+      "type": "white",
+      "status": "tick",
+      "note": "Reached via Shounak's own college contact (with Vishal); student group confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-087": {
+      "branchId": "br-087",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-mahila-college",
+      "type": "white",
+      "status": "tick",
+      "note": "Reached via Shounak's own college contact (with Sherbanu); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-088": {
+      "branchId": "br-088",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-jp-thakkar-college",
+      "type": "white",
+      "status": "tick",
+      "note": "Reached via Shounak's own direct college contact; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-089": {
+      "branchId": "br-089",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sanskar-college",
+      "type": "white",
+      "status": "tick",
+      "note": "Reached via Shounak's own contact + KYNS/HIC; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-090": {
+      "branchId": "br-090",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-chanakya-physio-college",
+      "type": "white",
+      "status": "tick",
+      "note": "Reached via Shounak's own contact (POC: Kavita); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-091": {
+      "branchId": "br-091",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-engineering-college-bhuj",
+      "type": "white",
+      "status": "pending",
+      "note": "Reached via Shounak's own contact; awaiting final student batch count",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-092": {
+      "branchId": "br-092",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-iti-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Reached via Shounak's contact & Mubin; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-093": {
+      "branchId": "br-093",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kyns",
+      "targetPlacementId": "plc-sanskar-college",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KYNS + HIC youth bridge to Sanskar College",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-094": {
+      "branchId": "br-094",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-sanskar-college",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC institutional referral to Sanskar College",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-095": {
+      "branchId": "br-095",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kyns",
+      "targetPlacementId": "plc-bhuj-english-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KYNS school mobilization outreach",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-096": {
+      "branchId": "br-096",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bhuj-english-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC joint school mobilization",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-097": {
+      "branchId": "br-097",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhuj-english-school",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed school student visit to Bhuj exhibition",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-098": {
+      "branchId": "br-098",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kyns",
+      "targetPlacementId": "plc-vd-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KYNS school mobilization outreach",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-099": {
+      "branchId": "br-099",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-vd-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC joint school mobilization",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-100": {
+      "branchId": "br-100",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-vd-school",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed school student visit to Bhuj exhibition",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-101": {
+      "branchId": "br-101",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kyns",
+      "targetPlacementId": "plc-st-xaviers-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KYNS school mobilization outreach",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-102": {
+      "branchId": "br-102",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-st-xaviers-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC joint school mobilization",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-103": {
+      "branchId": "br-103",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-st-xaviers-school",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed school student visit to Bhuj exhibition",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-104": {
+      "branchId": "br-104",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kyns",
+      "targetPlacementId": "plc-white-house-public-school",
+      "type": "yellow",
+      "status": "pending",
+      "note": "KYNS school mobilization outreach",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-105": {
+      "branchId": "br-105",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-white-house-public-school",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC joint school mobilization",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-106": {
+      "branchId": "br-106",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kyns",
+      "targetPlacementId": "plc-andrews-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KYNS school mobilization outreach",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-107": {
+      "branchId": "br-107",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-andrews-school",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC joint school mobilization",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-108": {
+      "branchId": "br-108",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-andrews-school",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed school student visit to Bhuj exhibition",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-109": {
+      "branchId": "br-109",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-uee-schools",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC Urban Environment Education 12-school network (Nainaben)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-110": {
+      "branchId": "br-110",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-uee-schools",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition visit via hic-bhuj",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-111": {
+      "branchId": "br-111",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-shishukunj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben outreach (POC: Sandhya Acharya)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-112": {
+      "branchId": "br-112",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-shishukunj",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition visit via hic-bhuj",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-113": {
+      "branchId": "br-113",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-matruchaya-school",
+      "type": "white",
+      "status": "pending",
+      "note": "No lead assigned yet in sheet; pending confirmation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-114": {
+      "branchId": "br-114",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-muslim-education-school",
+      "type": "white",
+      "status": "tick",
+      "note": "Ayesha outreach; confirmed attendance",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-115": {
+      "branchId": "br-115",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-indirabai-school",
+      "type": "white",
+      "status": "tick",
+      "note": "Maria outreach; confirmed attendance",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-116": {
+      "branchId": "br-116",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sumati-alpha-tuition",
+      "type": "white",
+      "status": "tick",
+      "note": "Mubin outreach; confirmed youth group visit",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-117": {
+      "branchId": "br-117",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sikander-academy",
+      "type": "white",
+      "status": "pending",
+      "note": "Ayesha outreach; awaiting schedule confirmation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-118": {
+      "branchId": "br-118",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-desai-academy",
+      "type": "white",
+      "status": "cross",
+      "note": "No POC listed; unreachable during August cycle",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-119": {
+      "branchId": "br-119",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-khamir",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben outreach (Kavya Saxena / Ghatit bhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-120": {
+      "branchId": "br-120",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-khamir",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (khamir)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-121": {
+      "branchId": "br-121",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-lldc-shrujan",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben outreach (Kiritbhai / Amiben / Nimesh Bhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-122": {
+      "branchId": "br-122",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-lldc-shrujan",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (lldc-shrujan)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-123": {
+      "branchId": "br-123",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-qasab",
+      "type": "yellow",
+      "status": "pending",
+      "note": "POC Pankaj bhai / Puneet; follow-up pending",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-124": {
+      "branchId": "br-124",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-cedo",
+      "type": "white",
+      "status": "tick",
+      "note": "Ashwin outreach (Jugal Kishore); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-125": {
+      "branchId": "br-125",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-sahjeevan",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC sister-network partner (Kavitaben); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-126": {
+      "branchId": "br-126",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sahjeevan",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (sahjeevan)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-127": {
+      "branchId": "br-127",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-kala-varso",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jaibhai outreach (Bharmal Sanjot); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-128": {
+      "branchId": "br-128",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kala-varso",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (kala-varso)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-129": {
+      "branchId": "br-129",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-satvik",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC outreach (Pravin Mucadiya); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-130": {
+      "branchId": "br-130",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-satvik",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (satvik)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-131": {
+      "branchId": "br-131",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-act-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC + Shounak (Yogeshbhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-132": {
+      "branchId": "br-132",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-act-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (act-bhuj)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-133": {
+      "branchId": "br-133",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-aina-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "HIC + Shounak (Mahavirbhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-134": {
+      "branchId": "br-134",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-karigarshala",
+      "type": "white",
+      "status": "tick",
+      "note": "HIC + Shounak (Atulbhai / Kiranbhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-135": {
+      "branchId": "br-135",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sankalan",
+      "type": "white",
+      "status": "tick",
+      "note": "HIC + Shounak (Tejasbhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-136": {
+      "branchId": "br-136",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-kutch-history-assoc",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC outreach (Bhupendra Mehta); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-137": {
+      "branchId": "br-137",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kutch-history-assoc",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed NGO partner attendance (kutch-history-assoc)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-138": {
+      "branchId": "br-138",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-agrocell-csr",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC + Shounak corporate outreach to agrocell-csr",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-139": {
+      "branchId": "br-139",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-agrocell-csr",
+      "type": "white",
+      "status": "tick",
+      "note": "Exhibition VIP invite confirmed (Dipesh Bhai / Biren / Preetiben)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-140": {
+      "branchId": "br-140",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-agrocell-csr",
+      "type": "green",
+      "status": "pending",
+      "note": "Exploratory local CSR co-funding pitch for next phase",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 10
+    },
+    "br-141": {
+      "branchId": "br-141",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-ashapura-foundation",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC + Shounak corporate outreach to ashapura-foundation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-142": {
+      "branchId": "br-142",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-ashapura-foundation",
+      "type": "white",
+      "status": "tick",
+      "note": "HIC + Shounak invite (Harish bhai); confirmed attendance",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-143": {
+      "branchId": "br-143",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-ashapura-foundation",
+      "type": "green",
+      "status": "pending",
+      "note": "Exploratory local CSR grant discussion",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 10
+    },
+    "br-144": {
+      "branchId": "br-144",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bkt-csr",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC + Shounak corporate outreach to bkt-csr",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-145": {
+      "branchId": "br-145",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bkt-csr",
+      "type": "white",
+      "status": "pending",
+      "note": "HIC + Shounak outreach; exhibition RSVP pending",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-146": {
+      "branchId": "br-146",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bkt-csr",
+      "type": "green",
+      "status": "cross",
+      "note": "No mid-cycle CSR budget available for August event",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 15
+    },
+    "br-147": {
+      "branchId": "br-147",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-adani-csr",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC + Shounak corporate outreach to adani-csr",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-148": {
+      "branchId": "br-148",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-adani-csr",
+      "type": "white",
+      "status": "pending",
+      "note": "HIC + Shounak outreach; awaiting local CSR office response",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-149": {
+      "branchId": "br-149",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-adani-csr",
+      "type": "green",
+      "status": "cross",
+      "note": "Declined immediate August sponsorship",
+      "updatedAt": "2026-11-21T11:00:00.000Z",
+      "valuePct": 20
+    },
+    "br-150": {
+      "branchId": "br-150",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-suzlon-csr",
+      "type": "yellow",
+      "status": "cross",
+      "note": "HIC + Shounak corporate outreach to suzlon-csr",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-151": {
+      "branchId": "br-151",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-suzlon-csr",
+      "type": "white",
+      "status": "cross",
+      "note": "HIC + Shounak outreach; no response from regional office",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-152": {
+      "branchId": "br-152",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-welspun-csr",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC + Shounak corporate outreach to welspun-csr",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-153": {
+      "branchId": "br-153",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-welspun-csr",
+      "type": "white",
+      "status": "pending",
+      "note": "HIC + Shounak outreach; invite sent, awaiting reply",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-154": {
+      "branchId": "br-154",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-axis-bank-csr",
+      "type": "yellow",
+      "status": "cross",
+      "note": "HIC + Shounak corporate outreach to axis-bank-csr",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-155": {
+      "branchId": "br-155",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-axis-bank-csr",
+      "type": "white",
+      "status": "cross",
+      "note": "HIC + Shounak outreach; declined event participation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-156": {
+      "branchId": "br-156",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-tvc-street-vendors",
+      "type": "white",
+      "status": "tick",
+      "note": "Shounak outreach (Mayurbhai); confirmed participation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-157": {
+      "branchId": "br-157",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kmvs",
+      "targetPlacementId": "plc-sakhi-sangini",
+      "type": "yellow",
+      "status": "tick",
+      "note": "KMVS + Shounak outreach (Hansaben); confirmed participation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-158": {
+      "branchId": "br-158",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sakhi-sangini",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed community participation (sakhi-sangini)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-159": {
+      "branchId": "br-159",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-cyclists-group",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jaibhai outreach (White Eagle Group); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-160": {
+      "branchId": "br-160",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-cyclists-group",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed community participation (cyclists-group)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-161": {
+      "branchId": "br-161",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-marathon-group",
+      "type": "yellow",
+      "status": "pending",
+      "note": "Nilam Ben outreach; RSVP pending",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-162": {
+      "branchId": "br-162",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-kmvs",
+      "targetPlacementId": "plc-mahila-mandal",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Mayaben outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-163": {
+      "branchId": "br-163",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-mahila-mandal",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed community participation (mahila-mandal)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-164": {
+      "branchId": "br-164",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhuj-bengali-assoc",
+      "type": "white",
+      "status": "tick",
+      "note": "Shounak direct community invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-165": {
+      "branchId": "br-165",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-camp-area-women",
+      "type": "white",
+      "status": "tick",
+      "note": "Yasmin community mobilization; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-166": {
+      "branchId": "br-166",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-block-printers-bandhani",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben artisan outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-167": {
+      "branchId": "br-167",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-block-printers-bandhani",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed community participation (block-printers-bandhani)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-168": {
+      "branchId": "br-168",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhujodi-youth",
+      "type": "white",
+      "status": "tick",
+      "note": "Khushboo youth mobilization; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-169": {
+      "branchId": "br-169",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sathwara-community",
+      "type": "white",
+      "status": "tick",
+      "note": "Divya community mobilization; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-170": {
+      "branchId": "br-170",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-mehendi-class-group",
+      "type": "white",
+      "status": "tick",
+      "note": "Amreen & Afreen mobilization; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-171": {
+      "branchId": "br-171",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-safai-karamchari-valmiki",
+      "type": "white",
+      "status": "tick",
+      "note": "Yasmin mobilization; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-172": {
+      "branchId": "br-172",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bandhani-women-camp",
+      "type": "white",
+      "status": "tick",
+      "note": "Maria, Amrin & Diya mobilization; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-173": {
+      "branchId": "br-173",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-fokia",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC + Shounak industry association invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-174": {
+      "branchId": "br-174",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-fokia",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (fokia)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-175": {
+      "branchId": "br-175",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bhuj-chamber-commerce",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC + Shounak invite; awaiting confirmation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-176": {
+      "branchId": "br-176",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bar-association",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC + Shounak invite; awaiting confirmation",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-177": {
+      "branchId": "br-177",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-engineers-association",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC + Shounak invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-178": {
+      "branchId": "br-178",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-engineers-association",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (engineers-association)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-179": {
+      "branchId": "br-179",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bhuj-city-council",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC + Shounak civic invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-180": {
+      "branchId": "br-180",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhuj-city-council",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (bhuj-city-council)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-181": {
+      "branchId": "br-181",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-rotary-club-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben outreach (Vijay); Inauguration invite confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-182": {
+      "branchId": "br-182",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-rotary-club-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (rotary-club-bhuj)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-183": {
+      "branchId": "br-183",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-lions-club-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Shounak & Nilam Ben outreach; Inauguration invite confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-184": {
+      "branchId": "br-184",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-leo-club-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Deep & Shounak youth club outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-185": {
+      "branchId": "br-185",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-giants-group",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC outreach (Dr. Madhukant Acharya); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-186": {
+      "branchId": "br-186",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-giants-group",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (giants-group)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-187": {
+      "branchId": "br-187",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-ppc-club",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC outreach; RSVP pending",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-188": {
+      "branchId": "br-188",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-flamingo-club",
+      "type": "yellow",
+      "status": "cross",
+      "note": "No POC assigned; did not respond",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-189": {
+      "branchId": "br-189",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-vijayraji-library",
+      "type": "white",
+      "status": "tick",
+      "note": "Shounak direct outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-190": {
+      "branchId": "br-190",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-photographic-society-kutch",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben outreach (Ashutosh Gor); confirmed exhibition coverage",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-191": {
+      "branchId": "br-191",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-photographic-society-kutch",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (photographic-society-kutch)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-192": {
+      "branchId": "br-192",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-indian-medical-assoc",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC outreach; RSVP pending",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-193": {
+      "branchId": "br-193",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-sarvottam-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC civic outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-194": {
+      "branchId": "br-194",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-sarvottam-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (sarvottam-bhuj)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-195": {
+      "branchId": "br-195",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-kachchh-sahitya-academy",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben cultural outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-196": {
+      "branchId": "br-196",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kachchh-sahitya-academy",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (kachchh-sahitya-academy)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-197": {
+      "branchId": "br-197",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-aina-mahal",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC outreach (Shriraj / Dalpat bhai); Inauguration confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-198": {
+      "branchId": "br-198",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-aina-mahal",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (aina-mahal)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-199": {
+      "branchId": "br-199",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-prag-mahal",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC outreach (Shriraj); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-200": {
+      "branchId": "br-200",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-prag-mahal",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (prag-mahal)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-201": {
+      "branchId": "br-201",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-aashapura-mandir",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC outreach; courtesy invite pending",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-202": {
+      "branchId": "br-202",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-khatri-chowk",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-203": {
+      "branchId": "br-203",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-khatri-chowk",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (khatri-chowk)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-204": {
+      "branchId": "br-204",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-hamirsar-civic",
+      "type": "white",
+      "status": "tick",
+      "note": "Shounak outreach around Hamirsar precinct; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-205": {
+      "branchId": "br-205",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-officers-club",
+      "type": "yellow",
+      "status": "pending",
+      "note": "HIC outreach; awaiting response",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-206": {
+      "branchId": "br-206",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-bhuj-house",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC outreach (Jhan Bhujwala); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-207": {
+      "branchId": "br-207",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-bhuj-house",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (bhuj-house)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-208": {
+      "branchId": "br-208",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-abdul-instagram-page",
+      "type": "white",
+      "status": "tick",
+      "note": "Abdul digital promotion; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-209": {
+      "branchId": "br-209",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-neha-kutch-page",
+      "type": "yellow",
+      "status": "tick",
+      "note": "HIC digital promotion; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-210": {
+      "branchId": "br-210",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-neha-kutch-page",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (neha-kutch-page)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-211": {
+      "branchId": "br-211",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-kirti-bhai-khatri",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben press outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-212": {
+      "branchId": "br-212",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-kirti-bhai-khatri",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (kirti-bhai-khatri)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-213": {
+      "branchId": "br-213",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-divya-bhaskar-bhuj",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben press outreach (Naveen Bhai); confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-214": {
+      "branchId": "br-214",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-divya-bhaskar-bhuj",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (divya-bhaskar-bhuj)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-215": {
+      "branchId": "br-215",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-chanchal-news-tv",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben TV media outreach; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-216": {
+      "branchId": "br-216",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-chanchal-news-tv",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (chanchal-news-tv)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-217": {
+      "branchId": "br-217",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-lal-bhai-rambia",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Nilam Ben patron invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-218": {
+      "branchId": "br-218",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-lal-bhai-rambia",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (lal-bhai-rambia)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-219": {
+      "branchId": "br-219",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-all-media-invites",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Jaibhai coordinated Bhuj press pool; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-220": {
+      "branchId": "br-220",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-all-media-invites",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (all-media-invites)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-221": {
+      "branchId": "br-221",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-arun-bha",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Inauguration List dignitary invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-222": {
+      "branchId": "br-222",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-arun-bha",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (arun-bha)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-223": {
+      "branchId": "br-223",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hic-bhuj",
+      "targetPlacementId": "plc-preeti-devi",
+      "type": "yellow",
+      "status": "tick",
+      "note": "Inauguration List dignitary invite; confirmed",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    },
+    "br-224": {
+      "branchId": "br-224",
+      "workbookId": "wb-bhuj-yciv-exhibition",
+      "sourcePlacementId": "plc-hunnarshala-foundation",
+      "targetPlacementId": "plc-preeti-devi",
+      "type": "white",
+      "status": "tick",
+      "note": "Confirmed exhibition engagement (preeti-devi)",
+      "updatedAt": "2026-11-21T11:00:00.000Z"
+    }
+  },
+  "workbookLinks": {}
+}

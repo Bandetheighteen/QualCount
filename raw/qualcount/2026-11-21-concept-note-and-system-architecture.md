@@ -1,0 +1,483 @@
+# Visual Multiplex Partnership Management System Concept Note
+
+> Source: concept_note_and_system_architecture.txt
+> Collected: 2026-11-21
+> Published: Unknown
+
+================================================================================
+CONCEPT NOTE AND SYSTEMIC ARCHITECTURE
+Visual Multiplex Partnership Management System for the Social Sector
+Architecture: Hybrid TypeScript / Node.js Frontend + Rust (Tauri v2) Core
+================================================================================
+
+1. EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+Social sector organizations operate inside dense, uneven networks of corporate
+social responsibility (CSR) funders, municipal agencies, public institutions,
+and community allies. Standard customer relationship management (CRM) tools and
+spreadsheet trackers treat outreach as a flat volume funnel, counting emails
+sent and reply percentages achieved. That flat math breaks down in public
+interest work, where 49 unanswered invitations to government offices and 1
+engaged public museum can outperform a 40% cold-reply rate by orders of
+magnitude.
+
+This concept note defines the operational vision, scientific grounding, and
+systemic software architecture for an offline-first, visual partnership
+navigation tool. Instead of compressing human relationships into subjective
+1-to-5 ratings or static bar charts, the software models partnerships directly
+as a bottom-to-top directed multiplex network. Every institution sits as a
+persistent node, every interaction flows through color-coded branches
+(financial funding, direct working relationships, and institutional bridges),
+every branch carries a verifiable action state (pending, confirmed, or
+declined), and every quantitative progress figure is derived strictly from the
+live graph topology.
+
+To balance fast, fluid 2D diagramming with compact, reliable offline desktop
+execution, the system uses a deliberate hybrid architecture built out of
+TypeScript / Node.js and Rust:
+- Phase 1 (Interactive Graph Prototype): Built using the Node.js toolchain
+  (Vite, TypeScript, React, React Flow, and elkjs) with normalized
+  multi-workbook data structures isolated behind a WorkspaceRepository
+  interface using browser LocalStorage and JSON export/import.
+- Phase 2 (Interconnected Multi-Workbook Desktop Suite): Wraps the exact same
+  compiled TypeScript frontend inside a Tauri v2 Rust desktop shell backed by a
+  single portable SQLite database file, adding an Opening Page (Workbook cards
+  grid + Overview Map), shared partner memory across Workbooks, and proven
+  bridge reuse.
+
+
+2. THE PROBLEM STATEMENT: WHY WE ARE BUILDING THIS
+--------------------------------------------------------------------------------
+In grassroots and urban governance initiatives, project delivery relies on
+combining three distinct forms of capital: financial backing (CSR grants),
+direct non-monetary assets (public venues, attendance, co-hosting), and
+institutional brokerage (warm introductions across ministries and municipal
+bodies). Four recurring structural failures break conventional NGO tracking:
+
+2.1 Volume Metrics Hide Force Multipliers
+When an NGO lists 100 target organizations and reaches out to 50 government
+officials, a single positive response reads as a 2% conversion rate on a normal
+tracker. Yet if that single respondent is a museum that offers a venue, co-owns
+a youth governance exhibition, and introduces the NGO to 14 additional public
+agencies, it acts as a structural force multiplier. Standard dashboards bury
+that operational leverage beneath discouraging averages.
+
+2.2 Subjective Scoring Creates Fake Precision
+Attempts to "quantify qualitative partnerships" frequently ask coordinators to
+rate partners from 1 to 5 on traits like "trust" or "amplification." S. S.
+Stevens demonstrated that rank-ordered ratings are ordinal scales whose
+intervals are not mathematically equal, making arithmetic averages and weighted
+composite scores statistically invalid (Stevens, 1946). A dashboard showing
+"Partnership Strength: 78.4" looks objective while merely disguising
+inconsistent personal opinions as math.
+
+2.3 Metric Fixation Distorts Field Behavior
+Once numerical scores sit on a shared dashboard, teams begin optimizing for the
+number instead of the mission. Donald T. Campbell documented that the more any
+quantitative social indicator is used for social decision-making, the more
+corruption pressure it absorbs and the more likely it is to distort the process
+it was designed to monitor (Campbell, 1979). Marilyn Strathern stated the rule
+succinctly: when a measure becomes a target, it ceases to be a good measure
+(Strathern, 1997). Jerry Z. Muller further showed how metric fixation in
+human-service organizations pushes staff to sideline contextual judgment in
+favor of narrow proxies (Muller, 2018).
+
+2.4 Coordination Loss and Institutional Amnesia
+During active program execution, referrals branch rapidly across agencies and
+across multiple consecutive projects. Without a visual map that preserves both
+confirmed paths and declined paths, teams lose track of who introduced whom,
+re-pitch organizations that already declined months earlier, and fail to notice
+when three independent offices can vouch for the NGO at a single target body.
+
+
+3. SCIENTIFIC AND THEORETICAL FOUNDATION
+--------------------------------------------------------------------------------
+Every core feature in this system maps directly to established research across
+network sociology, evaluation science, relational databases, and graph drawing:
+
+3.1 Weak Ties and Structural Brokerage
+Mark S. Granovetter showed that tight, familiar circles mostly recycle the same
+information and contacts, while looser external connections ("weak ties") act
+as local bridges into distant institutional clusters (Granovetter, 1973).
+Ronald S. Burt formalized this advantage as brokerage across "structural
+holes," the gaps separating disconnected institutional worlds (Burt, 1992). In
+our software, yellow branches map brokerage explicitly, such as a CSR funder
+bridging an NGO into central ministries or a museum bridging an NGO into a
+municipal collectorate.
+
+3.2 Complex Contagions and Multi-Thread Convergence
+While simple information travels over a single weak tie, Damon Centola and
+Michael Macy proved that costly or high-trust commitments behave as "complex
+contagions" that require social reinforcement from multiple independent sources
+before an actor says yes (Centola & Macy, 2007). This directly explains our
+"Triple-Thread" mechanic: approaching a Sports Development Office with
+converging yellow referrals from a museum, a Youth Development Office, and a
+Cultural Development Office materially increases the odds of commitment.
+
+3.3 Multiplexity, Centrality, and Multilayer Networks
+Stanley Wasserman and Katherine Faust formalized directed multiplex networks,
+where multiple distinct types of relations run simultaneously between the same
+actors (Wasserman & Faust, 1994). Linton C. Freeman separated network
+importance into degree centrality (direct connections), betweenness centrality
+(control over paths connecting other actors), and closeness centrality
+(Freeman, 1979). Extending these networks across separate projects creates a
+multilayer network, where each Workbook acts as its own layer, organizations
+appear as node-layer instances across layers, and shared organizations link
+layers through diagonal coupling (Kivela et al., 2014).
+
+3.4 Outcome Mapping Through Verifiable Actions
+Sarah Earl, Fred Carden, and Terry Smutylo developed Outcome Mapping to focus
+monitoring on observable behavioral shifts in the specific boundary partners a
+program works with directly, rather than abstract impact claims (Earl, Carden,
+& Smutylo, 2001). Our end-of-line tick and cross buttons operationalize Outcome
+Mapping by turning lines neon only when a concrete partner action occurs.
+
+3.5 Graph Readability, Layered Layout, and Overlap Prevention
+In controlled experiments, Mohammad Ghoniem, Jean-Daniel Fekete, and Philippe
+Castagliola proved that node-link diagrams outperform tables and matrices for
+path-tracing tasks, yet readability degrades past roughly 20 vertices when
+crossing lines create visual clutter (Ghoniem, Fekete, & Castagliola, 2005).
+To keep expanding networks readable without cutting edges, Kozo Sugiyama,
+Shojiro Tagawa, and Mitsuhiko Toda introduced layered directed graph drawing to
+organize tiers and reduce edge crossings (Sugiyama, Tagawa, & Toda, 1981),
+refined into a fast four-pass pipeline by Emden R. Gansner and colleagues
+(Gansner, Koutsofios, North, & Vo, 1993) and extended with port constraints for
+clean parallel edges by Christoph Daniel Schulze, Miro Sponemann, and Reinhard
+von Hanxleden (Schulze, Sponemann, & von Hanxleden, 2014). For free manual
+dragging without stacked cards, Tim Dwyer, Kim Marriott, and Peter J. Stuckey
+developed fast overlap removal to separate colliding rectangular boxes by
+minimum displacement while preserving user layout (Dwyer, Marriott, & Stuckey,
+2006). Force-directed placement principles by Thomas M. J. Fruchterman and
+Edward M. Reingold also inform spacing dynamics (Fruchterman & Reingold, 1991).
+
+3.6 Relational Normalization Across Interconnected Workbooks
+E. F. Codd established that separating normalized entity records from
+relationship records prevents duplication and update inconsistency (Codd,
+1970). Applying this rule ensures an institution like "City Museum" exists once
+in a master directory even when placed across multiple Workbooks.
+
+
+4. OPERATIONAL MODEL AND VISUAL LANGUAGE
+--------------------------------------------------------------------------------
+4.1 Spatial Orientation: Bottom-to-Top Growth
+The canvas reads strictly from bottom to top. Your NGO sits anchored at Tier 0
+at the base. Direct outreach targets sit above it in Tier 1, referred agencies
+sit in Tier 2, and converged institutional targets sit at the top in Tier 3+.
+Directed arrows flow upward from source to target.
+
+4.2 The Three Multiplex Branch Types
+Two organizations can hold multiple parallel branches at the same time (for
+example, a white direct relationship branch and a yellow bridge branch running
+side by side between Your NGO and the City Museum):
+
+1. Green Branch (Financial / CSR Funding Only)
+   - Tracks monetary commitments against the Workbook's target budget.
+   - Displays a mid-line data pill showing the percentage of the target budget
+     as an M-value (e.g., M25 = 25% of target budget). Note: Uses strict
+     percentage of project target, not statistical percentile.
+
+2. White Branch (Direct Working Relationship)
+   - Tracks direct working ties owned by the NGO: venues, event attendance,
+     co-hosting, staff coordination, and institutional goodwill.
+   - Carries a short qualitative context note explaining what the relationship
+     covers so human context stays visible alongside numbers (Muller, 2018).
+
+3. Yellow Branch (Network Bridge and Amplification)
+   - Tracks third-party introductions and referral routes from one organization
+     to another.
+   - Ownership Separation Rule: When the City Museum introduces the NGO to
+     Agency X, a yellow line runs from City Museum to Agency X to record how
+     the lead originated. Once Agency X replies and works directly with the
+     NGO, a separate white line runs directly from Your NGO to Agency X. This
+     distinguishes borrowed access from owned relationships.
+
+4.3 Three-State Verification Mechanic (Tick and Cross Buttons)
+Teams map out planned targets before outreach starts, preventing wishlists from
+masquerading as confirmed progress. Near the target end of every branch sit two
+clickable buttons (Tick and Cross) controlling three distinct visual states:
+
+- Pending (Planned outreach or awaiting reply):
+  Dashed line in normal green, normal white, or normal yellow.
+- Confirmed / Tick (Observable commitment verified):
+  Solid, glowing line in neon green, neon white, or neon yellow.
+- Declined / Cross (Outreach turned down or stalled):
+  Thin, faded line in grayish-green (financial) or muted gray (white/yellow).
+
+Declined paths remain recorded instead of deleted to preserve institutional
+memory. A toolbar toggle ("Show Declined Gray Paths", ON by default) lets the
+team hide gray branches during active planning and show them during reviews.
+
+4.4 Multi-Thread Reinforcement Badges
+Every node tracks its incoming confirmed (ticked) yellow edges (confirmed
+yellow in-degree). Nodes reaching 2 or more confirmed yellow referrals display
+a live badge on the card: "2-Thread" for 2, "Triple-Thread (3)" for 3, and
+"Quad-Thread (N)" for 4 or more (Centola & Macy, 2007).
+
+
+5. QUANTITATIVE METRICS ENGINE (DERIVED STRICTLY FROM TOPOLOGY)
+--------------------------------------------------------------------------------
+Every quantitative figure displayed at the top of the workspace is computed
+automatically from live node and branch records. Zero subjective ratings, zero
+double data entry (Stevens, 1946; Wasserman & Faust, 1994):
+
+1. Funding Secured (% and INR):
+   Sum of M% values across ticked neon green branches, displayed beside pending
+   green M% and count of declined green branches.
+
+2. Direct White Relationships:
+   Counts of confirmed (tick), pending, and declined (cross) white branches
+   originating from the root NGO node, plus confirmation rate percentage.
+
+3. Confirmed Yellow Bridges:
+   Total count of active ticked yellow referral pathways in the Workbook.
+
+4. Owned Conversions:
+   Count of non-root nodes holding BOTH an incoming ticked yellow edge from a
+   partner AND an incoming ticked white edge directly from Your NGO, divided by
+   total referred nodes. Measures conversion of borrowed reach into owned ties.
+
+5. Multi-Thread Targets:
+   Exact counts of nodes with confirmed yellow in-degree equal to 2, equal to
+   3, and 4 or greater.
+
+6. Top Amplifier Reach:
+   For each partner node, runs breadth-first search (BFS) across outgoing
+   ticked yellow edges to find the largest unique confirmed downstream reach.
+
+7. Bridge Concentration Risk (%):
+   Computes the percentage of confirmed indirect downstream nodes that become
+   unreachable from Your NGO if the single highest-reach bridge node is removed
+   (Freeman, 1979). Pairing concentration risk beside amplifier reach counters
+   single-point-of-failure blindness and Campbell's Law (Campbell, 1979).
+
+
+6. HYBRID TECHNOLOGY ARCHITECTURE: WHY RUST + TYPESCRIPT / NODE.JS
+--------------------------------------------------------------------------------
+Choosing the right stack requires matching each engineering problem to the
+runtime built for it, rather than forcing one language to do everything.
+
+6.1 Why NOT 100% Pure Rust
+An NGO partnership network typically holds 20 to 250 nodes, not half a million.
+Raw CPU execution speed is never the bottleneck. The genuine engineering
+complexity lies in rich 2D visual interaction: persistent drag-and-drop cards,
+parallel curved Bezier branches, clickable HTML-grade buttons pinned near the
+tips of moving lines, inline funding pills, and port-aware layered graph
+layout. Pure Rust GUI libraries such as egui use immediate-mode paradigms where
+maintainers themselves note that complex layouts are harder to compute and APIs
+remain in flux (egui, n.d.). Building this 100% in Rust would spend weeks
+reinventing curved edge hit-testing and layered layout math before an NGO could
+track a single partnership.
+
+6.2 Why NOT Pure Node.js + Electron
+Node.js is a server and developer build runtime rather than a desktop UI engine
+on its own (Node.js, n.d.). Packaging a Node.js frontend for offline laptops
+via Electron embeds both a complete Chromium browser and a Node.js runtime
+inside every desktop installer (Electron, n.d.), resulting in heavy binaries
+and high memory overhead for a lightweight field operations tool.
+
+6.3 The Hybrid Solution: TypeScript / Node.js Frontend + Rust (Tauri v2) Core
+Our system splits responsibilities cleanly across two layers:
+
+Layer A: Interactive Graph Engine and UI (Node.js Toolchain + TypeScript)
+- Node.js runs strictly on the developer workstation to manage dependencies and
+  compile the frontend via Vite.
+- React + TypeScript + Tailwind CSS render the dark studio interface.
+- React Flow (@xyflow/react) powers the interactive 2D node-and-edge canvas,
+  using EdgeLabelRenderer to mount interactive React tick/cross buttons and M%
+  pills cleanly over dynamic SVG paths (React Flow, 2026).
+- elkjs executes the Eclipse Layout Kernel's Sugiyama layered layout directly
+  in JavaScript with elk.algorithm="layered" and elk.direction="UP" for
+  non-overlapping bottom-to-top organization (KIELER, n.d.; Aryanpour, 2023).
+- Zustand manages live in-memory graph state.
+
+Layer B: Native Desktop Shell and Storage Core (Rust via Tauri v2 + SQLite)
+- Tauri v2 pairs a compiled Rust core with the operating system's native
+  webview (WebView2 on Windows), shipping compact binaries (under 600 KB for
+  minimal apps) without bundling Chromium or a Node.js runtime (Tauri, 2026;
+  Tauri, n.d.).
+- Rust handles everything native and safety-critical: native OS open/save file
+  dialogs, atomic crash-safe reads and writes to a single local SQLite
+  workspace file, and cross-workbook relational queries (SQLite, 2025).
+
+6.4 Architectural Guardrails Connecting Both Layers
+To ensure Phase 1 (Vite web prototype) transitions into Phase 2 (Tauri + Rust +
+SQLite desktop app) without rewriting a single canvas or UI component:
+
+1. Strict Storage Repository Boundary:
+   All loading, saving, exporting, and importing MUST flow through one async
+   WorkspaceRepository TypeScript interface. Zero direct localStorage calls are
+   permitted inside React components or toolbar actions.
+   - Phase 1 Adapter: LocalStorageRepository (browser storage + JSON file I/O).
+   - Phase 2 Adapter: TauriSqliteRepository (calls Rust IPC commands via
+     @tauri-apps/api/core invoke() backed by SQLite).
+
+2. Pure Domain Engine Isolation:
+   All layout, overlap removal, parallel edge math, and quantitative metrics
+   live in pure TypeScript modules (src/engine/*) with zero dependencies on
+   React, window, document, or browser storage.
+
+3. Desktop Webview Compatibility:
+   Navigation between the Opening Page and active Workbooks uses React state
+   rather than browser URL history paths, and Vite compiles with relative asset
+   paths so the production bundle drops straight into Tauri's webview.
+
+4. Strict Topology vs. Geometry Separation:
+   Graph topology (entities and branches) is read-only during layout routines.
+   - Manual Dragging writes (x, y) straight to placement records with zero
+     snap-back.
+   - Local Anti-Overlap (on drag release) shifts only colliding cards apart by
+     minimum pixel clearance while keeping the dragged card anchored (Dwyer,
+     Marriott, & Stuckey, 2006).
+   - Tidy Up runs one bottom-to-top elkjs pass, animates cards smoothly over
+     ~400ms, saves the new coordinates, and releases full manual control.
+
+
+7. NORMALIZED MULTILAYER DATA MODEL (1-TO-1 WITH PHASE 2 SQLITE)
+--------------------------------------------------------------------------------
+Even in Phase 1 (single active Workbook), state is normalized into five tables
+so cross-workbook links work seamlessly in Phase 2 (Codd, 1970; Kivela et al.,
+2014):
+
+1. entities (Master Organization Directory)
+   entity_id | name | category | global_notes | created_at
+   Every organization exists once across the entire workspace.
+
+2. workbooks (Project Layers)
+   workbook_id | title | description | target_budget_inr | status | created_at |
+   updated_at
+
+3. placements (Node Instances per Workbook Layer)
+   placement_id | workbook_id | entity_id | is_root_ngo | x | y | width | height
+   Lets "City Museum" sit at unique coordinates in Workbook 1 and Workbook 2
+   while pointing to one master entity_id.
+
+4. branches (Directed Multiplex Edges per Workbook)
+   branch_id | workbook_id | source_placement_id | target_placement_id |
+   type (green|white|yellow) | status (pending|tick|cross) | value_pct | note |
+   updated_at
+   Keeps each Workbook's funding percentage and outreach results isolated.
+
+5. workbook_links (Phase 2 Project-to-Project Connections)
+   link_id | source_workbook_id | target_workbook_id | relation_label | note
+
+
+8. TWO-PHASE ROLLOUT ROADMAP
+--------------------------------------------------------------------------------
+Phase 1: Single-Workbook Interactive Prototype (Node.js / Vite / TypeScript)
+- Boots directly into Workbook 1 pre-loaded with the 11-node, 15-branch Delhi
+  Youth Governance Exhibition scenario.
+- Delivers full bottom-to-top canvas, persistent zero-snap-back dragging, local
+  anti-overlap nudging, one-click bottom-to-top Tidy Up via elkjs, parallel
+  curved green/white/yellow branches, inline tick/cross buttons, M% pills,
+  dynamic multi-thread badges, declined gray path toggle, live 7-metric top
+  strip, entity deduplication on Add Node, and JSON Export/Import through
+  WorkspaceRepository.
+
+Phase 2: Interconnected Multi-Workbook Desktop App (Rust / Tauri v2 / SQLite)
+- Wraps the Phase 1 frontend build in a Tauri v2 Rust workspace (`src-tauri/`).
+- Replaces LocalStorageRepository with TauriSqliteRepository invoking Rust
+  SQLite commands over a single portable `.sqlite` workspace file.
+- Adds the Opening Page with two views:
+  (a) Workbook Cards Grid: Displays each project's funding M%, confirmed white
+      ties, multi-thread targets, and open/create actions.
+  (b) Overview Map Toggle: Displays Workbooks as macro-nodes linked by both
+      automatic shared-partner counts and manual workbook_links.
+- Adds Cross-Workbook Institutional Memory: Shared partners show an "N
+  Workbooks" badge opening a history drawer summarizing past outcomes, plus a
+  "Pull Proven Bridges" action to import confirmed downstream yellow contacts
+  from prior Workbooks into a new Workbook as dashed pending yellow leads.
+
+
+9. REFERENCES
+--------------------------------------------------------------------------------
+Aryanpour, A. (2023). Auto Layout & Positioning in React Flow using ElkJS
+  (Eclipse Layout Kernel) with TypeScript and TailwindCSS. Medium.
+  https://medium.com/@armanaryanpour/auto-layout-positioning-in-react-flow-using-elkjs-eclipse-layout-kernel-with-typescript-and-6389a2cc0119
+
+Burt, R. S. (1992). Structural Holes: The Social Structure of Competition.
+  Harvard University Press.
+
+Campbell, D. T. (1979). Assessing the impact of planned social change.
+  Evaluation and Program Planning, 2(1), 67-90.
+
+Centola, D., & Macy, M. (2007). Complex contagions and the weakness of long
+  ties. American Journal of Sociology, 113(3), 702-734.
+
+Codd, E. F. (1970). A relational model of data for large shared data banks.
+  Communications of the ACM, 13(6), 377-387.
+
+Dwyer, T., Marriott, K., & Stuckey, P. J. (2006). Fast node overlap removal.
+  In P. Healy & N. S. Nikolov (Eds.), Graph Drawing: 13th International
+  Symposium, GD 2005 (pp. 153-164). Springer.
+
+Earl, S., Carden, F., & Smutylo, T. (2001). Outcome Mapping: Building Learning
+  and Reflection into Development Programs. International Development Research
+  Centre.
+
+egui. (n.d.). egui: An easy-to-use immediate mode GUI in Rust that runs on
+  both web and native. GitHub. https://github.com/emilk/egui
+
+Electron. (n.d.). Introduction. OpenJS Foundation.
+  https://electronjs.org/docs/latest
+
+Freeman, L. C. (1979). Centrality in social networks: Conceptual clarification.
+  Social Networks, 1(3), 215-239.
+
+Fruchterman, T. M. J., & Reingold, E. M. (1991). Graph drawing by
+  force-directed placement. Software: Practice and Experience, 21(11),
+  1129-1164.
+
+Gansner, E. R., Koutsofios, E., North, S. C., & Vo, K.-P. (1993). A technique
+  for drawing directed graphs. IEEE Transactions on Software Engineering,
+  19(3), 214-230.
+
+Ghoniem, M., Fekete, J.-D., & Castagliola, P. (2005). On the readability of
+  graphs using node-link and matrix-based representations: A controlled
+  experiment and statistical analysis. Information Visualization, 4(2),
+  114-135.
+
+Granovetter, M. S. (1973). The strength of weak ties. American Journal of
+  Sociology, 78(6), 1360-1380.
+
+KIELER. (n.d.). elkjs: ELK's layout algorithms for JavaScript. GitHub.
+  https://github.com/kieler/elkjs
+
+Kivela, M., Arenas, A., Barthelemy, M., Gleeson, J. P., Moreno, Y., & Porter,
+  M. A. (2014). Multilayer networks. Journal of Complex Networks, 2(3),
+  203-271.
+
+Muller, J. Z. (2018). The Tyranny of Metrics. Princeton University Press.
+
+Node.js. (n.d.). Run JavaScript Everywhere. OpenJS Foundation.
+  https://nodejs.org/en
+
+React Flow. (2026). The EdgeLabelRenderer component and Edge Labels. xyflow
+  Documentation.
+  https://reactflow.dev/api-reference/components/edge-label-renderer
+
+Schulze, C. D., Sponemann, M., & von Hanxleden, R. (2014). Drawing layered
+  graphs with port constraints. Journal of Visual Languages & Computing, 25(2),
+  89-106.
+
+SQLite. (2025). Benefits of SQLite As A File Format and SQLite As An
+  Application File Format. https://www.sqlite.org/appfileformat.html and
+  https://www.sqlite.org/aff_short.html
+
+Stevens, S. S. (1946). On the theory of scales of measurement. Science,
+  103(2684), 677-680.
+
+Strathern, M. (1997). 'Improving ratings': audit in the British University
+  system. European Review, 5(3), 305-321.
+
+Sugiyama, K., Tagawa, S., & Toda, M. (1981). Methods for visual understanding
+  of hierarchical system structures. IEEE Transactions on Systems, Man, and
+  Cybernetics, 11(2), 109-125.
+
+Tauri. (2026). What is Tauri? Tauri v2 Documentation.
+  https://v2.tauri.app/start/
+
+Tauri. (n.d.). Architecture. GitHub.
+  https://github.com/tauri-apps/tauri/blob/dev/ARCHITECTURE.md
+
+Wasserman, S., & Faust, K. (1994). Social Network Analysis: Methods and
+  Applications. Cambridge University Press.
