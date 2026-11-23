@@ -263,12 +263,10 @@ async function runTests() {
   useWorkspaceStore.getState().setFlashingPlacement(null);
   assert.strictEqual(useWorkspaceStore.getState().flashingPlacementId, null);
 
-  // Test real-world 115+ node graph search (YCIV UGUS OUtreach.json)
+  // Test real-world 115+ node graph search (synthetic_large_network.json)
   const fs = await import('node:fs');
   const path = await import('node:path');
-  const ycivPath = fs.existsSync(path.resolve('YCIV UGUS OUtreach.json'))
-    ? path.resolve('YCIV UGUS OUtreach.json')
-    : path.resolve('test/fixtures/anonymized_large_network.json');
+  const ycivPath = path.resolve('test/fixtures/synthetic_large_network.json');
   if (fs.existsSync(ycivPath)) {
     const rawData = fs.readFileSync(ycivPath, 'utf8');
     await useWorkspaceStore.getState().importWorkspaceFile(rawData);
@@ -297,8 +295,8 @@ async function runTests() {
     assert.strictEqual(useWorkspaceStore.getState().selectedPlacementId, firstMatch.placementId);
     assert.strictEqual(useWorkspaceStore.getState().flashingPlacementId, firstMatch.placementId);
 
-    // Search by notes (e.g. 'Sandeep Virmani' in Hunnarshala notes)
-    const qNotes = 'sandeep virmani';
+    // Search by notes (e.g. 'civil society foundation' in Hunnarshala notes)
+    const qNotes = 'civil society foundation';
     const notesMatches = importedPlacements.filter((p) => {
       const ent = storeStateAfterImport.workspace?.entities[p.entityId];
       return ent?.globalNotes?.toLowerCase().includes(qNotes);

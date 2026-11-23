@@ -6,819 +6,819 @@
       "entityId": "ent-hunnarshala-foundation",
       "name": "Hunnarshala Foundation",
       "category": "ngo",
-      "globalNotes": "Root host organization running the Youth Civic Media (YCIV) exhibition in Bhuj (Sandeep Virmani; outreach lead: Shounak). Excel #15.",
+      "globalNotes": "Root host civil society foundation coordinating civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-fondation-botnar": {
       "entityId": "ent-fondation-botnar",
       "name": "Fondation Botnar",
       "category": "csr",
-      "globalNotes": "Primary international philanthropic donor funding the Youth Civic Media (YCIV) programme in Bhuj.",
+      "globalNotes": "Primary international philanthropic donor partner.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-univ-sheffield": {
       "entityId": "ent-univ-sheffield",
       "name": "University of Sheffield",
       "category": "institution",
-      "globalNotes": "International academic research and funding partner for the Youth Civic Media programme.",
+      "globalNotes": "International academic research and funding partner.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-iit-bombay": {
       "entityId": "ent-iit-bombay",
       "name": "IIT Bombay",
       "category": "institution",
-      "globalNotes": "Indian academic funding partner providing technical collaboration and direct access to MoHUA.",
+      "globalNotes": "Indian academic and technical collaboration partner.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kachchh-museum": {
       "entityId": "ent-kachchh-museum",
       "name": "Kachchh Museum (KM)",
       "category": "institution",
-      "globalNotes": "Oldest museum in Gujarat (est. 1877). Offered exhibition space free of charge to co-organize the event and served as the primary bridge providing contacts and pre-visit context to every Bhuj/Kachchh government agency. Lead: Shounak. Excel #91.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-hic-bhuj": {
       "entityId": "ent-hic-bhuj",
       "name": "Homes in the City (HIC)",
       "category": "ngo",
-      "globalNotes": "Sister urban collective in Bhuj co-organizing the entire exhibition programme (Jaibhai). Mobilizes NGOs, CSRs, heritage venues, civic clubs, and schools.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-setu-abhiyan": {
       "entityId": "ent-setu-abhiyan",
       "name": "SETU Abhiyan (Urban Setu)",
       "category": "ngo",
-      "globalNotes": "Sister organization in Bhuj (POC: Bhawsinh / Vishrambhai; lead: Shounak). Key bridge into municipal governance, Mayor, and ward committees. Excel #2.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kmvs": {
       "entityId": "ent-kmvs",
       "name": "KMVS (Kutch Mahila Vikas Sangathan)",
       "category": "ngo",
-      "globalNotes": "Sister organization in Bhuj (POC: Krutiben / Arunaben; Jigna Ben works here; lead: Nilam Ben). Bridges women's welfare, legal aid, and district protection agencies. Excel #5.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kyns": {
       "entityId": "ent-kyns",
       "name": "KYNS (Kutch Yuva Navnirman Samaj)",
       "category": "ngo",
-      "globalNotes": "Youth civic collective partnered with HIC to reach Bhuj schools and colleges for the exhibition. Excel #72-#77.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-mohua": {
       "entityId": "ent-mohua",
       "name": "Ministry of Housing & Urban Affairs (MoHUA)",
       "category": "government",
-      "globalNotes": "Union ministry accessed via IIT Bombay; opened institutional pathway to NITI Aayog for national legitimacy.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-niti-aayog": {
       "entityId": "ent-niti-aayog",
       "name": "NITI Aayog",
       "category": "government",
-      "globalNotes": "Apex national public policy body accessed via MoHUA; provided institutional legitimacy to run the exhibition and engage state/district departments with confidence.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-district-collector": {
       "entityId": "ent-district-collector",
       "name": "District Collector (Kachchh)",
       "category": "government",
-      "globalNotes": "Chief Guest for the Bhuj exhibition inauguration. Contact & context laid by Kachchh Museum (KM) and reinforced by NITI Aayog legitimacy. Excel #52, Inaug #8/#11.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhuj-nagarpalika": {
       "entityId": "ent-bhuj-nagarpalika",
-      "name": "Bhuj Nagarpalika (CO Twinkle Patel)",
+      "name": "Bhuj Nagarpalika (Municipal Administration)",
       "category": "government",
-      "globalNotes": "Bhuj municipal administration and officers including CO Twinkle Patel. Lead: Shounak + HIC + Vishram. Excel #50, Inaug #9.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhada": {
       "entityId": "ent-bhada",
       "name": "BHADA (Bhuj Area Development Authority)",
       "category": "government",
-      "globalNotes": "Urban planning and development authority for Bhuj. Lead: Shounak + HIC + Vishram. Excel #51, Inaug #10.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-mayor-shital-shah": {
       "entityId": "ent-mayor-shital-shah",
-      "name": "Mayor of Bhuj (Shital Shah)",
+      "name": "Office of the Mayor of Bhuj",
       "category": "government",
-      "globalNotes": "Civic head of Bhuj Municipality (POC: Dharmeshbhai; lead: HIC + SETU). Excel #53, Inaug #1/#12.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-ward-councillors": {
       "entityId": "ent-ward-councillors",
       "name": "Ward Councillors (Bhuj)",
       "category": "government",
-      "globalNotes": "Elected municipal ward councillors (POC: Bhawsinh; lead: Shounak). Excel #54, Inaug #6/#13.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-ward-committee-members": {
       "entityId": "ent-ward-committee-members",
       "name": "Ward Committee Members",
       "category": "government",
-      "globalNotes": "Local ward-level governance members (lead: Shounak + Urban Setu). Excel #55, Inaug #7/#14.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-gpcb": {
       "entityId": "ent-gpcb",
       "name": "GPCB (Gujarat Pollution Control Board)",
       "category": "government",
-      "globalNotes": "State pollution control regional office in Bhuj (POC: Sumit Chauhan; lead: HIC). Excel #56, Inaug #15.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-environmental-engineer": {
       "entityId": "ent-environmental-engineer",
       "name": "Environmental Engineer (Bhuj)",
       "category": "government",
-      "globalNotes": "Municipal/regional environmental engineering office listed on Inauguration List (#17).",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-deputy-sp-lady": {
       "entityId": "ent-deputy-sp-lady",
-      "name": "Deputy SP (Lady) - Kachchh Police",
+      "name": "District Police Administration (Women Welfare)",
       "category": "government",
-      "globalNotes": "Senior district police officer (lead: Nilam Ben). Excel #93, Inaug #22.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-ips-sandra": {
       "entityId": "ent-ips-sandra",
-      "name": "IPS Officer (Sandra & Wife)",
+      "name": "District Senior Police Administration",
       "category": "government",
-      "globalNotes": "Senior IPS officer in Kachchh (lead: Nilam Ben). Excel #94, Inaug #23.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-asi-gunjan-shrivastava": {
       "entityId": "ent-asi-gunjan-shrivastava",
-      "name": "ASI / ASIO (Gunjan Shrivastava)",
+      "name": "ASI / ASIO (Archaeological Survey Office)",
       "category": "government",
-      "globalNotes": "Archaeological Survey of India / Officer (merged Excel #95 'ASI - Gunjan Shrivastava' and Inaug #24 'ASIO'; both marked KM).",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-wdo-kachchh": {
       "entityId": "ent-wdo-kachchh",
       "name": "WDO (Women Development Office)",
       "category": "government",
-      "globalNotes": "District Women Development / WCD Office (lead: Shounak; POC: Jigna Ben, KMVS). Excel #108, Inaug #16.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-disp-kachchh": {
       "entityId": "ent-disp-kachchh",
       "name": "District Protection / Welfare Office (Disp)",
       "category": "government",
-      "globalNotes": "Listed as 'Disp' in outreach sheet under Shounak with POC Jigna Ben (KMVS); exact abbreviation kept transparent. Excel #109.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-dlsa-kachchh": {
       "entityId": "ent-dlsa-kachchh",
       "name": "District Legal Services Authority (DLSA)",
       "category": "government",
-      "globalNotes": "District legal aid authority at Kachchh District Court (lead: Shounak; POC: Jigna Ben, KMVS). Excel #110.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-nyks-bhuj": {
       "entityId": "ent-nyks-bhuj",
       "name": "NYKS (Nehru Yuva Kendra Sangathan)",
       "category": "government",
-      "globalNotes": "District youth mobilization office, Bahumali Bhavan, Bhuj. Bridged directly by Kachchh Museum. Excel #111, Inaug #18.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-youth-dev-office": {
       "entityId": "ent-youth-dev-office",
-      "name": "Youth Development Office (Devanshi Gadhvi)",
+      "name": "Youth Development Office (District Youth Officer)",
       "category": "government",
-      "globalNotes": "District Youth Development Officer, Bhuj. Bridged directly by Kachchh Museum. Excel #112, Inaug #19.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-mahiti-bhavan": {
       "entityId": "ent-mahiti-bhavan",
       "name": "Mahiti Bhavan (Directorate of Information)",
       "category": "government",
-      "globalNotes": "District Information Office, opposite Bahumali Bhavan, Bhuj. Bridged directly by Kachchh Museum. Excel #115.",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-samaj-suraksha-adhikari": {
       "entityId": "ent-samaj-suraksha-adhikari",
       "name": "Samaj Suraksha Adhikari (Social Defence)",
       "category": "government",
-      "globalNotes": "District Social Defence Officer, Kachchh. Listed on Inauguration List (#27).",
+      "globalNotes": "Institutional government partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-vc-kutch-univ": {
       "entityId": "ent-vc-kutch-univ",
-      "name": "VC Kutch University (Mohan Patel)",
+      "name": "VC Kutch University (Office of Vice Chancellor)",
       "category": "institution",
-      "globalNotes": "Vice Chancellor of Krantiguru Shyamji Krishna Verma Kachchh University. Bridged by Kachchh Museum. Excel #114, Inaug #21.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-dean-kutch-univ": {
       "entityId": "ent-dean-kutch-univ",
-      "name": "Dean Kutch University (Karishma Ji)",
+      "name": "Dean Kutch University (Office of Dean)",
       "category": "institution",
-      "globalNotes": "Dean at Kachchh University. Bridged by Kachchh Museum. Excel #113, Inaug #20.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kutch-university": {
       "entityId": "ent-kutch-university",
       "name": "Kutch University (Media & MSW)",
       "category": "institution",
-      "globalNotes": "Primary university reached out for the Bhuj exhibition (lead: Jaibhai/Ashwin/Nilam Ben), reinforced by KM's VC and Dean bridges. Excel #57.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-lallan-college": {
       "entityId": "ent-lallan-college",
       "name": "Lallan College",
       "category": "institution",
-      "globalNotes": "Excluded / not reached out per Shounak's direction (originally listed under Jaibhai/Ayesha). Excel #58.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-tolani-college": {
       "entityId": "ent-tolani-college",
       "name": "Tolani College",
       "category": "institution",
-      "globalNotes": "College outreach via Shounak's own contact and Vishal. Excel #60 ('Tuloni college').",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-mahila-college": {
       "entityId": "ent-mahila-college",
       "name": "Mahila College",
       "category": "institution",
-      "globalNotes": "College outreach via Shounak's contact and Sherbanu. Excel #67.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-jp-thakkar-college": {
       "entityId": "ent-jp-thakkar-college",
       "name": "JP Thakkar Commerce College",
       "category": "institution",
-      "globalNotes": "College outreach via Shounak's own contact. Excel #69.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sanskar-college": {
       "entityId": "ent-sanskar-college",
       "name": "Sanskar College",
       "category": "institution",
-      "globalNotes": "College outreach via Shounak's contact plus KYNS + HIC. Excel #77.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-chanakya-physio-college": {
       "entityId": "ent-chanakya-physio-college",
       "name": "Chanakya College of Physiotherapy",
       "category": "institution",
-      "globalNotes": "College outreach via Shounak's contact (POC: Kavita). Excel #78.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-engineering-college-bhuj": {
       "entityId": "ent-engineering-college-bhuj",
       "name": "Government Engineering College, Bhuj",
       "category": "institution",
-      "globalNotes": "College outreach via Shounak's own contact. Excel #81 ('Engineering Colage').",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-iti-bhuj": {
       "entityId": "ent-iti-bhuj",
       "name": "ITI Bhuj",
       "category": "institution",
-      "globalNotes": "Industrial Training Institute reached via Mubin & Shounak's contact. Excel #66.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-uee-schools": {
       "entityId": "ent-uee-schools",
       "name": "UEE Schools (Urban Env. Education)",
       "category": "institution",
-      "globalNotes": "12 Bhuj public schools under HIC's Urban Environment Education programme (lead: Nainaben). Excel #59.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-shishukunj": {
       "entityId": "ent-shishukunj",
       "name": "Shishukunj",
       "category": "institution",
-      "globalNotes": "School/youth centre (POC: Sandhya Acharya; lead: Nilam Ben). Excel #61.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-matruchaya-school": {
       "entityId": "ent-matruchaya-school",
       "name": "Matruchaya School",
       "category": "institution",
-      "globalNotes": "Local Bhuj school. Excel #63.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-muslim-education-school": {
       "entityId": "ent-muslim-education-school",
       "name": "Muslim Education School",
       "category": "institution",
-      "globalNotes": "Local Bhuj school (lead: Ayesha). Excel #64.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-indirabai-school": {
       "entityId": "ent-indirabai-school",
       "name": "Indirabai School",
       "category": "institution",
-      "globalNotes": "Local Bhuj school (lead: Maria). Excel #65.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sumati-alpha-tuition": {
       "entityId": "ent-sumati-alpha-tuition",
       "name": "Sumati & Alpha Tuition",
       "category": "institution",
-      "globalNotes": "Local student coaching centre (lead: Mubin). Excel #68.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sikander-academy": {
       "entityId": "ent-sikander-academy",
       "name": "Sikander Academy",
       "category": "institution",
-      "globalNotes": "Local academy (lead: Ayesha). Excel #70.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-desai-academy": {
       "entityId": "ent-desai-academy",
       "name": "Desai Academy",
       "category": "institution",
-      "globalNotes": "Local academy. Excel #80.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhuj-english-school": {
       "entityId": "ent-bhuj-english-school",
       "name": "Bhuj English School",
       "category": "institution",
-      "globalNotes": "School reached via KYNS + HIC. Excel #72.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-vd-school": {
       "entityId": "ent-vd-school",
       "name": "VD School",
       "category": "institution",
-      "globalNotes": "School reached via KYNS + HIC. Excel #73.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-st-xaviers-school": {
       "entityId": "ent-st-xaviers-school",
       "name": "St. Xavier's School",
       "category": "institution",
-      "globalNotes": "School reached via KYNS + HIC. Excel #74.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-white-house-public-school": {
       "entityId": "ent-white-house-public-school",
       "name": "White House Public School",
       "category": "institution",
-      "globalNotes": "School reached via KYNS + HIC. Excel #75.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-andrews-school": {
       "entityId": "ent-andrews-school",
       "name": "St. Andrew's School",
       "category": "institution",
-      "globalNotes": "School reached via KYNS + HIC. Excel #76.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-khamir": {
       "entityId": "ent-khamir",
       "name": "Khamir",
       "category": "ngo",
-      "globalNotes": "Crafts and heritage NGO in Kukma/Bhuj (POC: Kavya Saxena / Ghatit bhai; lead: Nilam Ben; merged Inaug #29 'ghatit bhai'). Excel #1.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-lldc-shrujan": {
       "entityId": "ent-lldc-shrujan",
       "name": "LLDC / Shrujan",
       "category": "ngo",
-      "globalNotes": "Living and Learning Design Centre / Shrujan (POC: Kiritbhai / Amiben / Nimesh Bhai; lead: Nilam Ben; merged Inaug #4). Excel #3.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-qasab": {
       "entityId": "ent-qasab",
       "name": "Qasab (Kutch Craft Collective)",
       "category": "ngo",
-      "globalNotes": "Artisan collective (POC: Pankaj bhai / Puneet). Excel #6.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-cedo": {
       "entityId": "ent-cedo",
       "name": "CEDO (Centre for Environment & Dev.)",
       "category": "ngo",
-      "globalNotes": "Local environmental NGO (POC: Jugal Kishore; lead: Ashwin). Excel #7.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sahjeevan": {
       "entityId": "ent-sahjeevan",
       "name": "Sahjeevan",
       "category": "ngo",
-      "globalNotes": "Core HIC partner NGO working on water, pastoralism, and urban ecology (POC: Kavitaben; lead: Nilam Ben). Excel #8.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kala-varso": {
       "entityId": "ent-kala-varso",
       "name": "Kala Varso",
       "category": "ngo",
-      "globalNotes": "Cultural and heritage organization (POC: Bharmal Sanjot; lead: Jaibhai). Excel #9.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-satvik": {
       "entityId": "ent-satvik",
       "name": "Satvik",
       "category": "ngo",
-      "globalNotes": "Organic farming & livelihood NGO (POC: Pravin Mucadiya; lead: HIC). Excel #10.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-act-bhuj": {
       "entityId": "ent-act-bhuj",
       "name": "ACT (Arid Communities & Technologies)",
       "category": "ngo",
-      "globalNotes": "Core HIC partner NGO working on urban water/hydrology (POC: Yogeshbhai; lead: HIC + Shounak). Excel #11.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-aina-bhuj": {
       "entityId": "ent-aina-bhuj",
       "name": "AINA (Artisans in Architecture)",
       "category": "ngo",
-      "globalNotes": "Artisan architecture collective linked with Hunnarshala/HIC (POC: Mahavirbhai; lead: HIC + Shounak). Excel #12.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-karigarshala": {
       "entityId": "ent-karigarshala",
       "name": "Karigarshala",
       "category": "ngo",
-      "globalNotes": "Artisan training school affiliated with Hunnarshala (POC: Atulbhai / Kiranbhai; lead: HIC + Shounak). Excel #13.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sankalan": {
       "entityId": "ent-sankalan",
       "name": "Sankalan",
       "category": "ngo",
-      "globalNotes": "Partner organization in Bhuj (POC: Tejasbhai; lead: HIC + Shounak). Excel #14.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kutch-history-assoc": {
       "entityId": "ent-kutch-history-assoc",
       "name": "Kutch History Association",
       "category": "ngo",
-      "globalNotes": "Local heritage & history society (POC: Bhupendra Mehta; lead: HIC). Excel #71.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-agrocell-csr": {
       "entityId": "ent-agrocell-csr",
       "name": "Agrocel (Agrocell CSR)",
       "category": "csr",
-      "globalNotes": "Local Kutch chemical/agribusiness CSR (deduplicated Excel #4 Nilam Ben POC Biren/Preetiben, #19 HIC + Shounak, and Inaug #3 Dipesh Bhai Agrocell).",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-ashapura-foundation": {
       "entityId": "ent-ashapura-foundation",
       "name": "Ashapura Foundation",
       "category": "csr",
-      "globalNotes": "Corporate foundation in Kutch (POC: Harish bhai; lead: HIC + Shounak). Excel #16.",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bkt-csr": {
       "entityId": "ent-bkt-csr",
       "name": "BKT CSR",
       "category": "csr",
-      "globalNotes": "Balkrishna Industries CSR arm in Bhuj (lead: HIC + Shounak). Excel #17.",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-adani-csr": {
       "entityId": "ent-adani-csr",
       "name": "Adani Foundation / CSR",
       "category": "csr",
-      "globalNotes": "Corporate CSR presence in Kutch (lead: HIC + Shounak). Excel #18.",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-suzlon-csr": {
       "entityId": "ent-suzlon-csr",
       "name": "Suzlon Foundation / CSR",
       "category": "csr",
-      "globalNotes": "Renewable energy CSR arm in Kutch (lead: HIC + Shounak). Excel #20.",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-welspun-csr": {
       "entityId": "ent-welspun-csr",
       "name": "Welspun Foundation / CSR",
       "category": "csr",
-      "globalNotes": "Industrial CSR arm in Kutch (lead: HIC + Shounak). Excel #21.",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-axis-bank-csr": {
       "entityId": "ent-axis-bank-csr",
       "name": "Axis Bank CSR",
       "category": "csr",
-      "globalNotes": "Banking CSR outreach in Bhuj (lead: HIC + Shounak). Excel #22.",
+      "globalNotes": "Institutional csr partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-tvc-street-vendors": {
       "entityId": "ent-tvc-street-vendors",
       "name": "TVC / Street Vendors Federation",
       "category": "ngo",
-      "globalNotes": "Bhuj Town Vending Committee & street vendor collective (POC: Mayurbhai; lead: Shounak). Excel #30.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sakhi-sangini": {
       "entityId": "ent-sakhi-sangini",
       "name": "Sakhi Sangini Federation",
       "category": "ngo",
-      "globalNotes": "Urban women's SHG federation partnered with KMVS & HIC (POC: Hansaben; lead: Shounak). Excel #31.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-cyclists-group": {
       "entityId": "ent-cyclists-group",
       "name": "Bhuj Cyclists (White Eagle Group)",
       "category": "ngo",
-      "globalNotes": "Civic cycling collective (POC: White Eagle Group; lead: Jaibhai). Excel #32.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-marathon-group": {
       "entityId": "ent-marathon-group",
       "name": "Bhuj Marathon Group",
       "category": "ngo",
-      "globalNotes": "Civic running collective (lead: Nilam Ben). Excel #33.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-mahila-mandal": {
       "entityId": "ent-mahila-mandal",
       "name": "Mahila Mandal",
       "category": "ngo",
-      "globalNotes": "Local women's community group (lead: Mayaben). Excel #34.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhuj-bengali-assoc": {
       "entityId": "ent-bhuj-bengali-assoc",
       "name": "Bhuj Bengali Association",
       "category": "ngo",
-      "globalNotes": "Cultural community association (lead: Shounak). Excel #35.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-camp-area-women": {
       "entityId": "ent-camp-area-women",
       "name": "Camp Area Women Collective",
       "category": "ngo",
-      "globalNotes": "Community women's group in Bhuj Camp area (lead: Yasmin). Excel #82.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-block-printers-bandhani": {
       "entityId": "ent-block-printers-bandhani",
       "name": "Block Printers & Bandhani Artisans",
       "category": "ngo",
-      "globalNotes": "Local craft artisan community (lead: Nilam Ben). Excel #83.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhujodi-youth": {
       "entityId": "ent-bhujodi-youth",
       "name": "Bhujodi Youth Group",
       "category": "ngo",
-      "globalNotes": "Youth group from Bhujodi craft village (lead: Khushboo). Excel #84.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sathwara-community": {
       "entityId": "ent-sathwara-community",
       "name": "Sathwara Community",
       "category": "ngo",
-      "globalNotes": "Local Bhuj community group (lead: Divya). Excel #85.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-mehendi-class-group": {
       "entityId": "ent-mehendi-class-group",
       "name": "Mehendi Class Youth Group",
       "category": "ngo",
-      "globalNotes": "Local women's skill group (lead: Amreen, Afreen). Excel #86.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-safai-karamchari-valmiki": {
       "entityId": "ent-safai-karamchari-valmiki",
       "name": "Safai Karamchari / Valmiki Samaj",
       "category": "ngo",
-      "globalNotes": "Sanitation workers community group (lead: Yasmin). Excel #87.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bandhani-women-camp": {
       "entityId": "ent-bandhani-women-camp",
       "name": "Bandhani Women (Camp Area)",
       "category": "ngo",
-      "globalNotes": "Artisan women's group in Camp area (lead: Maria, Amrin, Diya). Excel #88.",
+      "globalNotes": "Institutional ngo partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-fokia": {
       "entityId": "ent-fokia",
       "name": "FOKIA (Fed. of Kutch Industries)",
       "category": "institution",
-      "globalNotes": "Federation of Kutch Industries Associations (lead: HIC + Shounak). Excel #23.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhuj-chamber-commerce": {
       "entityId": "ent-bhuj-chamber-commerce",
       "name": "Bhuj Chamber of Commerce",
       "category": "institution",
-      "globalNotes": "Local trade and commerce body (lead: HIC + Shounak). Excel #24.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bar-association": {
       "entityId": "ent-bar-association",
       "name": "Bhuj Bar Association",
       "category": "institution",
-      "globalNotes": "District legal professionals association (lead: HIC + Shounak). Excel #25.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-engineers-association": {
       "entityId": "ent-engineers-association",
       "name": "Engineers Association (Bhuj)",
       "category": "institution",
-      "globalNotes": "Local engineering professionals association (lead: HIC + Shounak). Excel #26.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhuj-city-council": {
       "entityId": "ent-bhuj-city-council",
       "name": "Bhuj City Council",
       "category": "institution",
-      "globalNotes": "Civic forum (lead: HIC + Shounak). Excel #27.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-rotary-club-bhuj": {
       "entityId": "ent-rotary-club-bhuj",
-      "name": "Rotary Club Library & Rotaract",
+      "name": "Rotary Club Library & Rotaract District Wing",
       "category": "institution",
-      "globalNotes": "Rotary Club & Rotaract Bhuj (POC: Vijay; lead: Nilam Ben). Excel #38, Inaug #26.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-lions-club-bhuj": {
       "entityId": "ent-lions-club-bhuj",
       "name": "Lions Club Bhuj",
       "category": "institution",
-      "globalNotes": "Civic service club (lead: Shounak, Nilam Ben). Excel #39, Inaug #25.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-leo-club-bhuj": {
       "entityId": "ent-leo-club-bhuj",
       "name": "Leo Club Bhuj",
       "category": "institution",
-      "globalNotes": "Youth wing of Lions Club (lead: Deep, Shounak). Excel #40.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-giants-group": {
       "entityId": "ent-giants-group",
-      "name": "Giants Group (Hospital Road)",
+      "name": "Giants Group (Civic Service Club)",
       "category": "institution",
-      "globalNotes": "Civic service group (POC: Dr. Madhukant Acharya; lead: HIC). Excel #41.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-ppc-club": {
       "entityId": "ent-ppc-club",
       "name": "PPC Club Bhuj",
       "category": "institution",
-      "globalNotes": "Local club (lead: HIC). Excel #42.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-flamingo-club": {
       "entityId": "ent-flamingo-club",
       "name": "Rotary Club of Bhuj Flamingo",
       "category": "institution",
-      "globalNotes": "Local Rotary Flamingo club. Excel #43 ('Flamingo').",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-vijayraji-library": {
       "entityId": "ent-vijayraji-library",
       "name": "Vijayraji Library",
       "category": "institution",
-      "globalNotes": "Historic public library in Bhuj (lead: Shounak). Excel #44.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-photographic-society-kutch": {
       "entityId": "ent-photographic-society-kutch",
-      "name": "Photographic Society of Kutch",
+      "name": "Photographic Society of Kutch Guild",
       "category": "institution",
-      "globalNotes": "Local photography guild (POC: Ashutosh Gor; lead: Nilam Ben; merged Excel #79 'Ashutosh gor?'). Excel #45.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-indian-medical-assoc": {
       "entityId": "ent-indian-medical-assoc",
       "name": "Indian Medical Association (Bhuj)",
       "category": "institution",
-      "globalNotes": "Local doctors association (deduplicated Excel #46 & #107; lead: HIC).",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-sarvottam-bhuj": {
       "entityId": "ent-sarvottam-bhuj",
       "name": "Sarvottam Bhuj",
       "category": "institution",
-      "globalNotes": "Local civic citizens' initiative (lead: HIC). Excel #47.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kachchh-sahitya-academy": {
       "entityId": "ent-kachchh-sahitya-academy",
       "name": "Kachchh Sahitya Academy",
       "category": "institution",
-      "globalNotes": "Regional literary institution (lead: Nilam Ben). Excel #48.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-aina-mahal": {
       "entityId": "ent-aina-mahal",
-      "name": "Aina Mahal Trust (Shriraj / Dalpat)",
+      "name": "Aina Mahal Trust (Palace Museum)",
       "category": "institution",
-      "globalNotes": "Historic palace museum in Bhuj (POC: Shriraj; merged Inaug #28 'aina meher - dalpat bhai'; lead: HIC). Excel #90.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-prag-mahal": {
       "entityId": "ent-prag-mahal",
       "name": "Prag Mahal",
       "category": "institution",
-      "globalNotes": "Historic palace venue in Bhuj (POC: Shriraj; lead: HIC). Excel #92.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-aashapura-mandir": {
       "entityId": "ent-aashapura-mandir",
       "name": "Aashapura Mandir Trust",
       "category": "institution",
-      "globalNotes": "Major local religious & heritage trust (lead: HIC). Excel #96.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-khatri-chowk": {
       "entityId": "ent-khatri-chowk",
       "name": "Khatri Chowk Guild",
       "category": "institution",
-      "globalNotes": "Historic Bhuj craft & market quarter (lead: Nilam Ben). Excel #97.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-hamirsar-civic": {
       "entityId": "ent-hamirsar-civic",
       "name": "Hamirsar Lakefront Group",
       "category": "institution",
-      "globalNotes": "Civic stakeholders around Hamirsar Lake, opposite Kachchh Museum (lead: Shounak). Excel #98.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-officers-club": {
       "entityId": "ent-officers-club",
       "name": "Officers Club Bhuj",
       "category": "institution",
-      "globalNotes": "Senior administrative & civic officers club (lead: HIC). Excel #99.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-bhuj-house": {
       "entityId": "ent-bhuj-house",
-      "name": "Bhuj House (Jhan Bhujwala)",
+      "name": "Bhuj House (Heritage Cultural Space)",
       "category": "institution",
-      "globalNotes": "Heritage hospitality & cultural space (POC: Jhan Bhujwala; lead: HIC). Excel #100.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-abdul-instagram-page": {
       "entityId": "ent-abdul-instagram-page",
-      "name": "Abdul Instagram Page",
+      "name": "Youth Digital Media Collective",
       "category": "institution",
-      "globalNotes": "Local youth digital creator & social page (lead: Abdul). Excel #89.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-neha-kutch-page": {
       "entityId": "ent-neha-kutch-page",
-      "name": "Neha (Kutch Page)",
+      "name": "Civic Digital Media Channel",
       "category": "institution",
-      "globalNotes": "Local digital media page (lead: HIC). Excel #101.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-kirti-bhai-khatri": {
       "entityId": "ent-kirti-bhai-khatri",
-      "name": "Kirti Bhai Khatri (Kutchmitra)",
+      "name": "Kutchmitra Regional Press Desk",
       "category": "institution",
-      "globalNotes": "Senior veteran journalist & media voice in Kachchh (lead: Nilam Ben). Excel #102.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-divya-bhaskar-bhuj": {
       "entityId": "ent-divya-bhaskar-bhuj",
-      "name": "Divya Bhaskar Bhuj (Naveen Bhai)",
+      "name": "Divya Bhaskar Regional Press Desk",
       "category": "institution",
-      "globalNotes": "Regional Gujarati daily press contact (lead: Nilam Ben). Excel #103.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-chanchal-news-tv": {
       "entityId": "ent-chanchal-news-tv",
       "name": "Chanchal News TV",
       "category": "institution",
-      "globalNotes": "Local Bhuj TV news channel (lead: Nilam Ben). Excel #104.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-lal-bhai-rambia": {
       "entityId": "ent-lal-bhai-rambia",
-      "name": "Lal Bhai Rambia",
+      "name": "Civic & Cultural Patron",
       "category": "institution",
-      "globalNotes": "Notable Bhuj civic/cultural patron (lead: Nilam Ben). Excel #105.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-all-media-invites": {
       "entityId": "ent-all-media-invites",
       "name": "Bhuj Press & Media Pool",
       "category": "institution",
-      "globalNotes": "Consolidated local press & media invites (lead: Jaibhai). Excel #106.",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-arun-bha": {
       "entityId": "ent-arun-bha",
-      "name": "Arun Bha (Inauguration Dignitary)",
+      "name": "Civic Advisory Board Member (Dignitary A)",
       "category": "institution",
-      "globalNotes": "Notable local dignitary listed on Inauguration List (#2).",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     },
     "ent-preeti-devi": {
       "entityId": "ent-preeti-devi",
-      "name": "Preeti Devi (Inauguration Dignitary)",
+      "name": "Civic Advisory Board Member (Dignitary B)",
       "category": "institution",
-      "globalNotes": "Notable local dignitary listed on Inauguration List (#5).",
+      "globalNotes": "Institutional institution partner supporting community civic initiatives.",
       "createdAt": "2026-11-21T11:00:00.000Z"
     }
   },
@@ -2013,7 +2013,7 @@
       "targetPlacementId": "plc-fondation-botnar",
       "type": "green",
       "status": "tick",
-      "note": "Primary YCIV programme grant funding (60% of Bhuj exhibition budget)",
+      "note": "Grant co-funding allocation (60% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 60
     },
@@ -2024,7 +2024,7 @@
       "targetPlacementId": "plc-univ-sheffield",
       "type": "green",
       "status": "tick",
-      "note": "Research consortium co-funding (25% of exhibition budget)",
+      "note": "Grant co-funding allocation (25% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 25
     },
@@ -2035,7 +2035,7 @@
       "targetPlacementId": "plc-univ-sheffield",
       "type": "white",
       "status": "tick",
-      "note": "Academic research & civic media programme co-partner",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-004": {
@@ -2045,7 +2045,7 @@
       "targetPlacementId": "plc-iit-bombay",
       "type": "green",
       "status": "tick",
-      "note": "Technical & academic consortium co-funding (15% of exhibition budget)",
+      "note": "Grant co-funding allocation (15% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 15
     },
@@ -2056,7 +2056,7 @@
       "targetPlacementId": "plc-iit-bombay",
       "type": "white",
       "status": "tick",
-      "note": "Academic & civic technology partner",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-006": {
@@ -2066,7 +2066,7 @@
       "targetPlacementId": "plc-iit-bombay",
       "type": "yellow",
       "status": "tick",
-      "note": "National institutional gateway to union ministries",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-007": {
@@ -2076,7 +2076,7 @@
       "targetPlacementId": "plc-mohua",
       "type": "yellow",
       "status": "tick",
-      "note": "Direct institutional access to Ministry of Housing & Urban Affairs",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-008": {
@@ -2086,7 +2086,7 @@
       "targetPlacementId": "plc-niti-aayog",
       "type": "yellow",
       "status": "tick",
-      "note": "Connection to NITI Aayog providing national legitimacy for Bhuj event",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-009": {
@@ -2096,7 +2096,7 @@
       "targetPlacementId": "plc-kachchh-museum",
       "type": "yellow",
       "status": "tick",
-      "note": "National legitimacy bolstering museum co-organization confidence",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-010": {
@@ -2106,7 +2106,7 @@
       "targetPlacementId": "plc-district-collector",
       "type": "yellow",
       "status": "tick",
-      "note": "National policy legitimacy supporting Chief Guest confirmation",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-011": {
@@ -2116,7 +2116,7 @@
       "targetPlacementId": "plc-bhuj-nagarpalika",
       "type": "yellow",
       "status": "tick",
-      "note": "National urban governance legitimacy for municipal participation",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-012": {
@@ -2126,7 +2126,7 @@
       "targetPlacementId": "plc-bhada",
       "type": "yellow",
       "status": "tick",
-      "note": "National urban legitimacy reinforcing planning authority engagement",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-013": {
@@ -2136,7 +2136,7 @@
       "targetPlacementId": "plc-nyks-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "National youth & governance legitimacy reinforcing NYKS turnout",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-014": {
@@ -2146,7 +2146,7 @@
       "targetPlacementId": "plc-samaj-suraksha-adhikari",
       "type": "yellow",
       "status": "tick",
-      "note": "National legitimacy encouraging state social defence office attendance",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-015": {
@@ -2156,7 +2156,7 @@
       "targetPlacementId": "plc-kachchh-museum",
       "type": "white",
       "status": "tick",
-      "note": "Free exhibition gallery space + offered to co-organize Bhuj YCIV exhibition (Shounak)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-016": {
@@ -2166,7 +2166,7 @@
       "targetPlacementId": "plc-kachchh-museum",
       "type": "yellow",
       "status": "tick",
-      "note": "Primary gateway giving contacts & laying context for every Bhuj/Kachchh government entity",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-017": {
@@ -2176,7 +2176,7 @@
       "targetPlacementId": "plc-hic-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Sister collective co-organizing the entire Bhuj exhibition (Jaibhai)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-018": {
@@ -2186,7 +2186,7 @@
       "targetPlacementId": "plc-hic-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "Citywide amplifier across NGOs, heritage venues, schools, CSRs & civic bodies",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-019": {
@@ -2196,7 +2196,7 @@
       "targetPlacementId": "plc-setu-abhiyan",
       "type": "white",
       "status": "tick",
-      "note": "Sister organization supporting governance outreach (Vishrambhai / Bhawsinh)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-020": {
@@ -2206,7 +2206,7 @@
       "targetPlacementId": "plc-setu-abhiyan",
       "type": "yellow",
       "status": "tick",
-      "note": "Bridge to Bhuj Nagarpalika, Mayor, BHADA & ward committees",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-021": {
@@ -2216,7 +2216,7 @@
       "targetPlacementId": "plc-kmvs",
       "type": "white",
       "status": "tick",
-      "note": "Sister organization supporting women & civic mobilization (Krutiben / Jigna Ben)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-022": {
@@ -2226,7 +2226,7 @@
       "targetPlacementId": "plc-kmvs",
       "type": "yellow",
       "status": "tick",
-      "note": "Bridge via Jigna Ben to WDO, Disp, DLSA & Sakhi Sangini",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-023": {
@@ -2236,7 +2236,7 @@
       "targetPlacementId": "plc-kyns",
       "type": "white",
       "status": "tick",
-      "note": "Youth civic collective co-mobilizing schools & youth attendance",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-024": {
@@ -2246,7 +2246,7 @@
       "targetPlacementId": "plc-kyns",
       "type": "yellow",
       "status": "tick",
-      "note": "Youth-led school & college outreach bridge",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-025": {
@@ -2256,7 +2256,7 @@
       "targetPlacementId": "plc-kyns",
       "type": "yellow",
       "status": "tick",
-      "note": "Joint KYNS + HIC school mobilization",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-026": {
@@ -2266,7 +2266,7 @@
       "targetPlacementId": "plc-district-collector",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for District Collector (Kachchh)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-027": {
@@ -2276,7 +2276,7 @@
       "targetPlacementId": "plc-district-collector",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-028": {
@@ -2286,7 +2286,7 @@
       "targetPlacementId": "plc-bhuj-nagarpalika",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Bhuj Nagarpalika (CO Twinkle Patel)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-029": {
@@ -2296,7 +2296,7 @@
       "targetPlacementId": "plc-bhuj-nagarpalika",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-030": {
@@ -2306,7 +2306,7 @@
       "targetPlacementId": "plc-bhada",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for BHADA (Bhuj Area Development Authority)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-031": {
@@ -2316,7 +2316,7 @@
       "targetPlacementId": "plc-bhada",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-032": {
@@ -2326,7 +2326,7 @@
       "targetPlacementId": "plc-mayor-shital-shah",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Mayor of Bhuj (Shital Shah)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-033": {
@@ -2336,7 +2336,7 @@
       "targetPlacementId": "plc-mayor-shital-shah",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-034": {
@@ -2346,7 +2346,7 @@
       "targetPlacementId": "plc-ward-councillors",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Ward Councillors (Bhuj)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-035": {
@@ -2356,7 +2356,7 @@
       "targetPlacementId": "plc-ward-councillors",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-036": {
@@ -2366,7 +2366,7 @@
       "targetPlacementId": "plc-ward-committee-members",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Ward Committee Members",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-037": {
@@ -2376,7 +2376,7 @@
       "targetPlacementId": "plc-ward-committee-members",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-038": {
@@ -2386,7 +2386,7 @@
       "targetPlacementId": "plc-gpcb",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for GPCB (Gujarat Pollution Control Board)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-039": {
@@ -2396,7 +2396,7 @@
       "targetPlacementId": "plc-gpcb",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-040": {
@@ -2406,7 +2406,7 @@
       "targetPlacementId": "plc-environmental-engineer",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Environmental Engineer (Bhuj)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-041": {
@@ -2416,7 +2416,7 @@
       "targetPlacementId": "plc-environmental-engineer",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-042": {
@@ -2426,7 +2426,7 @@
       "targetPlacementId": "plc-deputy-sp-lady",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Deputy SP (Lady) - Kachchh Police",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-043": {
@@ -2436,7 +2436,7 @@
       "targetPlacementId": "plc-deputy-sp-lady",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-044": {
@@ -2446,7 +2446,7 @@
       "targetPlacementId": "plc-ips-sandra",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for IPS Officer (Sandra & Wife)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-045": {
@@ -2456,7 +2456,7 @@
       "targetPlacementId": "plc-ips-sandra",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-046": {
@@ -2466,7 +2466,7 @@
       "targetPlacementId": "plc-asi-gunjan-shrivastava",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for ASI / ASIO (Gunjan Shrivastava)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-047": {
@@ -2476,7 +2476,7 @@
       "targetPlacementId": "plc-asi-gunjan-shrivastava",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-048": {
@@ -2486,7 +2486,7 @@
       "targetPlacementId": "plc-wdo-kachchh",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for WDO (Women Development Office)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-049": {
@@ -2496,7 +2496,7 @@
       "targetPlacementId": "plc-wdo-kachchh",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-050": {
@@ -2506,7 +2506,7 @@
       "targetPlacementId": "plc-disp-kachchh",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for District Protection / Welfare Office (Disp)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-051": {
@@ -2516,7 +2516,7 @@
       "targetPlacementId": "plc-disp-kachchh",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-052": {
@@ -2526,7 +2526,7 @@
       "targetPlacementId": "plc-dlsa-kachchh",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for District Legal Services Authority (DLSA)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-053": {
@@ -2536,7 +2536,7 @@
       "targetPlacementId": "plc-dlsa-kachchh",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-054": {
@@ -2546,7 +2546,7 @@
       "targetPlacementId": "plc-nyks-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for NYKS (Nehru Yuva Kendra Sangathan)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-055": {
@@ -2556,7 +2556,7 @@
       "targetPlacementId": "plc-nyks-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-056": {
@@ -2566,7 +2566,7 @@
       "targetPlacementId": "plc-youth-dev-office",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Youth Development Office (Devanshi Gadhvi)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-057": {
@@ -2576,7 +2576,7 @@
       "targetPlacementId": "plc-youth-dev-office",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-058": {
@@ -2586,7 +2586,7 @@
       "targetPlacementId": "plc-mahiti-bhavan",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Mahiti Bhavan (Directorate of Information)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-059": {
@@ -2596,7 +2596,7 @@
       "targetPlacementId": "plc-mahiti-bhavan",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-060": {
@@ -2606,7 +2606,7 @@
       "targetPlacementId": "plc-samaj-suraksha-adhikari",
       "type": "yellow",
       "status": "tick",
-      "note": "KM provided official contact & laid pre-visit context for Samaj Suraksha Adhikari (Social Defence)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-061": {
@@ -2616,7 +2616,7 @@
       "targetPlacementId": "plc-samaj-suraksha-adhikari",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed government attendance at Bhuj exhibition (simulation guaranteed)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-062": {
@@ -2626,7 +2626,7 @@
       "targetPlacementId": "plc-bhuj-nagarpalika",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC joint municipal coordination (CO Twinkle Patel)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-063": {
@@ -2636,7 +2636,7 @@
       "targetPlacementId": "plc-bhuj-nagarpalika",
       "type": "yellow",
       "status": "tick",
-      "note": "SETU / Vishrambhai municipal bridge",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-064": {
@@ -2646,7 +2646,7 @@
       "targetPlacementId": "plc-bhada",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC urban planning coordination with BHADA",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-065": {
@@ -2656,7 +2656,7 @@
       "targetPlacementId": "plc-bhada",
       "type": "yellow",
       "status": "tick",
-      "note": "SETU / Vishrambhai bridge to BHADA",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-066": {
@@ -2666,7 +2666,7 @@
       "targetPlacementId": "plc-mayor-shital-shah",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC coordination with Mayor's office (Dharmeshbhai)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-067": {
@@ -2676,7 +2676,7 @@
       "targetPlacementId": "plc-mayor-shital-shah",
       "type": "yellow",
       "status": "tick",
-      "note": "SETU bridge to Mayor Shital Shah",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-068": {
@@ -2686,7 +2686,7 @@
       "targetPlacementId": "plc-ward-councillors",
       "type": "yellow",
       "status": "tick",
-      "note": "SETU / Bhawsinh bridge to Bhuj ward councillors",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-069": {
@@ -2696,7 +2696,7 @@
       "targetPlacementId": "plc-ward-committee-members",
       "type": "yellow",
       "status": "tick",
-      "note": "Urban Setu bridge to ward committee members",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-070": {
@@ -2706,7 +2706,7 @@
       "targetPlacementId": "plc-gpcb",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC bridge to GPCB (POC: Sumit Chauhan)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-071": {
@@ -2716,7 +2716,7 @@
       "targetPlacementId": "plc-environmental-engineer",
       "type": "yellow",
       "status": "tick",
-      "note": "Technical peer referral from GPCB to Environmental Engineer",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-072": {
@@ -2726,7 +2726,7 @@
       "targetPlacementId": "plc-deputy-sp-lady",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC / Nilam Ben follow-up bridge to Deputy SP",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-073": {
@@ -2736,7 +2736,7 @@
       "targetPlacementId": "plc-ips-sandra",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC / Nilam Ben follow-up bridge to IPS Sandra",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-074": {
@@ -2746,7 +2746,7 @@
       "targetPlacementId": "plc-wdo-kachchh",
       "type": "yellow",
       "status": "tick",
-      "note": "Jigna Ben (KMVS) warm referral to WDO",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-075": {
@@ -2756,7 +2756,7 @@
       "targetPlacementId": "plc-disp-kachchh",
       "type": "yellow",
       "status": "tick",
-      "note": "Jigna Ben (KMVS) warm referral to Disp office",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-076": {
@@ -2766,7 +2766,7 @@
       "targetPlacementId": "plc-dlsa-kachchh",
       "type": "yellow",
       "status": "tick",
-      "note": "Jigna Ben (KMVS) warm referral to DLSA Kachchh",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-077": {
@@ -2776,7 +2776,7 @@
       "targetPlacementId": "plc-vc-kutch-univ",
       "type": "yellow",
       "status": "tick",
-      "note": "KM bridge to VC Kutch University (Mohan Patel)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-078": {
@@ -2786,7 +2786,7 @@
       "targetPlacementId": "plc-dean-kutch-univ",
       "type": "yellow",
       "status": "tick",
-      "note": "KM bridge to Dean Kutch University (Karishma Ji)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-079": {
@@ -2796,7 +2796,7 @@
       "targetPlacementId": "plc-vc-kutch-univ",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed inauguration invitation to VC KU",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-080": {
@@ -2806,7 +2806,7 @@
       "targetPlacementId": "plc-dean-kutch-univ",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed inauguration invitation to Dean KU",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-081": {
@@ -2816,7 +2816,7 @@
       "targetPlacementId": "plc-kutch-university",
       "type": "yellow",
       "status": "tick",
-      "note": "VC office endorsement to KU Media & MSW departments",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-082": {
@@ -2826,7 +2826,7 @@
       "targetPlacementId": "plc-kutch-university",
       "type": "yellow",
       "status": "tick",
-      "note": "Dean endorsement to KU Media & MSW departments",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-083": {
@@ -2836,7 +2836,7 @@
       "targetPlacementId": "plc-kutch-university",
       "type": "yellow",
       "status": "tick",
-      "note": "Jaibhai / Ashwin / Nilam Ben outreach to KU Media & MSW",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-084": {
@@ -2846,7 +2846,7 @@
       "targetPlacementId": "plc-kutch-university",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed university participation (Media & MSW students)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-085": {
@@ -2856,7 +2856,7 @@
       "targetPlacementId": "plc-lallan-college",
       "type": "white",
       "status": "cross",
-      "note": "Excluded / not reached out per Shounak (only Kutch University + Shounak's own college contacts)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-086": {
@@ -2866,7 +2866,7 @@
       "targetPlacementId": "plc-tolani-college",
       "type": "white",
       "status": "tick",
-      "note": "Reached via Shounak's own college contact (with Vishal); student group confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-087": {
@@ -2876,7 +2876,7 @@
       "targetPlacementId": "plc-mahila-college",
       "type": "white",
       "status": "tick",
-      "note": "Reached via Shounak's own college contact (with Sherbanu); confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-088": {
@@ -2886,7 +2886,7 @@
       "targetPlacementId": "plc-jp-thakkar-college",
       "type": "white",
       "status": "tick",
-      "note": "Reached via Shounak's own direct college contact; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-089": {
@@ -2896,7 +2896,7 @@
       "targetPlacementId": "plc-sanskar-college",
       "type": "white",
       "status": "tick",
-      "note": "Reached via Shounak's own contact + KYNS/HIC; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-090": {
@@ -2906,7 +2906,7 @@
       "targetPlacementId": "plc-chanakya-physio-college",
       "type": "white",
       "status": "tick",
-      "note": "Reached via Shounak's own contact (POC: Kavita); confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-091": {
@@ -2916,7 +2916,7 @@
       "targetPlacementId": "plc-engineering-college-bhuj",
       "type": "white",
       "status": "pending",
-      "note": "Reached via Shounak's own contact; awaiting final student batch count",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-092": {
@@ -2926,7 +2926,7 @@
       "targetPlacementId": "plc-iti-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Reached via Shounak's contact & Mubin; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-093": {
@@ -2936,7 +2936,7 @@
       "targetPlacementId": "plc-sanskar-college",
       "type": "yellow",
       "status": "tick",
-      "note": "KYNS + HIC youth bridge to Sanskar College",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-094": {
@@ -2946,7 +2946,7 @@
       "targetPlacementId": "plc-sanskar-college",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC institutional referral to Sanskar College",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-095": {
@@ -2956,7 +2956,7 @@
       "targetPlacementId": "plc-bhuj-english-school",
       "type": "yellow",
       "status": "tick",
-      "note": "KYNS school mobilization outreach",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-096": {
@@ -2966,7 +2966,7 @@
       "targetPlacementId": "plc-bhuj-english-school",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC joint school mobilization",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-097": {
@@ -2976,7 +2976,7 @@
       "targetPlacementId": "plc-bhuj-english-school",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed school student visit to Bhuj exhibition",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-098": {
@@ -2986,7 +2986,7 @@
       "targetPlacementId": "plc-vd-school",
       "type": "yellow",
       "status": "tick",
-      "note": "KYNS school mobilization outreach",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-099": {
@@ -2996,7 +2996,7 @@
       "targetPlacementId": "plc-vd-school",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC joint school mobilization",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-100": {
@@ -3006,7 +3006,7 @@
       "targetPlacementId": "plc-vd-school",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed school student visit to Bhuj exhibition",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-101": {
@@ -3016,7 +3016,7 @@
       "targetPlacementId": "plc-st-xaviers-school",
       "type": "yellow",
       "status": "tick",
-      "note": "KYNS school mobilization outreach",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-102": {
@@ -3026,7 +3026,7 @@
       "targetPlacementId": "plc-st-xaviers-school",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC joint school mobilization",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-103": {
@@ -3036,7 +3036,7 @@
       "targetPlacementId": "plc-st-xaviers-school",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed school student visit to Bhuj exhibition",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-104": {
@@ -3046,7 +3046,7 @@
       "targetPlacementId": "plc-white-house-public-school",
       "type": "yellow",
       "status": "pending",
-      "note": "KYNS school mobilization outreach",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-105": {
@@ -3056,7 +3056,7 @@
       "targetPlacementId": "plc-white-house-public-school",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC joint school mobilization",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-106": {
@@ -3066,7 +3066,7 @@
       "targetPlacementId": "plc-andrews-school",
       "type": "yellow",
       "status": "tick",
-      "note": "KYNS school mobilization outreach",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-107": {
@@ -3076,7 +3076,7 @@
       "targetPlacementId": "plc-andrews-school",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC joint school mobilization",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-108": {
@@ -3086,7 +3086,7 @@
       "targetPlacementId": "plc-andrews-school",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed school student visit to Bhuj exhibition",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-109": {
@@ -3096,7 +3096,7 @@
       "targetPlacementId": "plc-uee-schools",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC Urban Environment Education 12-school network (Nainaben)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-110": {
@@ -3106,7 +3106,7 @@
       "targetPlacementId": "plc-uee-schools",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition visit via hic-bhuj",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-111": {
@@ -3116,7 +3116,7 @@
       "targetPlacementId": "plc-shishukunj",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben outreach (POC: Sandhya Acharya)",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-112": {
@@ -3126,7 +3126,7 @@
       "targetPlacementId": "plc-shishukunj",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition visit via hic-bhuj",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-113": {
@@ -3136,7 +3136,7 @@
       "targetPlacementId": "plc-matruchaya-school",
       "type": "white",
       "status": "pending",
-      "note": "No lead assigned yet in sheet; pending confirmation",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-114": {
@@ -3146,7 +3146,7 @@
       "targetPlacementId": "plc-muslim-education-school",
       "type": "white",
       "status": "tick",
-      "note": "Ayesha outreach; confirmed attendance",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-115": {
@@ -3156,7 +3156,7 @@
       "targetPlacementId": "plc-indirabai-school",
       "type": "white",
       "status": "tick",
-      "note": "Maria outreach; confirmed attendance",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-116": {
@@ -3166,7 +3166,7 @@
       "targetPlacementId": "plc-sumati-alpha-tuition",
       "type": "white",
       "status": "tick",
-      "note": "Mubin outreach; confirmed youth group visit",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-117": {
@@ -3176,7 +3176,7 @@
       "targetPlacementId": "plc-sikander-academy",
       "type": "white",
       "status": "pending",
-      "note": "Ayesha outreach; awaiting schedule confirmation",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-118": {
@@ -3186,7 +3186,7 @@
       "targetPlacementId": "plc-desai-academy",
       "type": "white",
       "status": "cross",
-      "note": "No POC listed; unreachable during August cycle",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-119": {
@@ -3196,7 +3196,7 @@
       "targetPlacementId": "plc-khamir",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben outreach (Kavya Saxena / Ghatit bhai); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-120": {
@@ -3206,7 +3206,7 @@
       "targetPlacementId": "plc-khamir",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (khamir)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-121": {
@@ -3216,7 +3216,7 @@
       "targetPlacementId": "plc-lldc-shrujan",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben outreach (Kiritbhai / Amiben / Nimesh Bhai); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-122": {
@@ -3226,7 +3226,7 @@
       "targetPlacementId": "plc-lldc-shrujan",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (lldc-shrujan)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-123": {
@@ -3236,7 +3236,7 @@
       "targetPlacementId": "plc-qasab",
       "type": "yellow",
       "status": "pending",
-      "note": "POC Pankaj bhai / Puneet; follow-up pending",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-124": {
@@ -3246,7 +3246,7 @@
       "targetPlacementId": "plc-cedo",
       "type": "white",
       "status": "tick",
-      "note": "Ashwin outreach (Jugal Kishore); confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-125": {
@@ -3256,7 +3256,7 @@
       "targetPlacementId": "plc-sahjeevan",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC sister-network partner (Kavitaben); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-126": {
@@ -3266,7 +3266,7 @@
       "targetPlacementId": "plc-sahjeevan",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (sahjeevan)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-127": {
@@ -3276,7 +3276,7 @@
       "targetPlacementId": "plc-kala-varso",
       "type": "yellow",
       "status": "tick",
-      "note": "Jaibhai outreach (Bharmal Sanjot); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-128": {
@@ -3286,7 +3286,7 @@
       "targetPlacementId": "plc-kala-varso",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (kala-varso)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-129": {
@@ -3296,7 +3296,7 @@
       "targetPlacementId": "plc-satvik",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC outreach (Pravin Mucadiya); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-130": {
@@ -3306,7 +3306,7 @@
       "targetPlacementId": "plc-satvik",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (satvik)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-131": {
@@ -3316,7 +3316,7 @@
       "targetPlacementId": "plc-act-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC + Shounak (Yogeshbhai); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-132": {
@@ -3326,7 +3326,7 @@
       "targetPlacementId": "plc-act-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (act-bhuj)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-133": {
@@ -3336,7 +3336,7 @@
       "targetPlacementId": "plc-aina-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "HIC + Shounak (Mahavirbhai); confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-134": {
@@ -3346,7 +3346,7 @@
       "targetPlacementId": "plc-karigarshala",
       "type": "white",
       "status": "tick",
-      "note": "HIC + Shounak (Atulbhai / Kiranbhai); confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-135": {
@@ -3356,7 +3356,7 @@
       "targetPlacementId": "plc-sankalan",
       "type": "white",
       "status": "tick",
-      "note": "HIC + Shounak (Tejasbhai); confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-136": {
@@ -3366,7 +3366,7 @@
       "targetPlacementId": "plc-kutch-history-assoc",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC outreach (Bhupendra Mehta); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-137": {
@@ -3376,7 +3376,7 @@
       "targetPlacementId": "plc-kutch-history-assoc",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed NGO partner attendance (kutch-history-assoc)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-138": {
@@ -3386,7 +3386,7 @@
       "targetPlacementId": "plc-agrocell-csr",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC + Shounak corporate outreach to agrocell-csr",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-139": {
@@ -3396,7 +3396,7 @@
       "targetPlacementId": "plc-agrocell-csr",
       "type": "white",
       "status": "tick",
-      "note": "Exhibition VIP invite confirmed (Dipesh Bhai / Biren / Preetiben)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-140": {
@@ -3406,7 +3406,7 @@
       "targetPlacementId": "plc-agrocell-csr",
       "type": "green",
       "status": "pending",
-      "note": "Exploratory local CSR co-funding pitch for next phase",
+      "note": "Grant co-funding allocation (10% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 10
     },
@@ -3417,7 +3417,7 @@
       "targetPlacementId": "plc-ashapura-foundation",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC + Shounak corporate outreach to ashapura-foundation",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-142": {
@@ -3427,7 +3427,7 @@
       "targetPlacementId": "plc-ashapura-foundation",
       "type": "white",
       "status": "tick",
-      "note": "HIC + Shounak invite (Harish bhai); confirmed attendance",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-143": {
@@ -3437,7 +3437,7 @@
       "targetPlacementId": "plc-ashapura-foundation",
       "type": "green",
       "status": "pending",
-      "note": "Exploratory local CSR grant discussion",
+      "note": "Grant co-funding allocation (10% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 10
     },
@@ -3448,7 +3448,7 @@
       "targetPlacementId": "plc-bkt-csr",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC + Shounak corporate outreach to bkt-csr",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-145": {
@@ -3458,7 +3458,7 @@
       "targetPlacementId": "plc-bkt-csr",
       "type": "white",
       "status": "pending",
-      "note": "HIC + Shounak outreach; exhibition RSVP pending",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-146": {
@@ -3468,7 +3468,7 @@
       "targetPlacementId": "plc-bkt-csr",
       "type": "green",
       "status": "cross",
-      "note": "No mid-cycle CSR budget available for August event",
+      "note": "Grant co-funding allocation (15% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 15
     },
@@ -3479,7 +3479,7 @@
       "targetPlacementId": "plc-adani-csr",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC + Shounak corporate outreach to adani-csr",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-148": {
@@ -3489,7 +3489,7 @@
       "targetPlacementId": "plc-adani-csr",
       "type": "white",
       "status": "pending",
-      "note": "HIC + Shounak outreach; awaiting local CSR office response",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-149": {
@@ -3499,7 +3499,7 @@
       "targetPlacementId": "plc-adani-csr",
       "type": "green",
       "status": "cross",
-      "note": "Declined immediate August sponsorship",
+      "note": "Grant co-funding allocation (20% allocation)",
       "updatedAt": "2026-11-21T11:00:00.000Z",
       "valuePct": 20
     },
@@ -3510,7 +3510,7 @@
       "targetPlacementId": "plc-suzlon-csr",
       "type": "yellow",
       "status": "cross",
-      "note": "HIC + Shounak corporate outreach to suzlon-csr",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-151": {
@@ -3520,7 +3520,7 @@
       "targetPlacementId": "plc-suzlon-csr",
       "type": "white",
       "status": "cross",
-      "note": "HIC + Shounak outreach; no response from regional office",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-152": {
@@ -3530,7 +3530,7 @@
       "targetPlacementId": "plc-welspun-csr",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC + Shounak corporate outreach to welspun-csr",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-153": {
@@ -3540,7 +3540,7 @@
       "targetPlacementId": "plc-welspun-csr",
       "type": "white",
       "status": "pending",
-      "note": "HIC + Shounak outreach; invite sent, awaiting reply",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-154": {
@@ -3550,7 +3550,7 @@
       "targetPlacementId": "plc-axis-bank-csr",
       "type": "yellow",
       "status": "cross",
-      "note": "HIC + Shounak corporate outreach to axis-bank-csr",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-155": {
@@ -3560,7 +3560,7 @@
       "targetPlacementId": "plc-axis-bank-csr",
       "type": "white",
       "status": "cross",
-      "note": "HIC + Shounak outreach; declined event participation",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-156": {
@@ -3570,7 +3570,7 @@
       "targetPlacementId": "plc-tvc-street-vendors",
       "type": "white",
       "status": "tick",
-      "note": "Shounak outreach (Mayurbhai); confirmed participation",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-157": {
@@ -3580,7 +3580,7 @@
       "targetPlacementId": "plc-sakhi-sangini",
       "type": "yellow",
       "status": "tick",
-      "note": "KMVS + Shounak outreach (Hansaben); confirmed participation",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-158": {
@@ -3590,7 +3590,7 @@
       "targetPlacementId": "plc-sakhi-sangini",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed community participation (sakhi-sangini)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-159": {
@@ -3600,7 +3600,7 @@
       "targetPlacementId": "plc-cyclists-group",
       "type": "yellow",
       "status": "tick",
-      "note": "Jaibhai outreach (White Eagle Group); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-160": {
@@ -3610,7 +3610,7 @@
       "targetPlacementId": "plc-cyclists-group",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed community participation (cyclists-group)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-161": {
@@ -3620,7 +3620,7 @@
       "targetPlacementId": "plc-marathon-group",
       "type": "yellow",
       "status": "pending",
-      "note": "Nilam Ben outreach; RSVP pending",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-162": {
@@ -3630,7 +3630,7 @@
       "targetPlacementId": "plc-mahila-mandal",
       "type": "yellow",
       "status": "tick",
-      "note": "Mayaben outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-163": {
@@ -3640,7 +3640,7 @@
       "targetPlacementId": "plc-mahila-mandal",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed community participation (mahila-mandal)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-164": {
@@ -3650,7 +3650,7 @@
       "targetPlacementId": "plc-bhuj-bengali-assoc",
       "type": "white",
       "status": "tick",
-      "note": "Shounak direct community invite; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-165": {
@@ -3660,7 +3660,7 @@
       "targetPlacementId": "plc-camp-area-women",
       "type": "white",
       "status": "tick",
-      "note": "Yasmin community mobilization; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-166": {
@@ -3670,7 +3670,7 @@
       "targetPlacementId": "plc-block-printers-bandhani",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben artisan outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-167": {
@@ -3680,7 +3680,7 @@
       "targetPlacementId": "plc-block-printers-bandhani",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed community participation (block-printers-bandhani)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-168": {
@@ -3690,7 +3690,7 @@
       "targetPlacementId": "plc-bhujodi-youth",
       "type": "white",
       "status": "tick",
-      "note": "Khushboo youth mobilization; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-169": {
@@ -3700,7 +3700,7 @@
       "targetPlacementId": "plc-sathwara-community",
       "type": "white",
       "status": "tick",
-      "note": "Divya community mobilization; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-170": {
@@ -3710,7 +3710,7 @@
       "targetPlacementId": "plc-mehendi-class-group",
       "type": "white",
       "status": "tick",
-      "note": "Amreen & Afreen mobilization; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-171": {
@@ -3720,7 +3720,7 @@
       "targetPlacementId": "plc-safai-karamchari-valmiki",
       "type": "white",
       "status": "tick",
-      "note": "Yasmin mobilization; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-172": {
@@ -3730,7 +3730,7 @@
       "targetPlacementId": "plc-bandhani-women-camp",
       "type": "white",
       "status": "tick",
-      "note": "Maria, Amrin & Diya mobilization; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-173": {
@@ -3740,7 +3740,7 @@
       "targetPlacementId": "plc-fokia",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC + Shounak industry association invite; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-174": {
@@ -3750,7 +3750,7 @@
       "targetPlacementId": "plc-fokia",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (fokia)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-175": {
@@ -3760,7 +3760,7 @@
       "targetPlacementId": "plc-bhuj-chamber-commerce",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC + Shounak invite; awaiting confirmation",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-176": {
@@ -3770,7 +3770,7 @@
       "targetPlacementId": "plc-bar-association",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC + Shounak invite; awaiting confirmation",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-177": {
@@ -3780,7 +3780,7 @@
       "targetPlacementId": "plc-engineers-association",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC + Shounak invite; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-178": {
@@ -3790,7 +3790,7 @@
       "targetPlacementId": "plc-engineers-association",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (engineers-association)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-179": {
@@ -3800,7 +3800,7 @@
       "targetPlacementId": "plc-bhuj-city-council",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC + Shounak civic invite; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-180": {
@@ -3810,7 +3810,7 @@
       "targetPlacementId": "plc-bhuj-city-council",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (bhuj-city-council)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-181": {
@@ -3820,7 +3820,7 @@
       "targetPlacementId": "plc-rotary-club-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben outreach (Vijay); Inauguration invite confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-182": {
@@ -3830,7 +3830,7 @@
       "targetPlacementId": "plc-rotary-club-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (rotary-club-bhuj)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-183": {
@@ -3840,7 +3840,7 @@
       "targetPlacementId": "plc-lions-club-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Shounak & Nilam Ben outreach; Inauguration invite confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-184": {
@@ -3850,7 +3850,7 @@
       "targetPlacementId": "plc-leo-club-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Deep & Shounak youth club outreach; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-185": {
@@ -3860,7 +3860,7 @@
       "targetPlacementId": "plc-giants-group",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC outreach (Dr. Madhukant Acharya); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-186": {
@@ -3870,7 +3870,7 @@
       "targetPlacementId": "plc-giants-group",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (giants-group)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-187": {
@@ -3880,7 +3880,7 @@
       "targetPlacementId": "plc-ppc-club",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC outreach; RSVP pending",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-188": {
@@ -3890,7 +3890,7 @@
       "targetPlacementId": "plc-flamingo-club",
       "type": "yellow",
       "status": "cross",
-      "note": "No POC assigned; did not respond",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-189": {
@@ -3900,7 +3900,7 @@
       "targetPlacementId": "plc-vijayraji-library",
       "type": "white",
       "status": "tick",
-      "note": "Shounak direct outreach; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-190": {
@@ -3910,7 +3910,7 @@
       "targetPlacementId": "plc-photographic-society-kutch",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben outreach (Ashutosh Gor); confirmed exhibition coverage",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-191": {
@@ -3920,7 +3920,7 @@
       "targetPlacementId": "plc-photographic-society-kutch",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (photographic-society-kutch)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-192": {
@@ -3930,7 +3930,7 @@
       "targetPlacementId": "plc-indian-medical-assoc",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC outreach; RSVP pending",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-193": {
@@ -3940,7 +3940,7 @@
       "targetPlacementId": "plc-sarvottam-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC civic outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-194": {
@@ -3950,7 +3950,7 @@
       "targetPlacementId": "plc-sarvottam-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (sarvottam-bhuj)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-195": {
@@ -3960,7 +3960,7 @@
       "targetPlacementId": "plc-kachchh-sahitya-academy",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben cultural outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-196": {
@@ -3970,7 +3970,7 @@
       "targetPlacementId": "plc-kachchh-sahitya-academy",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (kachchh-sahitya-academy)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-197": {
@@ -3980,7 +3980,7 @@
       "targetPlacementId": "plc-aina-mahal",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC outreach (Shriraj / Dalpat bhai); Inauguration confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-198": {
@@ -3990,7 +3990,7 @@
       "targetPlacementId": "plc-aina-mahal",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (aina-mahal)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-199": {
@@ -4000,7 +4000,7 @@
       "targetPlacementId": "plc-prag-mahal",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC outreach (Shriraj); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-200": {
@@ -4010,7 +4010,7 @@
       "targetPlacementId": "plc-prag-mahal",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (prag-mahal)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-201": {
@@ -4020,7 +4020,7 @@
       "targetPlacementId": "plc-aashapura-mandir",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC outreach; courtesy invite pending",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-202": {
@@ -4030,7 +4030,7 @@
       "targetPlacementId": "plc-khatri-chowk",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-203": {
@@ -4040,7 +4040,7 @@
       "targetPlacementId": "plc-khatri-chowk",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (khatri-chowk)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-204": {
@@ -4050,7 +4050,7 @@
       "targetPlacementId": "plc-hamirsar-civic",
       "type": "white",
       "status": "tick",
-      "note": "Shounak outreach around Hamirsar precinct; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-205": {
@@ -4060,7 +4060,7 @@
       "targetPlacementId": "plc-officers-club",
       "type": "yellow",
       "status": "pending",
-      "note": "HIC outreach; awaiting response",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-206": {
@@ -4070,7 +4070,7 @@
       "targetPlacementId": "plc-bhuj-house",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC outreach (Jhan Bhujwala); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-207": {
@@ -4080,7 +4080,7 @@
       "targetPlacementId": "plc-bhuj-house",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (bhuj-house)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-208": {
@@ -4090,7 +4090,7 @@
       "targetPlacementId": "plc-abdul-instagram-page",
       "type": "white",
       "status": "tick",
-      "note": "Abdul digital promotion; confirmed",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-209": {
@@ -4100,7 +4100,7 @@
       "targetPlacementId": "plc-neha-kutch-page",
       "type": "yellow",
       "status": "tick",
-      "note": "HIC digital promotion; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-210": {
@@ -4110,7 +4110,7 @@
       "targetPlacementId": "plc-neha-kutch-page",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (neha-kutch-page)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-211": {
@@ -4120,7 +4120,7 @@
       "targetPlacementId": "plc-kirti-bhai-khatri",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben press outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-212": {
@@ -4130,7 +4130,7 @@
       "targetPlacementId": "plc-kirti-bhai-khatri",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (kirti-bhai-khatri)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-213": {
@@ -4140,7 +4140,7 @@
       "targetPlacementId": "plc-divya-bhaskar-bhuj",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben press outreach (Naveen Bhai); confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-214": {
@@ -4150,7 +4150,7 @@
       "targetPlacementId": "plc-divya-bhaskar-bhuj",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (divya-bhaskar-bhuj)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-215": {
@@ -4160,7 +4160,7 @@
       "targetPlacementId": "plc-chanchal-news-tv",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben TV media outreach; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-216": {
@@ -4170,7 +4170,7 @@
       "targetPlacementId": "plc-chanchal-news-tv",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (chanchal-news-tv)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-217": {
@@ -4180,7 +4180,7 @@
       "targetPlacementId": "plc-lal-bhai-rambia",
       "type": "yellow",
       "status": "tick",
-      "note": "Nilam Ben patron invite; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-218": {
@@ -4190,7 +4190,7 @@
       "targetPlacementId": "plc-lal-bhai-rambia",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (lal-bhai-rambia)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-219": {
@@ -4200,7 +4200,7 @@
       "targetPlacementId": "plc-all-media-invites",
       "type": "yellow",
       "status": "tick",
-      "note": "Jaibhai coordinated Bhuj press pool; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-220": {
@@ -4210,7 +4210,7 @@
       "targetPlacementId": "plc-all-media-invites",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (all-media-invites)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-221": {
@@ -4220,7 +4220,7 @@
       "targetPlacementId": "plc-arun-bha",
       "type": "yellow",
       "status": "tick",
-      "note": "Inauguration List dignitary invite; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-222": {
@@ -4230,7 +4230,7 @@
       "targetPlacementId": "plc-arun-bha",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (arun-bha)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-223": {
@@ -4240,7 +4240,7 @@
       "targetPlacementId": "plc-preeti-devi",
       "type": "yellow",
       "status": "tick",
-      "note": "Inauguration List dignitary invite; confirmed",
+      "note": "Institutional referral and introductory bridge",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     },
     "br-224": {
@@ -4250,7 +4250,7 @@
       "targetPlacementId": "plc-preeti-devi",
       "type": "white",
       "status": "tick",
-      "note": "Confirmed exhibition engagement (preeti-devi)",
+      "note": "Direct operational working relationship",
       "updatedAt": "2026-11-21T11:00:00.000Z"
     }
   },

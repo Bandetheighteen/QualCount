@@ -10,9 +10,7 @@ import type { WorkbookFile } from '../src/types/schema';
 console.log('=== Running Large JSON Import & Loading Verification Test Suite ===\n');
 
 async function runTests() {
-  const ycivFilePath = fs.existsSync(path.resolve('YCIV UGUS OUtreach.json'))
-    ? path.resolve('YCIV UGUS OUtreach.json')
-    : path.resolve('test/fixtures/anonymized_large_network.json');
+  const ycivFilePath = path.resolve('test/fixtures/synthetic_large_network.json');
   assert.ok(fs.existsSync(ycivFilePath), 'Large network fixture must exist');
   const rawText = fs.readFileSync(ycivFilePath, 'utf8');
   const parsedData = JSON.parse(rawText);
@@ -20,7 +18,7 @@ async function runTests() {
   // -------------------------------------------------------------------------
   // 1. Structure and Schema Type Guard Validation
   // -------------------------------------------------------------------------
-  console.log('[1/6] Validating YCIV UGUS OUtreach.json schema & type guards...');
+  console.log('[1/6] Validating synthetic_large_network.json schema & type guards...');
   assert.strictEqual(parsedData.schemaVersion, 1, 'File has schemaVersion 1');
   assert.strictEqual(parsedData.activeWorkbookId, 'wb-bhuj-yciv-exhibition');
   assert.strictEqual(Object.keys(parsedData.entities).length, 117, '117 entities present');
@@ -40,7 +38,7 @@ async function runTests() {
   // -------------------------------------------------------------------------
   // 2. Direct Import into Workspace Store
   // -------------------------------------------------------------------------
-  console.log('\n[2/6] Testing full import of YCIV UGUS OUtreach.json into workspace store...');
+  console.log('\n[2/6] Testing full import of synthetic_large_network.json into workspace store...');
 
   // Set initial store state to landing page with dummy activeWorkbookId
   useWorkspaceStore.setState({
@@ -200,9 +198,9 @@ async function runTests() {
   console.log('✓ Section 4 Passed: Tabular outreach JSON parsed, previewed, and committed.');
 
   // -------------------------------------------------------------------------
-  // 5. YCIV JSON in Spreadsheet Import Modal (Cross-door extraction)
+  // 5. Synthetic JSON in Spreadsheet Import Modal (Cross-door extraction)
   // -------------------------------------------------------------------------
-  console.log('\n[5/6] Testing YCIV UGUS OUtreach.json through spreadsheet importer pipeline...');
+  console.log('\n[5/6] Testing synthetic_large_network.json through spreadsheet importer pipeline...');
 
   const extractedRowsFromYciv = parseTabularJson(parsedData);
   assert.strictEqual(extractedRowsFromYciv.length, 224, 'All 224 branches extracted as ImportRows');
@@ -253,7 +251,7 @@ async function runTests() {
         click: () => {
           setTimeout(() => {
             el.files = [{
-              name: 'YCIV UGUS OUtreach.json',
+              name: 'synthetic_large_network.json',
               text: async () => rawText,
             }];
             el.onchange?.();

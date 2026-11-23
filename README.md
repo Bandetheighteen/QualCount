@@ -109,6 +109,19 @@ To ensure analytical integrity, QualCount eliminates subjective evaluation rubri
 
 ---
 
+### 5. The Public Trust Theory Engine & Generalized Social Capital
+
+Running beneath QualCount's analytical core is an operational engine grounded in sociological **Public Trust Theory (Mark E. Warren 1999, Robert Putnam 2000, Ostrom & Ahn 2003)**:
+
+- **Particularized vs. Generalized Public Trust:** In inter-organizational coalitions, initiatives that rely solely on private, personal handshakes (*particularized trust*) remain dangerously fragile. If a single coordinator or liaison leaves, the institutional connection collapses. Durable public coalitions require *generalized institutional trust*—trust embedded in transparent, multi-party institutional structures.
+- **Topological Trust Triangulation (The Trust Engine):**
+  - **No Vanity Scores:** Trust is never recorded as a subjective slider or self-assigned 1-to-5 score.
+  - **Verified Multi-Path Triangulation:** QualCount computes public trust mathematically through multi-path network verification. An institutional target achieves the "Triangulated" trust status only when multiple non-colluding civic actors independently establish and confirm referral ties toward that institution.
+  - **Credible Commitments without Bureaucratic Friction:** By visualizing green funding pledges alongside verified white operational ties and yellow referral bridges, the system enables polycentric NGO consortiums to enforce mutual accountability and credible commitments without burdensome legalistic overhead.
+  - **Broker Fragility & Trust Continuity:** The bridge concentration metric acts as an early-warning radar for coalition trust fragility, pinpointing when an alliance is over-reliant on a single broker's private social capital before catastrophic rupture occurs.
+
+---
+
 ## 🖼️ Visual Tour & Interface Guide
 
 Explore the core workflows and interface architecture of QualCount:
@@ -342,9 +355,11 @@ Contributions and community extensions are welcome:
 
 QualCount was designed and built by **Shounak Saha** ([@Bandetheighteen](https://github.com/Bandetheighteen)).
 
-> *"Whenever we work on multi-organizational partnership projects—especially in the social sector and among NGOs—it is remarkably difficult to coordinate coalitions using standard spreadsheets. Excel sheets are simply not designed for multiplex institutional networks; they cannot track non-financial introductions, referral paths, or structural dependencies.*
+> *"Whenever we are involved in multi-organizational partnership projects—especially in the social sector and across NGOs—it is remarkably tough to rely on or dedicate an Excel sheet, because spreadsheets are simply not dedicated to this kind of relationship modeling.
 > 
-> *Having personally struggled to keep up with cross-organizational partnerships, multi-stakeholder follow-ups, and complex coordination trails across social sector initiatives, I realized that teams need software built specifically for this purpose. That is why QualCount was created. Because it was made for non-profit organizations, social sector workers, and grassroots coalitions, QualCount is completely free and open-source."*
+> When working on partnerships across different organizations, teams genuinely need dedicated software that lets them connect, understand referral bridges, and coordinate cleanly.*
+> 
+> *Having personally struggled to keep up with all the cross-organizational partnerships and coordination trails for social sector projects, this dedicated tool was born. Because it was created for the people of the NGO sector, grassroots teams, and civic coordinators, QualCount is completely free and open-source."*
 
 - **GitHub:** [@Bandetheighteen](https://github.com/Bandetheighteen)
 - **Portfolio & Connect:** [linktr.ee/shounaksaha2000b](https://linktr.ee/shounaksaha2000b)
